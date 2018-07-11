@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "start": "docz dev",
+    "build": "docz build"
   },
   "devDependencies": {
     "docz": "^0.5.8"
