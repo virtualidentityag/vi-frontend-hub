@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "docz dev",
-    "build": "docz build"
+    "build": "docz build",
+    "netlify": "yarn build && cp netlify.toml ./dist/netlify.toml"
   },
   "devDependencies": {
     "docz": "^0.5.8"
