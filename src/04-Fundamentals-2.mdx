@@ -2,3 +2,82 @@
 name: 04. Fundamentals 2 Components
 ---
 # Fundamentals II: Components
+
+## Preparation
+
+In this section, you will get to know package managers (NPM / Yarn) and a taskrunner (gulp) and how to use them in our project workflow. You will be using a micro frontend framework, that was specifically designed for this task. 
+
+### Step 1: Install Node.js and NPM
+
+Node.js is a way to run Javascript code without the need to use a browser. It's mainly used to run servers. You won't need to use it a lot, so it's not mandatory to do any work with it for this chapter.  
+Node.js comes with NPM, its very own package manager. This tool is used by the majority of web developers to install packages, libraries and other tools. It's pretty much your bread and butter and it is very much obligatory that you learn how to use it. The first step is to download and install it from this link:  https://nodejs.org/en/  
+To ensure the installation worked correctly, type the following command into your command line:  `node -v && npm -v`  
+If you don't get any errors, everything worked out as planned. Congrats!
+
+### Step 2: Install Yarn
+
+Yarn is essentially the same as NPM, just faster and a bit better in general. It completes the same tasks as NPM though, that's all you need to know for now. Go ahead and get it from the following link: https://yarnpkg.com/lang/en/docs/install/#windows-stable  
+Try `yarn -v` to check if the installation worked.
+
+### Step 3: Install gulp
+
+gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`. 
+> That's how easy it is to install packages with NPM, how neat!  
+
+Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in Node.js (so essentially JS), for this task, we will provide you with one.
+
+### Step 3: Clone the framework
+
+Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and clone the repository located at the following link.
+
+https://github.com/virtualidentityag/almost-perfect-framework 
+
+### Step 4: Install the packages  
+
+A project realistically (unless you want to reinvent the wheel) requires packages. Packages are just code from other developers that you can use in your project. Open Source for the win! When you just clone a project from Git, that does not include the packages themselves, because that would just take up unnecessary space on Github's servers. What you do get, is a file called `package.json`, which includes a list of all the packages the project requires. What we do now, is download those packages. To do this, run the command `yarn install` either in your OS's own command line or from within your IDE (ask your buddy to help you with this if necessary). 
+
+### Step 5: Start the framework
+
+Now that all the necessary packages are installed, you can run the command `yarn start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck!
+
+#### TODO: Adjust section for 'bugs' in framework.
+
+## SCSS
+
+Now that everything is set up, you are ready to code once again! In the previous chapter, you built a static website with HTML and CSS, mainly focussing on structure and layout. In this chapter, you will learn to use SCSS in combination with BEM to give your stylesheets an underlying naming system, which will give your code even more structure and prepare you to build components in biotope later on. 
+
+### Challenge
+
+Build a so called 'call to action', consisting of a image, text and button. 
+
+##### TODO: 1) Screens 2) Consider using the code from the previous tasks. 
+
+### Hints and guidelines
+
++ Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
++ ...
+
+##### TODO: Fill the list
+
+### Resources
++ SASS reference https://sass-lang.com/guide or https://css-tricks.com/snippets/sass/
++ BEM reference http://getbem.com/naming/
+
+## JavaScript
+
+'Finally', is what you're thinking to yourself probably. Yes, now we're getting into the good stuff. Up until now, everything you have coded is more or less 'static'. Well, that changes now. In this section, you will get to Javascript, it's newest version ECMAScript2015 (also called ES6) and, to a lesser extent, jQuery. We here at VI try to write our code in ES6 whenever possible. jQuery, while it used to be the standard and provides a lot of functionality that makes our lives easier, is being used less and less and it's more than likely that it will completely die eventually. That is why coding in 'plain' JS is always preferred.
+
+### Challenge
+
+Add the following functionality to the component, that you built in the section 'SCSS': When the button is clicked, a textbox underneath the already existing elements slides open. 
+
+#### TODO: Screens
+
+### Hints and guidelines
+
++ Try to apply ES6 code when possible (it's the future!), but also try out jQuery here and there
++ To debug, use the tools that you are provided with (*hint* Chrome dev tools *hint*)
++ There's more than one way to skin a cat.. uhhh animate. CSS, jQuery and Javascript can all do this, ask your buddy for help!
++ ...
+
+#### TODO: Fill the list
