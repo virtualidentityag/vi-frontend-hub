@@ -56,20 +56,32 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 ### Resources
 - When to use which semantic HTML5 element: [HTML5 Element Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 - Why is CSS Grid a big deal and why should we care: [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid/)
+import screensZip from './assets/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip'
 - Download all screens for this level: [biotope-onboaring-fundamentals-1-screens.zip](/assets/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip)
 
 ### Challenge
 
 #### Bring your body in shape - from header to footer:
-First create an html page based on the html5 boilerplate and segment it with semantic elements.
-
+First create an html page based on the html5 boilerplate and segment it with semantic elements.  
 Then add basic CSS styling for these areas to match the layout shown in the screen graphics.
 
+Other page content shown here will be created later and is not yet part of this challenge.
+
 #### Screens
-- [Mobile 360px](/assets/fundamentals-1/screens/layout-320.png)
-- [Desktop 1600px](/assets/fundamentals-1/screens/layout-1600.png)
-- [Header](/assets/fundamentals-1/screens/header.png)
-- [Footer](/assets/fundamentals-1/screens/footer.png)
+import layout320 from './assets/fundamentals-1/screens/layout-320.png'
+import layout1600 from './assets/fundamentals-1/screens/layout-1600.png'
+
+| Mobile 320px | Desktop 1600px |
+| ------------ | -------------- |
+| <a href={layout320}><img src={layout320} height="1000" /></a> | <a href={layout1600}><img src={layout1600} height="1000" /></a> |
+
+import header from './assets/fundamentals-1/screens/header.png'
+import footer from './assets/fundamentals-1/screens/footer.png'
+
+| Header | Footer |
+| ------------ | -------------- |
+|<a href={header}><img src={header}/></a> | <a href={footer}><img src={footer}/></a> |
+
 
 ## Content Structure and Webfonts
 In this challenge you will learn how to structure content in html documents and how to use headlines and semantic HTML5 elements.
@@ -101,9 +113,9 @@ Before adding the actual content to your html page, proceed with adding more sem
 Add HTML5 compliant headlines and sections to structure the content of your page.
 
 #### Inner values matter!
-Add dummy text and Image content to your page, you can use dummy text and image generators for that.
+Add dummy text and Image content to your page, you can use dummy text and image generators for that.  
 With latter you can easily create dummy images like this:
-<img src="https://dummyimage.com/300x168/ddd/aaa" alt="300x168" />
+<img src="https://dummyimage.com/320x180/eef1f5/0b5fff" alt="320x180" />
 
 #### Add some Teasers to turn them on!
 
@@ -119,13 +131,22 @@ To ensure your HTML code is valid and can be correctly interpreted by browsers, 
 Fix the reported validation errors in your HTML code.
 
 #### Screens
-- [All](./resources/fundamentals-1/screens/all-without-nav-and-documentlist-320.png)
-- [Stage](./resources/fundamentals-1/screens/module-stage.png)
-- [Breadcrumb](./resources/fundamentals-1/screens/module-breadcrumb.png)
-- [Section](./resources/fundamentals-1/screens/module-section.png)
-- [Form](./resources/fundamentals-1/screens/module-form.png)
-- [Contact Teaser](./resources/fundamentals-1/screens/module-contact.png)
-- [Teaser](./resources/fundamentals-1/screens/module-teasers.png)
+import all320 from './assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png'
+import moduleStage from './assets/fundamentals-1/screens/module-stage.png'
+import moduleBreadcrumb from './assets/fundamentals-1/screens/module-breadcrumb.png'
+
+| All 320px | Stage and Breadcrumb |
+| ------- | -------------------- |
+| <a href={all320}><img src={all320} height="600"/></a> | Stage:<br/><a href={moduleStage}><img src={moduleStage}/></a><br/><br/>Breadcrumb:<br/><a href={moduleBreadcrumb}><img src={moduleBreadcrumb}/></a> |
+
+import moduleSection from './assets/fundamentals-1/screens/module-section.png'
+import moduleForm from './assets/fundamentals-1/screens/module-form.png'
+import moduleContact from './assets/fundamentals-1/screens/module-contact.png'
+import moduleTeasers from './assets/fundamentals-1/screens/module-teasers.png'
+
+| Section | Form  | Contact Teaser | Teasers     |
+| ------- | ----- | -------------- | ----------- |
+| <a href={moduleSection}><img src={moduleSection} height="600"/></a> | <a href={moduleForm}><img src={moduleForm} height="400"/></a> | <a href={moduleContact}><img src={moduleContact} width="150"/></a> | <a href={moduleTeasers}><img src={moduleTeasers} height="600"/></a> |
 
 ### Questions
 - What are semantic elements in HTML5?
@@ -190,8 +211,12 @@ If you recognize that something on your page does not work or is not accessible 
 And if you want to really judge a frontend web developer: just take his or her iPhone and tripple-click the home button ;-)
 
 ### Screens
-- [Navigation](/assets/fundamentals-1/screens/nav.png)
-- [Hover link](/assets/fundamentals-1/screens/nav-hover.png)
+import nav from './assets/fundamentals-1/screens/nav.png'
+import navHover from './assets/fundamentals-1/screens/nav-hover.png'
+
+| Navigation Links | Navigation Links, hover |
+| ---------------- | ----------------------- |
+| <a href={nav}><img src={nav}/></a> | <a href={navHover}><img src={navHover}/></a> |
 
 ### Questions
 - Which semantic element should be used for page navigation?
@@ -221,11 +246,20 @@ Note the screens provided below. Spot the differences for the different screen s
 Set the viewport meta tag.
 
 #### Screens
+import all480 from './assets/fundamentals-1/screens/all-480.png'
+import all600 from './assets/fundamentals-1/screens/all-600.png'
+import all768 from './assets/fundamentals-1/screens/all-768.png'
+import all1024 from './assets/fundamentals-1/screens/all-1024.png'
+import all1600 from './assets/fundamentals-1/screens/all-1600.png'
 
 
-| 320px       | 480px       | 600px       | 768px       | 1024px      | 1600px      |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| [<img src="../resources/fundamentals-1/screens/all-320.png" alt="320" height="600"/>](../resources/fundamentals-1/screens/all-320.png) | [<img  src="../resources/fundamentals-1/screens/all-480.png" alt="480" height="600"/>](../resources/fundamentals-1/screens/all-320.png) | [<img src="../resources/fundamentals-1/screens/all-600.png" alt="600" height="600"/>](../resources/fundamentals-1/screens/all-320.png) | [<img src="../resources/fundamentals-1/screens/all-768.png" alt="768" height="600"/>](../resources/fundamentals-1/screens/all-320.png) | [<img src="../resources/fundamentals-1/screens/all-1024.png" alt="1024" height="600"/>](../resources/fundamentals-1/screens/all-320.png) | [<img src="../resources/fundamentals-1/screens/all-1600.png" alt="1600" height="600"/>](../resources/fundamentals-1/screens/all-320.png)|
+| 320px       | 480px       | 600px       | 
+| ----------- | ----------- | ----------- | 
+| <a href={all320}><img src={all320} height="1000"/></a> | <a href={all480}><img src={all480} height="1000"/></a> | <a href={all600}><img src={all600} height="1000"/></a> |
+
+| 768px       | 1024px      | 1600px      |
+| ----------- | ----------- | ----------- |
+| <a href={all768}><img src={all768} height="1000"/></a> | <a href={all1024}><img src={all1024} height="1000"/></a> | <a href={all1600}><img src={all1600} width="250"/></a> |
 
 
 ### Questions
@@ -253,7 +287,7 @@ In this task you will learn what SVG Sprites are and how to use them.
 Create the document list component with SVG sprites. Based on the document typ another SVG Icon is displayed.
 
 #### Screens
-import documentlist from './assets/fundamentals-1/screens/documentlist.png'
+import documentlist from './assets/fundamentals-1/screens/module-documentlist.png'
 <img src={documentlist} />
 
 ### Questions
