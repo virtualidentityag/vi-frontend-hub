@@ -1,36 +1,46 @@
 ---
 name: 04. Fundamentals 2 Components
 ---
+
+import screen from './assets/cta-standard.png' 
+import screenOpen from './assets/cta-open.png' 
+import carp from './assets/carp.jpg' 
+
 # Fundamentals II: Components
+
+*Level: Competent Carp* 
+
+<img src={carp} width="100%"/>
+
+After you built a static page in the last chapter and learned about layout, content styling and semantics, you are now ready to take it a step further. In this chapter, you will learn about component based architecture and how to build components using SASS, BEM and Javascript. This should give you the necessary tools and knowledge to build state-of-the-art biotope components later on, and that's why you're here, right? Right. Let's get into it.
 
 ## Preparation
 
-In this section, you will get to know package managers (NPM / Yarn) and a taskrunner (gulp) and how to use them in our project workflow. You will be using a micro frontend framework, that was specifically designed for this task. 
+In this section, you will get to know package managers (NPM / Yarn) and a taskrunner (gulp) and how to use them in our project workflow. You will be using a micro frontend framework, that was specifically designed for this task.  
+We won't go into much detail about most of these topics, but if you want to read up on them, we put together a dandy list of links in the resources at the end of this section.
 
 ### Step 1: Install Node.js and NPM
 
 Node.js is a way to run Javascript code without the need to use a browser. It's mainly used to run servers. You won't need to use it a lot, so it's not mandatory to do any work with it for this chapter.  
-Node.js comes with NPM, its very own package manager. This tool is used by the majority of web developers to install packages, libraries and other tools. It's pretty much your bread and butter and it is very much obligatory that you learn how to use it. The first step is to download and install it from this link:  https://nodejs.org/en/  
+Node.js comes with NPM, its very own package manager. This tool is used by the majority of web developers to install packages, libraries and other tools. It's pretty much your bread and butter and it is very much obligatory that you learn how to use it. The first step is to download and install it from [the Node.js homepage](https://nodejs.org/en/).  
 To ensure the installation worked correctly, type the following command into your command line:  `node -v && npm -v`  
 If you don't get any errors, everything worked out as planned. Congrats!
 
 ### Step 2: Install Yarn
 
-Yarn is essentially the same as NPM, just faster and a bit better in general. It completes the same tasks as NPM though, that's all you need to know for now. Go ahead and get it from the following link: https://yarnpkg.com/lang/en/docs/install/#windows-stable  
+Yarn is essentially the same as NPM, just faster and a bit better in general. It completes the same tasks as NPM though, that's all you need to know for now. Go ahead and get it from [the Yarn homepage](https://yarnpkg.com/lang/en/docs/install/#windows-stable).  
 Try `yarn -v` to check if the installation worked.
 
 ### Step 3: Install gulp
 
 gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`. 
-> That's how easy it is to install packages with NPM, how neat!  
+> *That's how easy it is to install packages with NPM, how neat!*  
 
 Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in Node.js (so essentially JS), for this task, we will provide you with one.
 
 ### Step 3: Clone the framework
 
-Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and clone the repository located at the following link.
-
-https://github.com/virtualidentityag/almost-perfect-framework 
+Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and clone [the GitHub repository](https://github.com/virtualidentityag/almost-perfect-framework).
 
 ### Step 4: Install the packages  
 
@@ -38,7 +48,12 @@ A project realistically (unless you want to reinvent the wheel) requires package
 
 ### Step 5: Start the framework
 
-Now that all the necessary packages are installed, you can run the command `yarn start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck!
+Now that all the necessary packages are installed, you can run the command `yarn start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck! 
+
+#### Resources
+
++ [Node.js Guide for Frontend Developers](https://blog.bloomca.me/2018/06/21/nodejs-guide-for-frontend-developers.html)
++ [Introduction to gulp](https://developers.google.com/web/ilt/pwa/introduction-to-gulp)
 
 #### TODO: Adjust section for 'bugs' in framework.
 
@@ -48,20 +63,19 @@ Now that everything is set up, you are ready to code once again! In the previous
 
 ### Challenge
 
-Build a so called 'call to action', consisting of a image, text and button. 
+Build a so called 'call to action', consisting of a image, text and button. The component has 2 modifiers: red headline and secondary conversion, which has a completely different layout and look (see the screen below for reference). 
 
-##### TODO: 1) Screens 2) Consider using the code from the previous tasks. 
+<img style={{width: '100%'}} src={screen}/>  
+
 
 ### Hints and guidelines
 
 + Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
-+ ...
-
-##### TODO: Fill the list
++ Use the BEM way to make modifiers for the component (see reference)
 
 ### Resources
-+ SASS reference https://sass-lang.com/guide or https://css-tricks.com/snippets/sass/
-+ BEM reference http://getbem.com/naming/
++ [SASS's own reference](https://sass-lang.com/guide) or [CSS-Tricks](https://css-tricks.com/snippets/sass/)
++ [BEM's own reference](http://getbem.com/naming/) or [CSS-Tricks](https://css-tricks.com/bem-101/)
 
 ## JavaScript
 
@@ -71,7 +85,7 @@ Build a so called 'call to action', consisting of a image, text and button.
 
 Add the following functionality to the component, that you built in the section 'SCSS': When the button is clicked, a textbox underneath the already existing elements slides open. 
 
-#### TODO: Screens
+<img style={{width: '100%'}} src={screenOpen}/>  
 
 ### Hints and guidelines
 
@@ -81,3 +95,27 @@ Add the following functionality to the component, that you built in the section 
 + ...
 
 #### TODO: Fill the list
+
+## Events
+
+Components need to communicate with each other. For example, you would probably want an open tooltip to close when the user opens the navigation on your page. In order for this to work, the navigation needs to tell the tooltip to disappear.
+
+<img width="300px" src="https://i.giphy.com/media/3otPoFUhO2Z9uG1Qvm/giphy.webp"/>   
+
+*Navigation to tooltip, probably*
+
+One possiblity to do this is using events. The usual approach to this is to fire an event when the navigation component is being opened and then having the tooltip component listen to any events that might cause it to close. 
+
+### Challenge
+
+Copy the component you built in the previous step. When one of the buttons is clicked and the corresponding textbox is opened, the other textbox has to close. The rule is: Only one call-to-action textbox can be opened at all times.  
+
+### Hints and guidelines
+
++ As stated before, JS/ES6 is preffered. However, jQuery provides a very cool way of implementing events and adds functionality to them, that doesn't exist in plain JS. Try completing the challenge twice, once in plain JS and once in jQuery to see the difference
++ Optional challenge: Perhaps you are familiar with a more modern approach to component communication: State management. If you want to, you can complete the challenge using Redux or something similiar as well 
+
+### Resources
+
++ [jQuery Events reference](https://api.jquery.com/category/events/)
++ [More specifically, the jQuery `on()` function](https://api.jquery.com/on/)
