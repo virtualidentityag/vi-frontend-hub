@@ -1,10 +1,11 @@
 ---
 name: 03. Fundamentals 1 HTML, CSS
 ---
+
 # Fundamentals I: HTML Semantics, Layout and Styling
 Level: *Busy Blackbird*
 
-You have already learned about our Manifesto, Biotope and have an overview of the first steps of this Roadmap.  
+You have already learned about our Manifesto, Biotope and have an overview of the first steps of this Roadmap.
 In this Level you will learn how to write mobile first responsive web pages with HTML5 and CSS and how to create and use SVG Icons and Webfonts.
 
 ## Preparation
@@ -16,7 +17,7 @@ In this challenge you will learn how to create your own repository on GitHub, ho
 - HTML5 Boilerplate: https://html5boilerplate.com
 
 ### Challenge
-#### Create an account on Github 
+#### Create an account on Github
 If you do not have an account at Github.com already, go to: https://github.com/join and create an account
 Please note that Github is a professional social network and choose an appropriate username.
 
@@ -26,15 +27,15 @@ Login to [GitHub](http://github.com/login) and create a [new repository](https:/
 Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you're lazy :-)
 
 #### Clone Github repository locally
-If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads).  
+If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads).
 With your git client, clone the new repository from github with git clone to get a local copy.
 
 #### Get HTML5 Boilerplate
-Download the HTML5 Boilerplate and extract it into your empty local repository.  
+Download the HTML5 Boilerplate and extract it into your empty local repository.
 Commit and push it into the repository with git.
 
 ### Questions
-- What's Git?  
+- What's Git?
 - What is a repository?
 - what is a branch?
 - What is a commit?
@@ -55,7 +56,7 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 ### Resources
 - When to use which semantic HTML5 element: [HTML5 Element Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 - Why is CSS Grid a big deal and why should we care: [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid/)
-- Download all screens for this level: [biotope-onboaring-fundamentals-1-screens.zip](./resources/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip)
+- Download all screens for this level: [biotope-onboaring-fundamentals-1-screens.zip](/assets/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip)
 
 ### Challenge
 
@@ -65,10 +66,10 @@ First create an html page based on the html5 boilerplate and segment it with sem
 Then add basic CSS styling for these areas to match the layout shown in the screen graphics.
 
 #### Screens
-- [Mobile 360px](./resources/fundamentals-1/screens/layout-320.png)
-- [Desktop 1600px](./resources/fundamentals-1/screens/layout-1600.png)
-- [Header](./resources/fundamentals-1/screens/header.png)
-- [Footer](./resources/fundamentals-1/screens/footer.png)
+- [Mobile 360px](/assets/fundamentals-1/screens/layout-320.png)
+- [Desktop 1600px](/assets/fundamentals-1/screens/layout-1600.png)
+- [Header](/assets/fundamentals-1/screens/header.png)
+- [Footer](/assets/fundamentals-1/screens/footer.png)
 
 ## Content Structure and Webfonts
 In this challenge you will learn how to structure content in html documents and how to use headlines and semantic HTML5 elements.
@@ -106,15 +107,15 @@ With latter you can easily create dummy images like this:
 
 #### Add some Teasers to turn them on!
 
-Often, a combination of an image, short text and a link -  a teaser - is used to tease users to related content on other pages.  
+Often, a combination of an image, short text and a link -  a teaser - is used to tease users to related content on other pages.
 Multiple of such teasers can be combined in a teaser row.
 
 #### Related Content
-Place related content in a marginal column on the right, again chose a matching semantic element to markup this area of additional content.  
+Place related content in a marginal column on the right, again chose a matching semantic element to markup this area of additional content.
 You can use CSS to adjust position and size of this area.
 
 #### Code is not valid until proven valid!
-To ensure your HTML code is valid and can be correctly interpreted by browsers, search engines and screen readers, validate your code with the W3C HTML Validator.  
+To ensure your HTML code is valid and can be correctly interpreted by browsers, search engines and screen readers, validate your code with the W3C HTML Validator.
 Fix the reported validation errors in your HTML code.
 
 #### Screens
@@ -150,7 +151,7 @@ Fix the reported validation errors in your HTML code.
 - What is "Lorem Ipsum" text and why is it used?
 - What's the effect of specifity of CSS selectors?
 - What is the purpose of normalize.css?
-- Which pseudo elements are available in CSS? 
+- Which pseudo elements are available in CSS?
 - Layout Content:
 - How can you place two block elements side by side?
 - What is CSS flex-box? When do you use it?
@@ -175,7 +176,7 @@ In this Challenge you will learn how to build an accessible navigation and add t
 
 ### Challenge
 #### Navigation Links
-Add navigation links to the header like depicted in the screen. When clicking these links, they should lead to the subheadlines of the sections of the page.   
+Add navigation links to the header like depicted in the screen. When clicking these links, they should lead to the subheadlines of the sections of the page.
 Also consider using a semantic element for the navigation and a sensible structure of elements for the link list.
 
 #### Additional Semantics and Accessibility
@@ -189,8 +190,8 @@ If you recognize that something on your page does not work or is not accessible 
 And if you want to really judge a frontend web developer: just take his or her iPhone and tripple-click the home button ;-)
 
 ### Screens
-- [Navigation](./resources/fundamentals-1/screens/nav.png)
-- [Hover link](./resources/fundamentals-1/screens/nav-hover.png)
+- [Navigation](/assets/fundamentals-1/screens/nav.png)
+- [Hover link](/assets/fundamentals-1/screens/nav-hover.png)
 
 ### Questions
 - Which semantic element should be used for page navigation?
@@ -252,8 +253,8 @@ In this task you will learn what SVG Sprites are and how to use them.
 Create the document list component with SVG sprites. Based on the document typ another SVG Icon is displayed.
 
 #### Screens
-
-[<img src="../resources/fundamentals-1/screens/documentlist.png" alt="all document types">](.../resources/fundamentals-1/screens/documentlist.png)
+import documentlist from './assets/fundamentals-1/screens/documentlist.png'
+<img src={documentlist} />
 
 ### Questions
 - What is SVG?
