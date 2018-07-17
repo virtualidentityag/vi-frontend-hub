@@ -31,9 +31,9 @@ If you don't get any errors, everything worked out as planned. Congrats!
 Yarn is essentially the same as NPM, just faster and a bit better in general. It completes the same tasks as NPM though, that's all you need to know for now. Go ahead and get it from [the Yarn homepage](https://yarnpkg.com/lang/en/docs/install/#windows-stable).  
 Try `yarn -v` to check if the installation worked.
 
-### Step 3: Install gulp
+### Step 3: Install Gulp
 
-gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`. 
+Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`. 
 > *That's how easy it is to install packages with NPM, how neat!*  
 
 Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in Node.js (so essentially JS), for this task, we will provide you with one.
@@ -68,7 +68,7 @@ Build a so called 'call to action', consisting of a image, text and button. The 
 <img style={{width: '100%'}} src={screen}/>  
 
 
-### Hints and guidelines
+### Hints and Guidelines
 
 + Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
 + Use the BEM way to make modifiers for the component (see reference)
@@ -87,7 +87,7 @@ Add the following functionality to the component, that you built in the section 
 
 <img style={{width: '100%'}} src={screenOpen}/>  
 
-### Hints and guidelines
+### Hints and Guidelines
 
 + Try to apply ES6 code when possible (it's the future!), but also try out jQuery here and there
 + To debug, use the tools that you are provided with (*hint* Chrome dev tools *hint*)
@@ -110,7 +110,7 @@ One possiblity to do this is using events. The usual approach to this is to fire
 
 Copy the component you built in the previous step. When one of the buttons is clicked and the corresponding textbox is opened, the other textbox has to close. The rule is: Only one call-to-action textbox can be opened at all times.  
 
-### Hints and guidelines
+### Hints and Guidelines
 
 + As stated before, JS/ES6 is preffered. However, jQuery provides a very cool way of implementing events and adds functionality to them, that doesn't exist in plain JS. Try completing the challenge twice, once in plain JS and once in jQuery to see the difference
 + Optional challenge: Perhaps you are familiar with a more modern approach to component communication: State management. If you want to, you can complete the challenge using Redux or something similiar as well 
