@@ -2,6 +2,8 @@
 name: 03. Fundamentals 1 HTML, CSS
 ---
 
+import Authors from './helpers/Authors';
+
 # Fundamentals I: HTML Semantics, Layout and Styling
 Level: *Busy Blackbird*
 
@@ -71,7 +73,7 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 ### Challenge
 
 #### Bring your body in shape - from header to footer:
-First create an html page based on the HTML5 Boilerplate and segment it with semantic elements.  
+First create an html page based on the HTML5 Boilerplate and segment it with semantic elements.
 Then add basic CSS styling for these areas to match the layout shown in the screen graphics.
 
 Other page content shown here will be created later and is not yet part of this challenge.
@@ -125,7 +127,7 @@ Before adding the actual content to your html page, proceed with adding more sem
 Add HTML5 compliant headlines and sections to structure the content of your page.
 
 #### Inner values matter!
-Add dummy text and image content to your page, you can use dummy text and image generators for that.  
+Add dummy text and image content to your page, you can use dummy text and image generators for that.
 With latter you can easily create dummy images like this:
 <img src="https://dummyimage.com/320x180/eef1f5/0b5fff" alt="320x180" />
 
@@ -265,8 +267,8 @@ import all1024 from './assets/fundamentals-1/screens/all-1024.png'
 import all1600 from './assets/fundamentals-1/screens/all-1600.png'
 
 
-| 320px       | 480px       | 600px       | 
-| ----------- | ----------- | ----------- | 
+| 320px       | 480px       | 600px       |
+| ----------- | ----------- | ----------- |
 | <a href={all320}><img src={all320} height="1000"/></a> | <a href={all480}><img src={all480} height="1000"/></a> | <a href={all600}><img src={all600} height="1000"/></a> |
 
 | 768px       | 1024px      | 1600px      |
@@ -303,7 +305,7 @@ In this task you will learn what SVG sprites are and how to use them.
 Create the document list component with SVG sprites. Based on the document typ another SVG Icon is displayed.
 
 #### Screens
-import documentlist from './assets/fundamentals-1/screens/module-documentlist.png' 
+import documentlist from './assets/fundamentals-1/screens/module-documentlist.png'
 
 <div><a href={documentlist}><img src={documentlist}/></a></div>
 
@@ -313,5 +315,16 @@ import documentlist from './assets/fundamentals-1/screens/module-documentlist.pn
 - What are the advantages of SVG sprites compared to icon fonts and pixel graphics?
 
 
-
+<Authors
+  authors={[
+    {
+      username: 'akrappe',
+      name: 'Ann-Kristin Krappe'
+    },
+    {
+      username: 'clemensf',
+      name: 'Clemens Fiedler'
+    },
+  ]}
+/>
 
