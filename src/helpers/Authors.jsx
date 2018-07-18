@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import Author from './Author';
 
-const team = [
+export const team = [
   {
     username: 'adrianfella',
     name: 'Adrian Fella'
