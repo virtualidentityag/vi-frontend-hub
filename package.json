@@ -4,8 +4,12 @@
     "build": "docz build",
     "netlify": "yarn build && cp netlify.toml ./dist/netlify.toml && cp -R src/assets ./dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtualidentityag/dev-fe-onboarding.git"
+  },
   "devDependencies": {
-    "docz": "^0.5.8"
+    "docz": "^0.11.0"
   },
   "dependencies": {
     "styled-components": "^3.3.3"
