@@ -9,7 +9,7 @@
     "url": "git+https://github.com/virtualidentityag/dev-fe-onboarding.git"
   },
   "devDependencies": {
-    "docz": "^0.11.0"
+    "docz": "^0.12.5"
   },
   "dependencies": {
     "styled-components": "^3.3.3"
