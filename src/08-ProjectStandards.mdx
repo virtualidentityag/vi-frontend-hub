@@ -1,0 +1,37 @@
+---
+name: 08. Project Standards
+---
+
+import Authors from './helpers/Authors';
+
+# Project Standards
+
+1. Projects should use npm (not yarn anymore)
+	- Minimum version of node and npm in the package.json (node@lts and the npm bundeled with it)
+2. Projects should be able to be run with `npm run start`
+	- run all the services which are needed for development
+	- if you cannot follow this rule write it in the readme
+3. Projects should be able to be built with `npm run build`
+	- run all the services which are needed for deploy
+	- if you cannot follow this rule write it in the readme
+4. Projects' Readme & package.json (license, name, repository, metadata) should be kept up to date and be read when starting
+5. Common Contents of a Readme:
+	- Setup
+	- Development
+	- Build
+	- Release
+	- Common issues
+6. Projects npm packages should be served from npm or another artifactory
+doc how to release on npm or vi artifactory
+NO project should have npm packages served directly from github (only temporally from vi github if waiting for pr to merge)
+7. All temporally github includes should be resolved as soon as merged
+Always use absolute versions (no ^~)
+
+<Authors
+  authors={[
+    {
+      username: 'SheepFromHeaven',
+      name: 'Marc Emmanuel'
+    }
+  ]}
+/>
