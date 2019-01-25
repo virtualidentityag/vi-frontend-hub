@@ -1,13 +1,3 @@
----
-name: 04. Fundamentals 2 Components
----
-
-import Authors from './helpers/Authors';
-
-import screen from './assets/cta-standard.png'
-import screenOpen from './assets/cta-open.png'
-import carp from './assets/carp.jpg'
-
 # Fundamentals II: Components
 
 *Level: Competent Carp*
