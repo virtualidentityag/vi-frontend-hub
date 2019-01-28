@@ -20,39 +20,38 @@ After you built a static page in the last chapter and learned about layout, cont
 
 ## Preparation
 
-In this section, you will get to know package managers (NPM / Yarn) and a taskrunner (gulp) and how to use them in our project workflow. You will be using a micro frontend framework, that was specifically designed for this task.
+In this section, you will get to know a package manager (NPM) and a taskrunner (gulp) and how to use them in our project workflow. You will be using a micro frontend framework, that was specifically designed for this task.
 We won't go into much detail about most of these topics, but if you want to read up on them, we put together a dandy list of links in the resources at the end of this section.
 
 ### Step 1: Install Node.js and NPM
 
-Node.js is a way to run Javascript code without the need to use a browser. It's mainly used to run servers. You won't need to use it a lot, so it's not mandatory to do any work with it for this chapter.
-Node.js comes with NPM, its very own package manager. This tool is used by the majority of web developers to install packages, libraries and other tools. It's pretty much your bread and butter and it is very much obligatory that you learn how to use it. The first step is to download and install it from [the Node.js homepage](https://nodejs.org/en/).
+Node.js is a way to run javascript code on your machine, without the need for a browser. It's mainly used to run servers and automatic tasks. You won't need to use it a lot, so it's not mandatory to do any work with it for this chapter.
+Node.js comes with NPM, its very own package manager. This tool is used by the majority of web developers to install packages, libraries and other tools. It's pretty much your bread and butter and it is very much obligatory that you learn how to use it. The first step is to download and install it.
+> For windows we recomment [nvm](https://github.com/creationix/nvm) for installing it.
+If you are not on windows, just install it from [the Node.js homepage](https://nodejs.org/en/).
 To ensure the installation worked correctly, type the following command into your command line:  `node -v && npm -v`
 If you don't get any errors, everything worked out as planned. Congrats!
 
-### Step 2: Install Yarn
+### Step 2: Fork the framework
 
-We here at VI use a different package manager called Yarn. It completes the same tasks as NPM, that's all you need to know for now. Go ahead and get it from [the Yarn homepage](https://yarnpkg.com/lang/en/docs/install/#windows-stable).
-Try `yarn -v` to check if the installation worked.
+Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and fork and then clone [the GitHub repository](https://github.com/virtualidentityag/dev-fe-onboarding-miniframework).
 
-### Step 3: Install Gulp
+### Step 3: Install the packages
 
-Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`.
+A project realistically (unless you want to reinvent the wheel) requires packages. Packages are just code from other developers that you can use in your project. Open Source for the win! When you just clone a project from Git, that does not include the packages themselves, because that would just take up unnecessary space on Github's servers. What you do get, is a file called `package.json`, which includes a list of all the packages the project requires. What we do now, is download those packages. To do this, run the command `npm install` either in your OS's own command line or from within your IDE (ask your buddy to help you with this if necessary).
+
+### Step 4: Install Gulp
+
+We left you with a missing dependency. You have to add gulp to the package.json yourself.
+
+Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it in your project, run the command `npm install gulp -D` in the project folder. This command will automaticall add the dependency gulp to the `devDependencies` section in your `package.json`.
 > *That's how easy it is to install packages with NPM, how neat!*
 
 Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in JS. For this task, we will provide you with one.
 
-### Step 3: Fork the framework
-
-Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and fork and then clone [the GitHub repository](https://github.com/virtualidentityag/dev-fe-onboarding-miniframework).
-
-### Step 4: Install the packages
-
-A project realistically (unless you want to reinvent the wheel) requires packages. Packages are just code from other developers that you can use in your project. Open Source for the win! When you just clone a project from Git, that does not include the packages themselves, because that would just take up unnecessary space on Github's servers. What you do get, is a file called `package.json`, which includes a list of all the packages the project requires. What we do now, is download those packages. To do this, run the command `yarn install` either in your OS's own command line or from within your IDE (ask your buddy to help you with this if necessary).
-
 ### Step 5: Start the framework
 
-Now that all the necessary packages are installed, you can run the command `yarn start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck!
+Now that all the necessary packages are installed, you can run the command `npm start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck! (Keep on reading before complaining!)
 
 Our coders tried really hard to provide you with the best framwork so that you can start coding immediately. However they are humans, so if you find any bugs, try to fix them yourself. If you get stuck, just ask your buddy for help. Have fun!
 
@@ -67,7 +66,7 @@ Our coders tried really hard to provide you with the best framwork so that you c
 + What is a package manager and what are the benefits of using one?
 + What is the purpose of the `package.json` file?
 + What is the `node_modules` folder?
-+ What happens when you execute `npm install` or `yarn install`? (hint: they both serve the same purpose) Why is it necessary to execute these commands?
++ What happens when you execute `npm install`? Why is it necessary to execute this commands?
 + How do you add a new package to a project?
 + What is a taskrunner and what are the benefits of using one?
 + What are good tasks to automate? Think of typical processes that need to be executed for a project to run.
