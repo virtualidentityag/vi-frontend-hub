@@ -2,7 +2,7 @@
 
 *Level: Competent Carp*
 
-<img src={carp} width="100%"/>
+![carp.png](./assets/carp.jpg)
 
 After you built a static page in the last chapter and learned about layout, content styling and semantics, you are now ready to take it a step further. In this chapter, you will learn about component based architecture and how to build components using SASS, BEM and Javascript. This should give you the necessary tools and knowledge to build state-of-the-art biotope components later on, and that's why you're here, right? Right. Let's get into it.
 
@@ -28,7 +28,7 @@ Try `yarn -v` to check if the installation worked.
 ### Step 3: Install Gulp
 
 Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`.
-> *That's how easy it is to install packages with NPM, how neat!*
+?> *That's how easy it is to install packages with NPM, how neat!*
 
 Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in JS. For this task, we will provide you with one.
 
@@ -72,25 +72,25 @@ Now that everything is set up, you are ready to code once again! In the previous
 
 Build a so called 'call to action', consisting of a image, text and button. The component has 2 modifiers: red headline and secondary conversion, which has a completely different layout and look (see the screen below for reference).
 
-<img style={{width: '100%'}} src={screen}/>
+![cta.png](./assets/cta-standard.png)
 
 
 ### Hints and Guidelines
 
-+ Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
-+ Use the BEM way to make modifiers for the component (see reference)
+- Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
+- Use the BEM way to make modifiers for the component (see reference)
 
 ### Resources
-+ [SASS's own reference](https://sass-lang.com/guide) or [CSS-Tricks](https://css-tricks.com/snippets/sass/)
-+ [BEM's own reference](http://getbem.com/naming/) or [CSS-Tricks](https://css-tricks.com/bem-101/)
+- [SASS's own reference](https://sass-lang.com/guide) or [CSS-Tricks](https://css-tricks.com/snippets/sass/)
+- [BEM's own reference](http://getbem.com/naming/) or [CSS-Tricks](https://css-tricks.com/bem-101/)
 
 ### Questions
 
-+ What is BEM and what are its benefits?
-+ What is a typical use case for a modifier?
-+ What are the benefits of SASS compared to plan CSS?
-+ Can you use unmodified SASS code in web browsers?
-+ What is a mixin?
+- What is BEM and what are its benefits?
+- What is a typical use case for a modifier?
+- What are the benefits of SASS compared to plan CSS?
+- Can you use unmodified SASS code in web browsers?
+- What is a mixin?
 
 ---
 
@@ -102,31 +102,31 @@ Build a so called 'call to action', consisting of a image, text and button. The 
 
 Add the following functionality to the component, that you built in the section 'SCSS': When the button is clicked, a textbox underneath the already existing elements slides open.
 
-<img style={{width: '100%'}} src={screenOpen}/>
+![cta-open.png](./assets/cta-open.png)
 
 ### Hints and Guidelines
 
-+ Try to apply ES6 code when possible (it's the future!), but also try out jQuery here and there
-+ To debug, use the tools that you are provided with (*hint* Chrome dev tools *hint*)
-+ There's more than one way to skin a cat.. uhhh animate. CSS, jQuery and Javascript can all do this, ask your buddy for help!
+- Try to apply ES6 code when possible (it's the future!), but also try out jQuery here and there
+- To debug, use the tools that you are provided with (*hint* Chrome dev tools *hint*)
+- There's more than one way to skin a cat.. uhhh animate. CSS, jQuery and Javascript can all do this, ask your buddy for help!
 
 
 ### Resources
 
-+ [Javascript Basics](https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf)
-+ [Getting started with ES6](http://2ality.com/2015/08/getting-started-es6.html)
-+ [jQuery Fundamentals](http://jqfundamentals.com/chapter/jquery-basics)
-+ [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
-+ [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+- [Javascript Basics](https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf)
+- [Getting started with ES6](http://2ality.com/2015/08/getting-started-es6.html)
+- [jQuery Fundamentals](http://jqfundamentals.com/chapter/jquery-basics)
+- [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 
 ### Questions
 
-+ What is jQuery and what are its benefits?
-+ Why should you try to use plain JS when possible?
-+ What is ES6? How is different from 'plain' JS?
-+ ES6 can be used in every browser. True of false?
-+ What are common ways to debug code in the web development environment?
-+ What's the best way to make great animations?
+- What is jQuery and what are its benefits?
+- Why should you try to use plain JS when possible?
+- What is ES6? How is different from 'plain' JS?
+- ES6 can be used in every browser. True of false?
+- What are common ways to debug code in the web development environment?
+- What's the best way to make great animations?
 
 ---
 
@@ -146,21 +146,20 @@ Copy the component you built in the previous step. When one of the buttons is cl
 
 ### Hints and Guidelines
 
-+ As stated before, JS/ES6 is preffered. However, jQuery provides a different way of implementing events. Try completing the challenge twice, once in plain JS and once in jQuery to see the difference
-+ Optional challenge: Perhaps you are familiar with a more modern approach to component communication: State management. If you want to, you can complete the challenge using Redux or something similiar as well
+- As stated before, JS/ES6 is preffered. However, jQuery provides a different way of implementing events. Try completing the challenge twice, once in plain JS and once in jQuery to see the difference
+- Optional challenge: Perhaps you are familiar with a more modern approach to component communication: State management. If you want to, you can complete the challenge using Redux or something similiar as well
 
 ### Resources
 
-+ [jQuery Events reference](https://api.jquery.com/category/events/)
-+ [More specifically, the jQuery `on()` function](https://api.jquery.com/on/)
+- [jQuery Events reference](https://api.jquery.com/category/events/)
+- [More specifically, the jQuery `on()` function](https://api.jquery.com/on/)
 
 ### Questions
 
-+ What are events and how do they work? What purpose do they serve?
-+ What is event delegation and how does it work in JS vs jQuery?
+- What are events and how do they work? What purpose do they serve?
+- What is event delegation and how does it work in JS vs jQuery?
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'dweiger',
       name: 'Dominikus Weiger'
@@ -168,6 +167,4 @@ Copy the component you built in the previous step. When one of the buttons is cl
     {
       username: 'luke-m',
       name: 'Lukas Müller'
-    },
-  ]}
-/>
+    }]"/>
