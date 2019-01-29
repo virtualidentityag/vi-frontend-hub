@@ -330,7 +330,7 @@ Your Buddy ensures that all necessary accounts are setup, the day you start at V
 - Teambox
 - Chrome/FF
 - if mac → Windows VM
-- Skype
+- Teams
 
 
 You have freedom in choosing an IDE. We recommend Visual Code but if you prefer another one, we'll provide a licence.
