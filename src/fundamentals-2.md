@@ -26,29 +26,18 @@ If you don't get any errors, everything worked out as planned. Congrats!
 
 Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and fork and then clone [this GitHub repository](https://github.com/virtualidentityag/dev-fe-onboarding-miniframework).
 
-### Step 3: Install the packages
+### Step 3: Install gulp
 
-Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`.
+Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`. This command will automatically add the dependency gulp to the `devDependencies` section in your `package.json`.
 ?> *That's how easy it is to install packages with NPM, how neat!*
-
-Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in JS. For this task, we will provide you with one.
-
-### Step 3: Fork the framework
-
-Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and fork and then clone [the GitHub repository](https://github.com/virtualidentityag/dev-fe-onboarding-miniframework).
 
 ### Step 4: Install the packages
 
 A project realistically (unless you want to reinvent the wheel) requires packages. Packages are just code from other developers that you can use in your project. Open Source for the win! When you just clone a project from Git, that does not include the packages themselves, because that would just take up unnecessary space on Github's servers. What you do get, is a file called `package.json`, which includes a list of all the packages the project requires. What we do now, is download those packages. To do this, run the command `npm install` either in your OS's own command line or from within your IDE (ask your buddy to help you with this if necessary).
 
-### Step 4: Install Gulp
-
-We left you with a missing dependency. You have to add gulp to the package.json yourself.
-Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in JS. For this task, we will provide you with one.
-
 ### Step 5: Start the framework
 
-Now that all the necessary packages are installed, you can run the command `npm start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck!  (Keep on reading before complaining!)
+Now that all the necessary packages are installed, you can run the command `npm start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck! (Keep on reading before complaining!)
 
 !> Our coders tried really hard to provide you with the best framwork so that you can start coding immediately. However they are humans, so if you find any bugs, try to fix them yourself. If you get stuck, just ask your buddy for help. Have fun!
 
