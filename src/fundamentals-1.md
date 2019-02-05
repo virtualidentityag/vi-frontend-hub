@@ -1,19 +1,10 @@
----
-name: 03. Fundamentals 1 HTML, CSS
----
-
-import Authors from './helpers/Authors';
-
 # Fundamentals I: HTML Semantics, Layout and Styling
 Level: *Busy Blackbird*
 
 You have already learned about our Manifesto, Biotope and have an overview of the first steps of this Roadmap.
 In this Level you will learn how to write mobile first responsive web pages with HTML5 and CSS and how to create and use SVG Icons and Webfonts.
-
-<br/>
-
+  
 ---------------------------------------
-
 ## Preparation
 In this challenge you will learn how to create your own repository on GitHub, how to use Git and how you can use HTML5 Boilerplate for the following challenges.
 
@@ -79,21 +70,15 @@ Then add basic CSS styling for these areas to match the layout shown in the scre
 Other page content shown here will be created later and is not yet part of this challenge.
 
 #### Screens
-import layout320 from './assets/fundamentals-1/screens/layout-320.png'
-import layout1600 from './assets/fundamentals-1/screens/layout-1600.png'
+| Mobile 320px                                                                        | Desktop 1600px                                                                        |
+|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| ![layout-320.png](./assets/fundamentals-1/screens/layout-320.png ':size=autox1000') | ![layout-1600.png](./assets/fundamentals-1/screens/layout-1600.png ':size=autox1000') |
 
-| Mobile 320px | Desktop 1600px |
-| ------------ | -------------- |
-| <a href={layout320}><img src={layout320} height="1000" /></a> | <a href={layout1600}><img src={layout1600} height="1000" /></a> |
 
-import header from './assets/fundamentals-1/screens/header.png'
-import footer from './assets/fundamentals-1/screens/footer.png'
+| Header                                                    | Footer                                                    |
+|-----------------------------------------------------------|-----------------------------------------------------------|
+| ![header.png](./assets/fundamentals-1/screens/header.png) | ![footer.png](./assets/fundamentals-1/screens/footer.png) |
 
-| Header | Footer |
-| ------------ | -------------- |
-|<a href={header}><img src={header}/></a> | <a href={footer}><img src={footer}/></a> |
-
-<br/>
 
 ---------------------------------------
 
@@ -145,22 +130,15 @@ To ensure your HTML code is valid and can be correctly interpreted by browsers, 
 Fix the reported validation errors in your HTML code.
 
 #### Screens
-import all320 from './assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png'
-import moduleStage from './assets/fundamentals-1/screens/module-stage.png'
-import moduleBreadcrumb from './assets/fundamentals-1/screens/module-breadcrumb.png'
 
-| All 320px | Stage and Breadcrumb |
-| ------- | -------------------- |
-| <a href={all320}><img src={all320} height="600"/></a> | Stage:<br/><a href={moduleStage}><img src={moduleStage}/></a><br/><br/>Breadcrumb:<br/><a href={moduleBreadcrumb}><img src={moduleBreadcrumb}/></a> |
+| All 320px                                                                                                     | Stage                                                          | Breadcrumb                                                               |
+|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|
+| ![layout-320.png](../assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png ':size=autox600') | ![stage.png](./assets/fundamentals-1/screens/module-stage.png) | ![breadcrumb.png](./assets/fundamentals-1/screens/module-breadcrumb.png) |
 
-import moduleSection from './assets/fundamentals-1/screens/module-section.png'
-import moduleForm from './assets/fundamentals-1/screens/module-form.png'
-import moduleContact from './assets/fundamentals-1/screens/module-contact.png'
-import moduleTeasers from './assets/fundamentals-1/screens/module-teasers.png'
 
-| Section | Form  | Contact Teaser | Teasers     |
-| ------- | ----- | -------------- | ----------- |
-| <a href={moduleSection}><img src={moduleSection} height="600"/></a> | <a href={moduleForm}><img src={moduleForm} height="400"/></a> | <a href={moduleContact}><img src={moduleContact} width="150"/></a> | <a href={moduleTeasers}><img src={moduleTeasers} height="600"/></a> |
+| Section                                                                             | Form                                                                          | Contact Teaser                                                                 | Teasers                                                                             |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| ![section.png](./assets/fundamentals-1/screens/module-section.png ':size=autox600') | ![form.png](./assets/fundamentals-1/screens/module-form.png ':size=autox600') | ![contact.png](./assets/fundamentals-1/screens/module-contact.png ':size=150') | ![teasers.png](./assets/fundamentals-1/screens/module-teasers.png ':size=autox600') |
 
 ### Questions
 - What are semantic elements in HTML5?
@@ -220,19 +198,15 @@ If you recognize that something on your page does not work or is not accessible 
 And if you want to really judge a frontend web developer: just take his or her iPhone and tripple-click the home button ;-)
 
 ### Screens
-import nav from './assets/fundamentals-1/screens/nav.png'
-import navHover from './assets/fundamentals-1/screens/nav-hover.png'
 
-| Navigation Links | Navigation Links, hover |
-| ---------------- | ----------------------- |
-| <a href={nav}><img src={nav}/></a> | <a href={navHover}><img src={navHover}/></a> |
+| Navigation Links                                    | Navigation Links, hover                                                |
+|-----------------------------------------------------|------------------------------------------------------------------------|
+| ![nav.png](./assets/fundamentals-1/screens/nav.png) | ![conav-hoverntact.png](./assets/fundamentals-1/screens/nav-hover.png) |
 
 ### Questions
 - Which semantic element should be used for page navigation?
 - How can you add semantic meaning to any HTML elements?
 - Why should semantic attributes be added to html elements?
-
-<br/>
 
 ---------------------------------------
 
@@ -266,13 +240,13 @@ import all1024 from './assets/fundamentals-1/screens/all-1024.png'
 import all1600 from './assets/fundamentals-1/screens/all-1600.png'
 
 
-| 320px       | 480px       | 600px       |
-| ----------- | ----------- | ----------- |
-| <a href={all320}><img src={all320} height="1000"/></a> | <a href={all480}><img src={all480} height="1000"/></a> | <a href={all600}><img src={all600} height="1000"/></a> |
+| 320px                                                                         | 480px                                                                         | 600px                                                                         |
+|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| ![all-320.png](./assets/fundamentals-1/screens/all-320.png ':size=autox1000') | ![all-480.png](./assets/fundamentals-1/screens/all-480.png ':size=autox1000') | ![all-600.png](./assets/fundamentals-1/screens/all-600.png ':size=autox1000') |
 
-| 768px       | 1024px      | 1600px      |
-| ----------- | ----------- | ----------- |
-| <a href={all768}><img src={all768} height="1000"/></a> | <a href={all1024}><img src={all1024} height="1000"/></a> | <a href={all1600}><img src={all1600} width="250"/></a> |
+| 768px                                                                         | 1024px                                                                          | 1600px                                                                          |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| ![all-768.png](./assets/fundamentals-1/screens/all-768.png ':size=autox1000') | ![all-1024.png](./assets/fundamentals-1/screens/all-1024.png ':size=autox1000') | ![all-1600.png](./assets/fundamentals-1/screens/all-1600.png ':size=autox1000') |
 
 
 ### Questions
@@ -281,7 +255,6 @@ import all1600 from './assets/fundamentals-1/screens/all-1600.png'
 - How can you realize a responsive image?
 - What do you use the viewport meta tag for?
 
-<br/>
 
 ---------------------------------------
 
@@ -304,9 +277,7 @@ In this task you will learn what SVG sprites are and how to use them.
 Create the document list component with SVG sprites. Based on the document typ another SVG Icon is displayed.
 
 #### Screens
-import documentlist from './assets/fundamentals-1/screens/module-documentlist.png'
-
-<div><a href={documentlist}><img src={documentlist}/></a></div>
+![documentlist.png](./assets/fundamentals-1/screens/module-documentlist.png)
 
 ### Questions
 - What is SVG?
@@ -314,8 +285,7 @@ import documentlist from './assets/fundamentals-1/screens/module-documentlist.pn
 - What are the advantages of SVG sprites compared to icon fonts and pixel graphics?
 
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'akrappe',
       name: 'Ann-Kristin Krappe'
@@ -327,7 +297,5 @@ import documentlist from './assets/fundamentals-1/screens/module-documentlist.pn
     {
       username: 'stefanieneubert',
       name: 'Stefanie Neubert'
-    },
-  ]}
-/>
+    },]"/>
 

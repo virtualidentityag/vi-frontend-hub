@@ -48,7 +48,7 @@ Always ask yourself what data you really need and if the method that writes this
 **Escaping or parsing to the rescue.**
 
 An easy method for incoming strings might be:
-```
+```js
 // this creates text-only and not executable code for the DOM
 function escapeHTML (unsafeString) {
     return unsafeString
@@ -61,7 +61,7 @@ function escapeHTML (unsafeString) {
 ```
 
 What if you expect integer or float numbers?
-```
+```js
 parseInt(unsafeInteger, 10);
 parseFloat(unsafeFloat);
 ```
@@ -73,7 +73,7 @@ You might think this is a Backend-only issue but in times of Single Page Apps al
 Most template engines escape there contents by default and you must actively disable this feature.
 But always be aware whatever technology you use that automatic escaping is activated.
 
-```
+```js
 const foo = '<span>';
 
 // Handlebars:
@@ -90,11 +90,8 @@ const foo = '<span>';
 
 Learn about XSS by playing the [XSS Game](https://xss-game.appspot.com)
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'jurekbarth',
       name: 'Jurek Barth'
-    }
-  ]}
-/>
+    }]"/>

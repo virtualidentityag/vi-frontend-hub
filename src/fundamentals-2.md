@@ -1,18 +1,8 @@
----
-name: 04. Fundamentals 2 Components
----
-
-import Authors from './helpers/Authors';
-
-import screen from './assets/cta-standard.png'
-import screenOpen from './assets/cta-open.png'
-import carp from './assets/carp.jpg'
-
 # Fundamentals II: Components
 
 *Level: Competent Carp*
 
-<img src={carp} width="100%"/>
+![carp.png](./assets/carp.jpg)
 
 After you built a static page in the last chapter and learned about layout, content styling and semantics, you are now ready to take it a step further. In this chapter, you will learn about component based architecture and how to build components using SASS, BEM and Javascript. This should give you the necessary tools and knowledge to build state-of-the-art biotope components later on, and that's why you're here, right? Right. Let's get into it.
 
@@ -34,26 +24,22 @@ If you don't get any errors, everything worked out as planned. Congrats!
 
 ### Step 2: Fork the framework
 
-Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and fork and then clone [the GitHub repository](https://github.com/virtualidentityag/dev-fe-onboarding-miniframework).
+Now that you have all the tools you need, it's time to get your hands dirty and start working on the framework. You already know how to use Git to your advantage, so go ahead and fork and then clone [this GitHub repository](https://github.com/virtualidentityag/dev-fe-onboarding-miniframework).
 
-### Step 3: Install the packages
+### Step 3: Install gulp
+
+Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it, run the command `npm install gulp-cli -g` and then `npm install gulp -D`. This command will automatically add the dependency gulp to the `devDependencies` section in your `package.json`.
+?> *That's how easy it is to install packages with NPM, how neat!*
+
+### Step 4: Install the packages
 
 A project realistically (unless you want to reinvent the wheel) requires packages. Packages are just code from other developers that you can use in your project. Open Source for the win! When you just clone a project from Git, that does not include the packages themselves, because that would just take up unnecessary space on Github's servers. What you do get, is a file called `package.json`, which includes a list of all the packages the project requires. What we do now, is download those packages. To do this, run the command `npm install` either in your OS's own command line or from within your IDE (ask your buddy to help you with this if necessary).
-
-### Step 4: Install Gulp
-
-We left you with a missing dependency. You have to add gulp to the package.json yourself.
-
-Gulp is a taskrunner, which does a lot of work for you like compile, build, serve and other stuff. To install it in your project, run the command `npm install gulp -D` in the project folder. This command will automaticall add the dependency gulp to the `devDependencies` section in your `package.json`.
-> *That's how easy it is to install packages with NPM, how neat!*
-
-Gulp works with a so called `gulpfile.js`, which defines which tasks gulp completes for you. `gulpfiles` are written in JS. For this task, we will provide you with one.
 
 ### Step 5: Start the framework
 
 Now that all the necessary packages are installed, you can run the command `npm start`. This script command, which is defined in the `package.json` file, runs a gulp task that serves the website locally, so you can always see what you're coding. Now that the framework is served, you can start coding components. Good luck! (Keep on reading before complaining!)
 
-Our coders tried really hard to provide you with the best framwork so that you can start coding immediately. However they are humans, so if you find any bugs, try to fix them yourself. If you get stuck, just ask your buddy for help. Have fun!
+!> Our coders tried really hard to provide you with the best framwork so that you can start coding immediately. However they are humans, so if you find any bugs, try to fix them yourself. If you get stuck, just ask your buddy for help. Have fun!
 
 
 ### Resources
@@ -66,7 +52,7 @@ Our coders tried really hard to provide you with the best framwork so that you c
 + What is a package manager and what are the benefits of using one?
 + What is the purpose of the `package.json` file?
 + What is the `node_modules` folder?
-+ What happens when you execute `npm install`? Why is it necessary to execute this commands?
++ What happens when you execute `npm install`? Why is it necessary to execute this command?
 + How do you add a new package to a project?
 + What is a taskrunner and what are the benefits of using one?
 + What are good tasks to automate? Think of typical processes that need to be executed for a project to run.
@@ -81,25 +67,25 @@ Now that everything is set up, you are ready to code once again! In the previous
 
 Build a so called 'call to action', consisting of a image, text and button. The component has 2 modifiers: red headline and secondary conversion, which has a completely different layout and look (see the screen below for reference).
 
-<img style={{width: '100%'}} src={screen}/>
+![cta.png](./assets/cta-standard.png)
 
 
 ### Hints and Guidelines
 
-+ Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
-+ Use the BEM way to make modifiers for the component (see reference)
+- Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
+- Use the BEM way to make modifiers for the component (see reference)
 
 ### Resources
-+ [SASS's own reference](https://sass-lang.com/guide) or [CSS-Tricks](https://css-tricks.com/snippets/sass/)
-+ [BEM's own reference](http://getbem.com/naming/) or [CSS-Tricks](https://css-tricks.com/bem-101/)
+- [SASS's own reference](https://sass-lang.com/guide) or [CSS-Tricks](https://css-tricks.com/snippets/sass/)
+- [BEM's own reference](http://getbem.com/naming/) or [CSS-Tricks](https://css-tricks.com/bem-101/)
 
 ### Questions
 
-+ What is BEM and what are its benefits?
-+ What is a typical use case for a modifier?
-+ What are the benefits of SASS compared to plan CSS?
-+ Can you use unmodified SASS code in web browsers?
-+ What is a mixin?
+- What is BEM and what are its benefits?
+- What is a typical use case for a modifier?
+- What are the benefits of SASS compared to plan CSS?
+- Can you use unmodified SASS code in web browsers?
+- What is a mixin?
 
 ---
 
@@ -111,31 +97,31 @@ Build a so called 'call to action', consisting of a image, text and button. The 
 
 Add the following functionality to the component, that you built in the section 'SCSS': When the button is clicked, a textbox underneath the already existing elements slides open.
 
-<img style={{width: '100%'}} src={screenOpen}/>
+![cta-open.png](./assets/cta-open.png)
 
 ### Hints and Guidelines
 
-+ Try to apply ES6 code when possible (it's the future!), but also try out jQuery here and there
-+ To debug, use the tools that you are provided with (*hint* Chrome dev tools *hint*)
-+ There's more than one way to skin a cat.. uhhh animate. CSS, jQuery and Javascript can all do this, ask your buddy for help!
+- Try to apply ES6 code when possible (it's the future!), but also try out jQuery here and there
+- To debug, use the tools that you are provided with (*hint* Chrome dev tools *hint*)
+- There's more than one way to skin a cat.. uhhh animate. CSS, jQuery and Javascript can all do this, ask your buddy for help!
 
 
 ### Resources
 
-+ [Javascript Basics](https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf)
-+ [Getting started with ES6](http://2ality.com/2015/08/getting-started-es6.html)
-+ [jQuery Fundamentals](http://jqfundamentals.com/chapter/jquery-basics)
-+ [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
-+ [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+- [Javascript Basics](https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf)
+- [Getting started with ES6](http://2ality.com/2015/08/getting-started-es6.html)
+- [jQuery Fundamentals](http://jqfundamentals.com/chapter/jquery-basics)
+- [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+- [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 
 ### Questions
 
-+ What is jQuery and what are its benefits?
-+ Why should you try to use plain JS when possible?
-+ What is ES6? How is different from 'plain' JS?
-+ ES6 can be used in every browser. True of false?
-+ What are common ways to debug code in the web development environment?
-+ What's the best way to make great animations?
+- What is jQuery and what are its benefits?
+- Why should you try to use plain JS when possible?
+- What is ES6? How is different from 'plain' JS?
+- ES6 can be used in every browser. True of false?
+- What are common ways to debug code in the web development environment?
+- What's the best way to make great animations?
 
 ---
 
@@ -155,21 +141,20 @@ Copy the component you built in the previous step. When one of the buttons is cl
 
 ### Hints and Guidelines
 
-+ As stated before, JS/ES6 is preffered. However, jQuery provides a different way of implementing events. Try completing the challenge twice, once in plain JS and once in jQuery to see the difference
-+ Optional challenge: Perhaps you are familiar with a more modern approach to component communication: State management. If you want to, you can complete the challenge using Redux or something similiar as well
+- As stated before, JS/ES6 is preffered. However, jQuery provides a different way of implementing events. Try completing the challenge twice, once in plain JS and once in jQuery to see the difference
+- Optional challenge: Perhaps you are familiar with a more modern approach to component communication: State management. If you want to, you can complete the challenge using Redux or something similiar as well
 
 ### Resources
 
-+ [jQuery Events reference](https://api.jquery.com/category/events/)
-+ [More specifically, the jQuery `on()` function](https://api.jquery.com/on/)
+- [jQuery Events reference](https://api.jquery.com/category/events/)
+- [More specifically, the jQuery `on()` function](https://api.jquery.com/on/)
 
 ### Questions
 
-+ What are events and how do they work? What purpose do they serve?
-+ What is event delegation and how does it work in JS vs jQuery?
+- What are events and how do they work? What purpose do they serve?
+- What is event delegation and how does it work in JS vs jQuery?
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'dweiger',
       name: 'Dominikus Weiger'
@@ -177,6 +162,4 @@ Copy the component you built in the previous step. When one of the buttons is cl
     {
       username: 'luke-m',
       name: 'Lukas Müller'
-    },
-  ]}
-/>
+    }]"/>
