@@ -11,9 +11,11 @@ In this challenge you will learn how to create your own repository on GitHub, ho
 ### Resources
 - Git Clients: https://git-scm.com/downloads
 - Pro Git Book: https://git-scm.com/book/en/v2
+- Git Command Line: https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line
 - HTML5 Boilerplate: https://html5boilerplate.com
 - What is Git: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 - What is Boilerplate: https://en.wikipedia.org/wiki/Boilerplate_code
+- Git Flow: https://codeburst.io/trunk-based-development-vs-git-flow-a0212a6cae64
 
 ### Challenge
 #### Create an account on Github
@@ -26,12 +28,37 @@ Login to [GitHub](http://github.com/login) and create a [new repository](https:/
 Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you're lazy :-)
 
 #### Clone Github repository locally
-If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads).
-With your git client, clone the new repository from github with `git clone` to get a local copy.
+For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from github with `git clone` to get a local copy.
+
+#### Add a new file to the empty repository locally
+After cloning your remote repository you need to add files to it. For this exercise we will create the README file for our project.
+
+Go to your code editor, create a new file and write a nice description about your repository. Save your file with the name "README.md" and stage your changes using `git add README.md`.
+
+#### Commit and Push your new file
+At this point your file is created and staged, you need to add a message that explains what you did and commit those changes. For that you use `git commit -m " "`. Where "-m" means message and inside the quotes you should write something that describes what you did (example: you can use `git commit -m "Add README file"`).
+
+Now that your file is commited you need to send it to the project's remote repository so everybody can see your changes. For that you need to use `git push` and that's it!
+You have pushed your first file to your remote repository :-)
+
+#### Create new Branch
+Now we are going to create a new branch to fill our repository with nice code :-D
+
+Go to your command line again and create a new branch using `git branch name-of-the-branch`
+**_Note to self:_** The name of the branch must be meaningfull!
+
+Choose the name you want to your new branch. This will allow you to have a new branch without mixing the content of your master branch. You should *never* work directly in your master branch.
+Then you need to use `git checkout name-of-the-branch` to change to your new branch.
+
+*If you are lazy, you can use `git checkout -b name-of-the-branch` this will create a new branch and checkout at the same time :-P*
 
 #### Get HTML5 Boilerplate
-Download the HTML5 Boilerplate and extract it into your empty local repository.
-Commit and push it into the repository with git.
+Now you're free to start playing with code, so download the HTML5 Boilerplate and extract it into your local repository.
+Commit and push it into the repository.
+
+#### Git clients
+Some (normal :-D) people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads).
+There are a lot of options so feel free to use the one that you enjoy more! :-)
 
 ### Questions
 - What's Git?
@@ -42,6 +69,7 @@ Commit and push it into the repository with git.
 - What does fetch mean?
 - What is a pull request?
 - What's the difference between Git and Github?
+- What's the Git Flow?
 
 <br/>
 
