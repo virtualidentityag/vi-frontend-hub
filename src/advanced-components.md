@@ -1,9 +1,3 @@
----
-name: 06. Advanced Components
----
-
-import Authors from './helpers/Authors';
-
 # Biotope: Advanced Components
 Level: *Labour-saving Ladybug*
 
@@ -48,8 +42,7 @@ Rewrite your Accordion or, if you want a challenge, a useful component using an 
 10. How does a HTTP request work?
 11. How does a file upload work?
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
@@ -57,6 +50,4 @@ Rewrite your Accordion or, if you want a challenge, a useful component using an 
     {
       username: 'jurekbarth',
       name: 'Jurek Barth'
-    }
-  ]}
-/>
+    }]"/>

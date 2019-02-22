@@ -1,10 +1,3 @@
----
-name: 01. Welcome
-route: '/'
----
-
-import Team from './helpers/Team';
-
 # Welcome!
 
 Hello and welcome, fellow Frontend-Dev, at Virtual Identity.
@@ -13,4 +6,4 @@ We, your new colleagues, created this Wiki to give you a guided start during you
 
 We wish you a lot of fun working with us!
 
-<Team />
+<team-component></team-component> 

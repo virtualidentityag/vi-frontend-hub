@@ -1,14 +1,7 @@
----
-name: 07. Testing
----
-
-import Authors from './helpers/Authors';
-import sloth from './assets/sloth.jpg'
-
 # Testing: Basic Unit Testing
 Level: *Subsidiary Sloth*
 
-<img src={sloth} width="100%"/>
+![sloth.jpg](./assets/sloth.jpg)
 
 ## Preparation
 - Read about TDD and learn the difference between Jest, Mocha and Chai. When you feel ready set up Jest (look up links in the resources).
@@ -72,8 +65,7 @@ test('test requirements'), () => {
 2. Why do we use TDD? And do you think it's a good idea?
 3. What is Mocha, Chai and Jest and what are these three libraries doing?
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
@@ -81,6 +73,4 @@ test('test requirements'), () => {
     {
       username: 'jurekbarth',
       name: 'Jurek Barth'
-    }
-  ]}
-/>
+    }]"/>
