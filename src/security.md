@@ -1,9 +1,3 @@
----
-name: 08. Security
----
-
-import Authors from './helpers/Authors';
-
 # Security
 Level: *Hidden Hippopotamus*
 
