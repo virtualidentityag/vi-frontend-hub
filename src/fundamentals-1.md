@@ -39,15 +39,15 @@ Go to your code editor, create a new file and write a nice description about you
 At this point your file is created and staged, you need to add a message that explains what you did and commit those changes. For that you use `git commit -m " "`. Where "-m" means message and inside the quotes you should write something that describes what you did (example: you can use `git commit -m "Add README file"`).
 
 Now that your file is commited you need to send it to the project's remote repository so everybody can see your changes. For that you need to use `git push` and that's it!
-You have pushed your first file to your remote repository :-)
+You have pushed your first file to your remote repository 😄
 
 #### Create new Branch
-Now we are going to create a new branch to fill our repository with nice code :-D
+Now we are going to create a new branch to fill our repository with nice code 😆
 
 Go to your command line again and create a new branch using `git branch name-of-the-branch`
-**_Note to self:_** The name of the branch must be meaningfull!
+**_>_** The name of the branch must be meaningful!
 
-Choose the name you want to your new branch. This will allow you to have a new branch without mixing the content of your master branch. You should *never* work directly in your master branch.
+Choose the name you want for your new branch. This will allow you to have a new branch without mixing the content of your master branch. You should *never* work directly in your master branch.
 Then you need to use `git checkout name-of-the-branch` to change to your new branch.
 
 *If you are lazy, you can use `git checkout -b name-of-the-branch` this will create a new branch and checkout at the same time :-P*
@@ -57,8 +57,8 @@ Now you're free to start playing with code, so download the HTML5 Boilerplate an
 Commit and push it into the repository.
 
 #### Git clients
-Some (normal :-D) people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads).
-There are a lot of options so feel free to use the one that you enjoy more! :-)
+Some (normal 😄) people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
+There are a lot of options so feel free to use the one that you enjoy more! 🙂
 
 ### Questions
 - What's Git?
