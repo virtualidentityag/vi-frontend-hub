@@ -299,3 +299,7 @@ Create the document list component with SVG sprites. Based on the document typ a
       name: 'Stefanie Neubert'
     },]"/>
 
+
+---------------------------------------
+
+_**Please take a moment to find something you can improve in this chapter.**_

@@ -163,3 +163,7 @@ Copy the component you built in the previous step. When one of the buttons is cl
       username: 'luke-m',
       name: 'Lukas Müller'
     }]"/>
+
+---------------------------------------
+
+_**You found something missing? Why not add it to this chapter?**_

@@ -343,6 +343,16 @@ Usually images and vector graphics are provided by designers so not everyone nee
 - Sketch
 - Adobe CC
 
+## The Boy Scout Rule
+
+The Boy Scouts of America have a simple rule (and I'm sure this also applies to the the Girl Scouts of America):
+
+> Leave the campground cleaner than you found it.
+
+So if you happen to stumble across some instructions you find hard to understand or see some misleading texts littering around in here please be so kind as to power up your editor, make your adjustments, file a pull request and help make this page a better one. The next frontend developer to come along after you will definitely appreciate your contribution. 
+
+__So please remember this simple rule and leave this page better than you found it.__
+
 <authors-component v-bind:authors="[
     {
       username: 'koepferd',

@@ -60,3 +60,7 @@ Rewrite your Accordion or, if you want a challenge, a useful component using an 
       username: 'jurekbarth',
       name: 'Jurek Barth'
     }]"/>
+
+---------------------------------------
+
+_**A penny for your thoughts. Share what you learned with everyone following you on this journey.**_

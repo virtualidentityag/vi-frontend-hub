@@ -44,3 +44,7 @@ Pair programming helps to fokus and solve problems efficiently
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
     }]"/>
+
+---------------------------------------
+
+_**Boy Scout Rule. Remember? ;-)**_
