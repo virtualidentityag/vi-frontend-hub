@@ -50,7 +50,7 @@ Go to your command line again and create a new branch using `git branch name-of-
 Choose the name you want for your new branch. This will allow you to have a new branch without mixing the content of your master branch. You should *never* work directly in your master branch.
 Then you need to use `git checkout name-of-the-branch` to change to your new branch.
 
-*If you are lazy, you can use `git checkout -b name-of-the-branch` this will create a new branch and checkout at the same time :-P*
+*If you are lazy, you can use `git checkout -b name-of-the-branch` this will create a new branch and checkout at the same time 🤪*
 
 #### Get HTML5 Boilerplate
 Now you're free to start playing with code, so download the HTML5 Boilerplate and extract it into your local repository.
