@@ -95,3 +95,7 @@ Learn about XSS by playing the [XSS Game](https://xss-game.appspot.com)
       username: 'jurekbarth',
       name: 'Jurek Barth'
     }]"/>
+
+---------------------------------------
+
+_**Please remember the Boy Scout Rule and leave this page better than you found it.**_
