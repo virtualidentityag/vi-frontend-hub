@@ -353,6 +353,8 @@ So if you happen to stumble across some instructions you find hard to understand
 
 __So please remember this simple rule and leave this page better than you found it.__
 
+_Oh... by the way, this also applies to the code in our projects. If you come across some code smell take a little time and clean it up. It doesn't require you to make everything perfect at once - just improve the code a bit every time you come along. Thanks a lot :)_
+
 <authors-component v-bind:authors="[
     {
       username: 'koepferd',
