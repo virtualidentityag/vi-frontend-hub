@@ -59,7 +59,7 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 ### Resources
 - When to use which semantic HTML5 element: [HTML5 Element Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 - Why is CSS Grid a big deal and why should we care: [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid/)
-- Download all screens for this level: [biotope-onboaring-fundamentals-1-screens.zip](/assets/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip)
+- Download all screens for this level: [biotope-onboaring-fundamentals-1-screens.zip](/assets/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip ':ignore')
 
 ### Challenge
 
@@ -133,7 +133,7 @@ Fix the reported validation errors in your HTML code.
 
 | All 320px                                                                                                     | Stage                                                          | Breadcrumb                                                               |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|
-| ![layout-320.png](../assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png ':size=autox600') | ![stage.png](./assets/fundamentals-1/screens/module-stage.png) | ![breadcrumb.png](./assets/fundamentals-1/screens/module-breadcrumb.png) |
+| ![layout-320.png](./assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png ':size=autox600') | ![stage.png](./assets/fundamentals-1/screens/module-stage.png) | ![breadcrumb.png](./assets/fundamentals-1/screens/module-breadcrumb.png) |
 
 
 | Section                                                                             | Form                                                                          | Contact Teaser                                                                 | Teasers                                                                             |
