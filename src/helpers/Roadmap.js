@@ -1,5 +1,4 @@
 import styled from 'https://unpkg.com/vue-styled-components@1.4.4/dist/vue-styled-components.es.js';
-import { team } from './fullTeam.js';
 
 const StyledItem = styled.div`
   & {
@@ -52,9 +51,6 @@ const StyledItem = styled.div`
 
 
 Vue.component('roadmap-component', {
-  data: () => ({
-    team
-  }),
   components: {
     'styled-item': StyledItem
   },
