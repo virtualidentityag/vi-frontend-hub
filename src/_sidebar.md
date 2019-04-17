@@ -1,4 +1,5 @@
 - [__Welcome__](welcome.md)
+- [__Roadmap & Goals__](roadmap-goals.md)
 - [__Getting started__](getting-started.md)
 - __Chapters__
   1. [Fundamentals I (HTML & CSS)](fundamentals-1.md)
