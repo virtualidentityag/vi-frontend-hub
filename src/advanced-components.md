@@ -3,19 +3,17 @@ Level: *Labour-saving Ladybug*
 
 ## Prerequisites
 - A suitable working component with some kind of state and more than one element in it e.g. an accordion.
-- Write testable Code → functional Code / Code without side effects
 - Confidence in writing Code
 
 ## Subject Areas
 1. **Typescript**: Rewrite your components in typescript. Write Interfaces where needed and think about edgecases. Don't care about IE11! Make it as awesome and future proof as possible.
-2. **Testing**: Write unit-tests with mocha and chai to make sure your component is still working as expected. You can of course always test yourself.
-3. **Data handling**: We start with TDD, write a test and then the actual code
+2. **Data handling**:
     - Filter array
     - Find in array
     - Sort array
     - Map array
     - Reduce
-4. **APIs**: Handle API Calls over HTTP
+3. **APIs**: Handle API Calls over HTTP
     - Fetch data from a real API
 
 ## Resources
@@ -26,30 +24,23 @@ http://www.typescriptlang.org/play/
 
 https://medium.com/infancyit/a-better-javascript-with-map-filter-reduce-b554f5bc3be3
 
-https://mochajs.org/
-http://www.chaijs.com/
-https://www.youtube.com/watch?v=0GypdsJulKE
-
 
 ## Challenge
-Rewrite your Accordion or, if you want a challenge, a useful component using an [open API](https://github.com/toddmotto/public-apis) Otherwise use our API we wrote for you: [https://api.dev-fe-onboarding.virtual-identity.com](https://api.dev-fe-onboarding.virtual-identity.com). You need to tackle the above mentioned *subject areas*, so typescript is a must, as are tests, data handling and an API.
+Rewrite your Accordion or, if you want a challenge, a useful component using an [open API](https://github.com/toddmotto/public-apis) Otherwise use our API we wrote for you: [https://api.dev-fe-onboarding.virtual-identity.com](https://api.dev-fe-onboarding.virtual-identity.com). You need to tackle the above mentioned *subject areas*, so typescript is a must, as are data handling and an API.
 
 
 ## Questions
 1. Why are we using TS?
-2. Whats the difference between unit and integration tests?
-3. Why do we use TDD? And do you think it's a good idea?
-4. What is Mocha and Chai and what are these two libraries doing?
-5. Immutable vs. Mutable?
-6. When should i use a mutable data structure?
-7. Can you write your own filter functions using reduce?
-8. How do you use a spread operator and what is it good for?
-9. What is a HTTP status code?
-10. Do we have alternatives to REST?
-11. What is REST? What describes it best?
-12. Do we have alternatives to HTTP1.1
-13. How does a HTTP request work?
-14. How does a file upload work?
+2. Immutable vs. Mutable?
+3. When should i use a mutable data structure?
+4. Can you write your own filter functions using reduce?
+5. How do you use a spread operator and what is it good for?
+6. What is a HTTP status code?
+7. Do we have alternatives to REST?
+8. What is REST? What describes it best?
+9. Do we have alternatives to HTTP1.1
+10. How does a HTTP request work?
+11. How does a file upload work?
 
 <authors-component v-bind:authors="[
     {
@@ -60,3 +51,7 @@ Rewrite your Accordion or, if you want a challenge, a useful component using an 
       username: 'jurekbarth',
       name: 'Jurek Barth'
     }]"/>
+
+---------------------------------------
+
+_**A penny for your thoughts. Share what you learned with everyone following you on this journey.**_

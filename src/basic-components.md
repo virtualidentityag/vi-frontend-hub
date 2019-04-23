@@ -84,3 +84,7 @@ Add an accordion component. Get things working and then try to improve.
       username: 'jurekbarth',
       name: 'Jurek Barth'
     }]"/>
+
+---------------------------------------
+
+_**What helped you to master the challenges in this chapter? Please let us know and update this chapter.**_
