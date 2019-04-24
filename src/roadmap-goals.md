@@ -67,6 +67,7 @@ Biotope is the VI default Frontend Ecosystem, which is implemented in every proj
 __Challenges__
 - Biotope playground
 - Build a simple component
+- Introduction to Biotope element
 - Paths
 - Biotope Resource Loader
 - Build an accordion
