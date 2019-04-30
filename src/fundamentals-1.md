@@ -233,12 +233,6 @@ Note the screens provided below. Spot the differences in the different screen si
 Set the viewport meta tag.
 
 #### Screens
-import all480 from './assets/fundamentals-1/screens/all-480.png'
-import all600 from './assets/fundamentals-1/screens/all-600.png'
-import all768 from './assets/fundamentals-1/screens/all-768.png'
-import all1024 from './assets/fundamentals-1/screens/all-1024.png'
-import all1600 from './assets/fundamentals-1/screens/all-1600.png'
-
 
 | 320px                                                                         | 480px                                                                         | 600px                                                                         |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
