@@ -26,7 +26,7 @@ https://medium.com/infancyit/a-better-javascript-with-map-filter-reduce-b554f5bc
 
 
 ## Challenge
-Rewrite your Accordion or, if you want a challenge, a useful component using an [open API](https://github.com/toddmotto/public-apis) Otherwise use our API we wrote for you: [https://api.dev-fe-onboarding.virtual-identity.com](https://api.dev-fe-onboarding.virtual-identity.com). You need to tackle the above mentioned *subject areas*, so typescript is a must, as are data handling and an API.
+Rewrite your Accordion or, if you want a challenge, a useful component using an [open API](https://github.com/toddmotto/public-apis). You need to tackle the above mentioned *subject areas*, so typescript is a must, as are data handling and an API.
 
 
 ## Questions
