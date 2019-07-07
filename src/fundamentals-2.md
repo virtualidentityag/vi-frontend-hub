@@ -123,6 +123,21 @@ Add the following functionality to the component, that you built in the section 
 - What are common ways to debug code in the web development environment?
 - What's the best way to make great animations?
 
+<questions-component>
+  <question-component>What is jQuery and what are its benefits?</question-component>
+  <answer-component></answer-component>
+  <question-component>Why should you try to use plain JS whenever possible?</question-component>
+  <answer-component></answer-component>
+  <question-component>What is ES6? How is different from 'plain' JS?</question-component>
+  <answer-component></answer-component>
+  <question-component>ES6 can be used in every browser. True of false?</question-component>
+  <answer-component></answer-component>
+  <question-component>What are common ways to debug code in the web development environment?</question-component>
+  <answer-component></answer-component>
+  <question-component>What's the best way to make great animations?</question-component>
+  <answer-component></answer-component>
+</questions-component>
+
 ---
 
 ## Events

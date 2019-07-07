@@ -50,26 +50,43 @@ Go to your command line again and create a new branch using `git branch name-of-
 Choose the name you want for your new branch. This will allow you to have a new branch without mixing the content of your master branch. You should *never* work directly in your master branch.
 Then you need to use `git checkout name-of-the-branch` to change to your new branch.
 
-*If you are lazy, you can use `git checkout -b name-of-the-branch` this will create a new branch and checkout at the same time 🤪*
+> If you are lazy, you can use `git checkout -b name-of-the-branch` this will create a new branch and checkout at the same time 🤪
 
 #### Get HTML5 Boilerplate
 Now you're free to start playing with code, so download the HTML5 Boilerplate and extract it into your local repository.
 Commit and push it into the repository.
 
 #### Git clients
-Some (normal 😄) people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
+Some people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
 There are a lot of options so feel free to use the one that you enjoy more! 🙂
 
-### Questions
-- What's Git?
-- What is a repository?
-- What is a branch?
-- What is a commit?
-- What does push mean?
-- What does fetch mean?
-- What is a pull request?
-- What's the difference between Git and Github?
-- What's the Git Flow?
+### Questions to answer this chapter
+<questions-component>
+  <question-component>What's Git?</question-component>
+  <answer-component>Git is a versioning software which allows developers to manage different versions of their code. It is like a time machine, which allows you to go back in time, amd merge different timelines together.</answer-component>
+  <question-component>What is a repository?</question-component>
+  <answer-component>A repository is an instance of a git project, which is typically hosted on a git server somewhere in the web. In it, it keeps track of all versions of all files.</answer-component>
+  <question-component>What is a branch?</question-component>
+  <answer-component>A branch ist a copy of the whole project. By changing the files in one branch, you do not change the files in another branch of the same project.</answer-component>
+  <question-component>What is a commit?</question-component>
+  <answer-component>A commit is a marker in time, to mark the current state of your files. Its basically like a checkpoint, you can go back to anytime.</answer-component>
+  <question-component>What is a remote?</question-component>
+  <answer-component>A remote is a pointer to a repository in your git project. The default remote is named origin. You can add extra remotes by calling <code>git remote add [name] [url]</code></answer-component>
+  <question-component>What does <code>git clone</code> do?</question-component>
+  <answer-component>This command copies the repository to your computer. It automatically sets the remote 'origin' to your source repository</answer-component>
+  <question-component>What does <code>git pull</code> do?</question-component>
+  <answer-component>Git pull will get the newest version of the current branch from the repository.</answer-component>
+  <question-component>What does <code>git add</code> do?</question-component>
+  <answer-component>This command adds files to a commit BEFORE commiting. It basically tells git: These files are ready to commit.</answer-component>
+  <question-component>What does <code>git status</code> do?</question-component>
+  <answer-component>Git status will show the current status of your work. It will display changed files, and show if these files are already added or not.</answer-component>
+  <question-component>What does <code>git push</code> do?</question-component>
+  <answer-component>Git push will send all the commits on the current branch, which are not yet in the repository</answer-component>
+  <question-component>What's the difference between Git and Github?</question-component>
+  <answer-component>Git is the tool, Github is the platform. On github you can host repositories.</answer-component>
+  <question-component>What's the Git Flow?</question-component>
+  <answer-component>Git Flow is an example process, how one can use git. It serves blueprints on how to name branches and how to handle them.</answer-component>
+</questions-component>
 
 <br/>
 
