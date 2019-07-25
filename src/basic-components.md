@@ -10,7 +10,7 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 
 ### Hints and Guidelines
 
-- A component always consists of CSS and HTMl (JS is optional)
+- A component always consists of CSS and HTML (JS is optional)
 - Each component lives in it's own folder
 - HTML and CSS are located in `index.js`
 - Styles are located in `style.scss`
@@ -19,8 +19,8 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 - Components can use other components, but they never overwrite their styles
 
 ## Challenge
-### 1. Biotope playground
-Fork the biotope playground on Github and start exploring. Your mentor will help you get going. Try to figure out how Biotope works. Have a look at our documentation.
+### 1. Explore Biotope Element
+Install Biotope Element in a local project using npm and start exploring. Your mentor will help you get going. Try to figure out how Biotope works. Have a look at our [documentation](https://element.biotope.sh/).
 
 ### 2. Add a simple component
 Add a simple component like a `title-component` or a `headline-component`
