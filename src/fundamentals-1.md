@@ -70,6 +70,7 @@ There are a lot of options so feel free to use the one that you enjoy more! 🙂
 - What is a pull request?
 - What's the difference between Git and Github?
 - What's the Git Flow?
+- What is the .gitignore and its purpose?
 
 <br/>
 
