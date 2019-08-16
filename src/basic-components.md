@@ -79,10 +79,6 @@ Add an accordion component. Get things working and then try to improve.
     {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
-    },
-    {
-      username: 'jurekbarth',
-      name: 'Jurek Barth'
     }]"/>
 
 ---------------------------------------

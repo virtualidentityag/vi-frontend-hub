@@ -1,9 +1,5 @@
 export const team = [
   {
-    username: 'adrianfella',
-    name: 'Adrian Fella'
-  },
-  {
     username: 'akrappe',
     name: 'Ann-Kristin Krappe'
   },
@@ -20,10 +16,6 @@ export const team = [
     name: 'Dominikus Weiger'
   },
   {
-    username: 'jurekbarth',
-    name: 'Jurek Barth'
-  },
-  {
     username: 'luke-m',
     name: 'Lukas Müller'
   },
@@ -34,9 +26,5 @@ export const team = [
   {
     username: 'rhafner',
     name: 'Ralf Hafner'
-  },
-  {
-    username: 'stefanieneubert',
-    name: 'Stefanie Neubert'
   },
 ];

@@ -69,8 +69,4 @@ test('test requirements'), () => {
     {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
-    },
-    {
-      username: 'jurekbarth',
-      name: 'Jurek Barth'
-    }]"/>
+    },]"/>

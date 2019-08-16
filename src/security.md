@@ -86,8 +86,8 @@ Learn about XSS by playing the [XSS Game](https://xss-game.appspot.com)
 
 <authors-component v-bind:authors="[
     {
-      username: 'jurekbarth',
-      name: 'Jurek Barth'
+      username: 'dweiger',
+      name: 'Dominikus Weiger'
     }]"/>
 
 ---------------------------------------

@@ -46,11 +46,7 @@ Rewrite your Accordion or, if you want a challenge, a useful component using an 
     {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
-    },
-    {
-      username: 'jurekbarth',
-      name: 'Jurek Barth'
-    }]"/>
+    },]"/>
 
 ---------------------------------------
 
