@@ -208,6 +208,58 @@ Fix the reported validation errors in your HTML code.
 - What is CSS box-model?
 - What is CSS flex-box? When do you use it?
 
+<questions-component>
+  <question-component>What are semantic elements in HTML5? Name at least 5</question-component>
+  <answer-component>Each element in HTML has a special usecase you use it for. In HTML version 5 there were multiple semantic elements added which replace workarounds the web came up with. Some examples could be:
+    - nav
+    - header
+    - footer
+    - video
+    - main
+    - aside
+  </answer-component>
+  <question-component>When do you use which semantic element?</question-component>
+  <answer-component></answer-component>
+  <question-component>Why is the correct hierarchy of headlines important?</question-component>
+  <answer-component></answer-component>
+  <question-component>Should you use multiple h1 headlines in one HTML document?</question-component>
+  <answer-component></answer-component>
+  <question-component>What are pseudo elements? What is their purpose?</question-component>
+  <answer-component></answer-component>
+  <question-component>How do you include webfonts?</question-component>
+  <answer-component></answer-component>
+  <question-component>Which webfont formats could be used? Why are there different formats?</question-component>
+  <answer-component></answer-component>
+  <question-component>How can you provide different font weights and different font styles for a webfont?</question-component>
+  <answer-component></answer-component>
+  <question-component>How are CSS stylesheets embedded?</question-component>
+  <answer-component></answer-component>
+  <question-component>What is the purpose of normalize.css?</question-component>
+  <answer-component></answer-component>
+  <question-component>What's the effect of specifity of CSS selectors?</question-component>
+  <answer-component></answer-component>
+  <question-component>What has to be considered when declaring CSS selectors?</question-component>
+  <answer-component></answer-component>
+  <question-component>What does `!important` do and why shouldn't you use it?</question-component>
+  <answer-component></answer-component>
+  <question-component>What are vendor-prefixes and which ones do exist?</question-component>
+  <answer-component></answer-component>
+  <question-component>What are shorthand properties? Name at least 3?</question-component>
+  <answer-component></answer-component>
+  <question-component>When do you use img tags and when CSS background images?</question-component>
+  <answer-component></answer-component>
+  <question-component>What are the different position properties and what's their effect on surrounding elements?</question-component>
+  <answer-component></answer-component>
+  <question-component>What is z-index and what's its effect?</question-component>
+  <answer-component></answer-component>
+  <question-component>How can you place two block elements side by side?</question-component>
+  <answer-component></answer-component>
+  <question-component>What is CSS box-model?</question-component>
+  <answer-component></answer-component>
+  <question-component>What is CSS flex-box? When do you use it?</question-component>
+  <answer-component></answer-component>
+</questions-component>
+
 <br/>
 
 ---------------------------------------
