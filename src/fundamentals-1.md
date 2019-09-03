@@ -384,10 +384,6 @@ Create the document list component with SVG sprites. Based on the document typ a
     {
       username: 'clemensf',
       name: 'Clemens Fiedler'
-    },
-    {
-      username: 'stefanieneubert',
-      name: 'Stefanie Neubert'
     },]"/>
 
 

@@ -361,10 +361,6 @@ _Oh... by the way, this also applies to the code in our projects. If you come ac
       name: 'Deborah Köpfer'
     },
     {
-      username: 'adrianfella',
-      name: 'Adrian Fella'
-    },
-    {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
     }]"/>
