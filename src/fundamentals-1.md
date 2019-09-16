@@ -28,7 +28,7 @@ Login to [GitHub](http://github.com/login) and create a [new repository](https:/
 Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you're lazy :-)
 
 #### Clone Github repository locally
-For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from github with `git clone yourGithubURL` to get a local copy.
+For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from github with `git clone <your github URL>` to get a local copy.
 
 #### Add a new file to the empty repository locally
 After cloning your remote repository you need to add files to it. For this exercise we will create the README file for our project.
@@ -96,8 +96,8 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 First create an html page based on the HTML5 Boilerplate and segment it with semantic elements.
 Then add basic CSS styling for these areas (they yellow boxes) to match the layout shown in the screen graphics.
 
-For the beginning you can set fixed heights to Elements so they match the screen graphics.
-Other page content like headings, images, texts will be created later and is not yet part of this challenge.
+For the beginning you can set fixed heights to the elements so they match the screen graphics.
+Other page content like headings, images, texts will be created later and are not yet part of this challenge.
 
 #### Screens
 
