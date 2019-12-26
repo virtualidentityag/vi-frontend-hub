@@ -97,7 +97,8 @@ jobs:
         TOKEN: ${{secrets.MY_SUPER_SECRET_STORED_KEY}}
 ```
 
-If this section stimulated your curiosity and you want to find out more, click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action)
+If this section stimulated your curiosity and you want to find out more, click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action)<br>
+Still don't know how this .yml works ? click [here](https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes)
 
 <authors-component v-bind:authors="[
     {
