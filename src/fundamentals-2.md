@@ -11,7 +11,8 @@ After you built a static page in the last chapter and learned about layout, cont
 ## Preparation
 
 In this section, you will get to know a package manager (NPM) and a taskrunner (gulp) and how to use them in our project workflow. You will be using a micro frontend framework, that was specifically designed for this task.
-We won't go into much detail about most of these topics, but if you want to read up on them, we put together a dandy list of links in the resources at the end of this section.
+We won't go into much detail about most of these topics, but if you want to read up on them, we put together a dandy list of links in the resources at the end of this section. 
+*Note: the command lines in this abstract are all for Bash and perhaps need some adjustments for Shell / PowerShell.*
 
 ### Step 1: Install Node.js and NPM
 
@@ -19,7 +20,7 @@ Node.js is a way to run javascript code on your machine, without the need for a 
 Node.js comes with NPM, its very own package manager. This tool is used by the majority of web developers to install packages, libraries and other tools. It's pretty much your bread and butter and it is very much obligatory that you learn how to use it. The first step is to download and install it.
 > For windows we recomment [nvm](https://github.com/creationix/nvm) for installing it.
 If you are not on windows, just install it from [the Node.js homepage](https://nodejs.org/en/).
-To ensure the installation worked correctly, type the following command into your command line:  `node -v && npm -v`
+To ensure the installation worked correctly, type the following command into your command line:  `node -v && npm -v` (for PowerShell `(node -v) -and (npm -v)`)
 If you don't get any errors, everything worked out as planned. Congrats!
 
 ### Step 2: Fork the framework
@@ -83,7 +84,7 @@ Build a so called 'call to action', consisting of a image, text and button. The 
 
 - What is BEM and what are its benefits?
 - What is a typical use case for a modifier?
-- What are the benefits of SASS compared to plan CSS?
+- What are the benefits of SASS compared to plain CSS?
 - Can you use unmodified SASS code in web browsers?
 - What is a mixin?
 
