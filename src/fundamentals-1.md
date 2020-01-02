@@ -371,9 +371,21 @@ Create the document list component with SVG sprites. Based on the document typ a
 ![documentlist.png](./assets/fundamentals-1/screens/module-documentlist.png)
 
 ### Questions
-- What is SVG?
-- What are SVG sprites and how do you use them?
-- What are the advantages of SVG sprites compared to icon fonts and pixel graphics?
+<questions-component>
+  <question-component>What is SVG and what are its advantages over pixelgraphics?</question-component>
+  <answer-component>
+    SVG is an image format, which is iamge and code in one. The single elements of the image are described by vectors. The advantage is that a vector image is scalable without loosing quality.
+  </answer-component>
+  <question-component>What are SVG sprites and how do you use them?</question-component>
+  <answer-component>
+    An SVG Sprite is a collection of SVG images all together in on SVG. After adding them/loading them into a page, you select the portion of the sheet to display in other places on the page.
+  </answer-component>
+  <question-component>What are the advantages of SVG sprites compared to icon fonts and pixel graphics?</question-component>
+  <answer-component>
+    In iconfonts, individual parts of the icon cannot be colored individually. In addition the developer often has to use pseudoelements instead of "real" dom.
+    Pixel graphics are the most static icon formats. You cannot change anything about it but the size.
+  </answer-component>
+</questions-component>
 
 
 <authors-component v-bind:authors="[
