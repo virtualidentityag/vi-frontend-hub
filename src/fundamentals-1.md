@@ -94,7 +94,7 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 
 #### Bring your body in shape - from header to footer:
 First create an html page based on the HTML5 Boilerplate and segment it with semantic elements.
-Then add basic CSS styling for these areas (they yellow boxes) to match the layout shown in the screen graphics.
+Then add basic CSS styling for these areas (the yellow boxes) to match the layout shown in the screen graphics.
 
 For the beginning you can set fixed heights to the elements so they match the screen graphics.
 Other page content like headings, images, texts will be created later and are not yet part of this challenge.
