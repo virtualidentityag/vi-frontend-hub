@@ -186,28 +186,6 @@ Fix the reported validation errors in your HTML code.
 | ![section.png](./assets/fundamentals-1/screens/module-section.png ':size=autox600') | ![form.png](./assets/fundamentals-1/screens/module-form.png ':size=autox600') | ![contact.png](./assets/fundamentals-1/screens/module-contact.png ':size=150') | ![teasers.png](./assets/fundamentals-1/screens/module-teasers.png ':size=autox600') |
 
 ### Questions
-- What are semantic elements in HTML5?
-- When do you use which semantic element?
-- Why is the correct hierarchy of headlines important?
-- Should you use multiple h1 headlines in one HTML document?
-- How do you include webfonts?
-- Which webfont formats could be used? Why are there different formats?
-- How can you provide different font weights and different font styles for a webfont?
-- How are CSS stylesheets embedded?
-- What is the purpose of normalize.css?
-- What's the effect of specifity of CSS selectors?
-- What has to be considered when declaring CSS selectors?
-- What does !important do and why shouldn't you use it?
-- What are vendor-prefixes and which ones do exist?
-- What are pseudo elements? What is their purpose?
-- What are shorthand properties? Which ones do exist?
-- When do you use img tags and when CSS background images?
-- What are the different position properties and what's their effect on surrounding elements?
-- What is z-index and what's the effect?
-- How can you place two block elements side by side?
-- What is CSS box-model?
-- What is CSS flex-box? When do you use it?
-
 <questions-component>
   <question-component>What are semantic elements in HTML5? Name at least 5</question-component>
   <answer-component>Each element in HTML has a special usecase you use it for. In HTML version 5 there were multiple semantic elements added which replace workarounds the web came up with. Some examples could be:
@@ -219,45 +197,45 @@ Fix the reported validation errors in your HTML code.
     - aside
   </answer-component>
   <question-component>When do you use which semantic element?</question-component>
-  <answer-component></answer-component>
+  <answer-component>The used tag should whenever possible describe the semantic meaning of the websites element</answer-component>
   <question-component>Why is the correct hierarchy of headlines important?</question-component>
-  <answer-component></answer-component>
+  <answer-component>The correct semantic hierarchy of headlines is for human readers and automated search engines important to easily determine the information structure.</answer-component>
   <question-component>Should you use multiple h1 headlines in one HTML document?</question-component>
-  <answer-component></answer-component>
+  <answer-component>No! This will destroy the page structure and give you a penality to search rankings,</answer-component>
   <question-component>What are pseudo elements? What is their purpose?</question-component>
-  <answer-component></answer-component>
+  <answer-component>A CSS pseudo-element is used to style specified parts of an element. For example, it can be used to: Style the first letter, or line, of an element. Insert content before, or after, the content of an element.</answer-component>
   <question-component>How do you include webfonts?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Local font files via @font-face or google font via Link-tag in html or @import in scss</answer-component>
   <question-component>Which webfont formats could be used? Why are there different formats?</question-component>
-  <answer-component></answer-component>
+  <answer-component>TTF, OTF, WOFF, EOT. Different Browsers support different webfoot formats.</answer-component>
   <question-component>How can you provide different font weights and different font styles for a webfont?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Import correct font styles (every font weight you need on the page) with a @font-face, wehre you can then set the fonts weight. Change the displayed font styles with css in the rule with the font-weight attribute</answer-component>
   <question-component>How are CSS stylesheets embedded?</question-component>
-  <answer-component></answer-component>
+  <answer-component>With a link tag in the html head</answer-component>
   <question-component>What is the purpose of normalize.css?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Consistently reset of default browser styles</answer-component>
   <question-component>What's the effect of specifity of CSS selectors?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Select specific DOM-elements with the matching css selector. Care: The more specific the selector, the harder to overwrite with an other style.</answer-component>
   <question-component>What has to be considered when declaring CSS selectors?</question-component>
-  <answer-component></answer-component>
-  <question-component>What does `!important` do and why shouldn't you use it?</question-component>
-  <answer-component></answer-component>
+  <answer-component>How specific needs the selector to be? Is the selector unnecessarily long or is the selector to general and you unintentionally overwrite other elements</answer-component>
+  <question-component>What does <code>!important</code> do and why shouldn't you use it?</question-component>
+  <answer-component><code>!important</code> is an anti-pattern to overwrite every other style and get the highest priority on the element. Maintaining a site with !important styles causes headache because it destroys the expected behavior and can’t be overwritten.</answer-component>
   <question-component>What are vendor-prefixes and which ones do exist?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Vendor-prefixes allow to use new features in different browsers: -webkit-, -ms-, - moz-, -o-</answer-component>
   <question-component>What are shorthand properties? Name at least 3?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Bring together different but relative css attributes into one. Often used attributes: padding, margin, box-shadow, background</answer-component>
   <question-component>When do you use img tags and when CSS background images?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Image tag will be part of the DOM and therefore part of the semantic of the page. Use background images if the image is not part of the actual content and if you need background specific styles as background-size cover or contain.</answer-component>
   <question-component>What are the different position properties and what's their effect on surrounding elements?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Static and relative positioned elements are included in the site context and affect the surrounding elements. Whereas absolute and fix positioned elements are taken out of the normal page flow and don’t affect the surrounding elements.</answer-component>
   <question-component>What is z-index and what's its effect?</question-component>
-  <answer-component></answer-component>
+  <answer-component>The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.</answer-component>
   <question-component>How can you place two block elements side by side?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Use inline-block or layouting methods like flexbox or css grid.</answer-component>
   <question-component>What is CSS box-model?</question-component>
-  <answer-component></answer-component>
+  <answer-component>CSS box model describes multiple properties including borders, margin, padding and the content itself, of each DOM-element.</answer-component>
   <question-component>What is CSS flex-box? When do you use it?</question-component>
-  <answer-component></answer-component>
+  <answer-component>Flexbox is a layout mode in css3, that provides for a better arrangement of all of the page elements that behave in a predictable mode.</answer-component>
 </questions-component>
 
 <br/>
@@ -301,9 +279,14 @@ And if you want to really judge a frontend web developer: just take his or her i
 | ![nav.png](./assets/fundamentals-1/screens/nav.png) | ![conav-hoverntact.png](./assets/fundamentals-1/screens/nav-hover.png) |
 
 ### Questions
-- Which semantic element should be used for page navigation?
-- How can you add semantic meaning to any HTML elements?
-- Why should semantic attributes be added to html elements?
+<questions-component>
+  <question-component>Which semantic element should be used for page navigation?</question-component>
+  <answer-component>Nav-tag for the navigation and a ul > li structure with ARIA labels for the menu and the menu items.</answer-component>
+  <question-component>How can you add semantic meaning to any HTML elements?</question-component>
+  <answer-component>If there is no native HTML tag for the semantic meaning of the element you can use the ARIA-role attribute.</answer-component>
+  <question-component>Why should semantic attributes be added to html elements?</question-component>
+  <answer-component>They add essential meaning to your content, which lets web browsers, search engines, screen readers, RSS readers, and ultimately users understand it.</answer-component>
+</questions-component>
 
 ---------------------------------------
 
@@ -341,11 +324,16 @@ Set the viewport meta tag.
 
 
 ### Questions
-- What is responsive design?
-- What are media queries?
-- How can you realize a responsive image?
-- What do you use the viewport meta tag for?
-
+<questions-component>
+  <question-component>What is responsive design?</question-component>
+  <answer-component>The goal of responsive design is to build websites that change the layout based on the actual device and viewport size.</answer-component>
+  <question-component>What are media queries?</question-component>
+  <answer-component>It uses the @media rule to include a block of CSS properties only if a certain condition like the min or max viewport width is true.</answer-component>
+  <question-component>How can you realize a responsive image?</question-component>
+  <answer-component>With the image srcset attribute or the picture HTML-tag</answer-component>
+  <question-component>What do you use the viewport meta tag for?</question-component>
+  <answer-component>The meta viewport element gives the browser instructions on how to control the page's dimensions and scaling.</answer-component>
+</questions-component>
 
 ---------------------------------------
 
