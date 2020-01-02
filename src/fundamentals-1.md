@@ -1,28 +1,21 @@
----
-name: 03. Fundamentals 1 HTML, CSS
----
-
-import Authors from './helpers/Authors';
-
 # Fundamentals I: HTML Semantics, Layout and Styling
 Level: *Busy Blackbird*
 
 You have already learned about our Manifesto, Biotope and have an overview of the first steps of this Roadmap.
 In this Level you will learn how to write mobile first responsive web pages with HTML5 and CSS and how to create and use SVG Icons and Webfonts.
-
-<br/>
-
+  
 ---------------------------------------
-
 ## Preparation
 In this challenge you will learn how to create your own repository on GitHub, how to use Git and how you can use HTML5 Boilerplate for the following challenges.
 
 ### Resources
 - Git Clients: https://git-scm.com/downloads
 - Pro Git Book: https://git-scm.com/book/en/v2
+- Git Command Line: https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line
 - HTML5 Boilerplate: https://html5boilerplate.com
 - What is Git: https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 - What is Boilerplate: https://en.wikipedia.org/wiki/Boilerplate_code
+- Git Flow: https://codeburst.io/trunk-based-development-vs-git-flow-a0212a6cae64
 
 ### Challenge
 #### Create an account on Github
@@ -35,12 +28,37 @@ Login to [GitHub](http://github.com/login) and create a [new repository](https:/
 Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you're lazy :-)
 
 #### Clone Github repository locally
-If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads).
-With your git client, clone the new repository from github with `git clone` to get a local copy.
+For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from github with `git clone` to get a local copy.
+
+#### Add a new file to the empty repository locally
+After cloning your remote repository you need to add files to it. For this exercise we will create the README file for our project.
+
+Go to your code editor, create a new file and write a nice description about your repository. Save your file with the name "README.md" and stage your changes using `git add README.md`.
+
+#### Commit and Push your new file
+At this point your file is created and staged, you need to add a message that explains what you did and commit those changes. For that you use `git commit -m " "`. Where "-m" means message and inside the quotes you should write something that describes what you did (example: you can use `git commit -m "Add README file"`).
+
+Now that your file is commited you need to send it to the project's remote repository so everybody can see your changes. For that you need to use `git push` and that's it!
+You have pushed your first file to your remote repository 😄
+
+#### Create new Branch
+Now we are going to create a new branch to fill our repository with nice code 😆
+
+Go to your command line again and create a new branch using `git branch name-of-the-branch`
+**_>_** The name of the branch must be meaningful!
+
+Choose the name you want for your new branch. This will allow you to have a new branch without mixing the content of your master branch. You should *never* work directly in your master branch.
+Then you need to use `git checkout name-of-the-branch` to change to your new branch.
+
+*If you are lazy, you can use `git checkout -b name-of-the-branch` this will create a new branch and checkout at the same time 🤪*
 
 #### Get HTML5 Boilerplate
-Download the HTML5 Boilerplate and extract it into your empty local repository.
-Commit and push it into the repository with git.
+Now you're free to start playing with code, so download the HTML5 Boilerplate and extract it into your local repository.
+Commit and push it into the repository.
+
+#### Git clients
+Some (normal 😄) people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
+There are a lot of options so feel free to use the one that you enjoy more! 🙂
 
 ### Questions
 - What's Git?
@@ -51,6 +69,8 @@ Commit and push it into the repository with git.
 - What does fetch mean?
 - What is a pull request?
 - What's the difference between Git and Github?
+- What's the Git Flow?
+- What is the .gitignore and its purpose?
 
 <br/>
 
@@ -68,7 +88,7 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 ### Resources
 - When to use which semantic HTML5 element: [HTML5 Element Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
 - Why is CSS Grid a big deal and why should we care: [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid/)
-- Download all screens for this level: [biotope-onboaring-fundamentals-1-screens.zip](/assets/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip)
+- Download all screens for this level: [biotope-onboaring-fundamentals-1-screens.zip](/assets/fundamentals-1/biotope-onboaring-fundamentals-1-screens.zip ':ignore')
 
 ### Challenge
 
@@ -79,21 +99,15 @@ Then add basic CSS styling for these areas to match the layout shown in the scre
 Other page content shown here will be created later and is not yet part of this challenge.
 
 #### Screens
-import layout320 from './assets/fundamentals-1/screens/layout-320.png'
-import layout1600 from './assets/fundamentals-1/screens/layout-1600.png'
+| Mobile 320px                                                                        | Desktop 1600px                                                                        |
+|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| ![layout-320.png](./assets/fundamentals-1/screens/layout-320.png ':size=autox1000') | ![layout-1600.png](./assets/fundamentals-1/screens/layout-1600.png ':size=autox1000') |
 
-| Mobile 320px | Desktop 1600px |
-| ------------ | -------------- |
-| <a href={layout320}><img src={layout320} height="1000" /></a> | <a href={layout1600}><img src={layout1600} height="1000" /></a> |
 
-import header from './assets/fundamentals-1/screens/header.png'
-import footer from './assets/fundamentals-1/screens/footer.png'
+| Header                                                    | Footer                                                    |
+|-----------------------------------------------------------|-----------------------------------------------------------|
+| ![header.png](./assets/fundamentals-1/screens/header.png) | ![footer.png](./assets/fundamentals-1/screens/footer.png) |
 
-| Header | Footer |
-| ------------ | -------------- |
-|<a href={header}><img src={header}/></a> | <a href={footer}><img src={footer}/></a> |
-
-<br/>
 
 ---------------------------------------
 
@@ -145,22 +159,15 @@ To ensure your HTML code is valid and can be correctly interpreted by browsers, 
 Fix the reported validation errors in your HTML code.
 
 #### Screens
-import all320 from './assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png'
-import moduleStage from './assets/fundamentals-1/screens/module-stage.png'
-import moduleBreadcrumb from './assets/fundamentals-1/screens/module-breadcrumb.png'
 
-| All 320px | Stage and Breadcrumb |
-| ------- | -------------------- |
-| <a href={all320}><img src={all320} height="600"/></a> | Stage:<br/><a href={moduleStage}><img src={moduleStage}/></a><br/><br/>Breadcrumb:<br/><a href={moduleBreadcrumb}><img src={moduleBreadcrumb}/></a> |
+| All 320px                                                                                                     | Stage                                                          | Breadcrumb                                                               |
+|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|
+| ![layout-320.png](./assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png ':size=autox600') | ![stage.png](./assets/fundamentals-1/screens/module-stage.png) | ![breadcrumb.png](./assets/fundamentals-1/screens/module-breadcrumb.png) |
 
-import moduleSection from './assets/fundamentals-1/screens/module-section.png'
-import moduleForm from './assets/fundamentals-1/screens/module-form.png'
-import moduleContact from './assets/fundamentals-1/screens/module-contact.png'
-import moduleTeasers from './assets/fundamentals-1/screens/module-teasers.png'
 
-| Section | Form  | Contact Teaser | Teasers     |
-| ------- | ----- | -------------- | ----------- |
-| <a href={moduleSection}><img src={moduleSection} height="600"/></a> | <a href={moduleForm}><img src={moduleForm} height="400"/></a> | <a href={moduleContact}><img src={moduleContact} width="150"/></a> | <a href={moduleTeasers}><img src={moduleTeasers} height="600"/></a> |
+| Section                                                                             | Form                                                                          | Contact Teaser                                                                 | Teasers                                                                             |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| ![section.png](./assets/fundamentals-1/screens/module-section.png ':size=autox600') | ![form.png](./assets/fundamentals-1/screens/module-form.png ':size=autox600') | ![contact.png](./assets/fundamentals-1/screens/module-contact.png ':size=150') | ![teasers.png](./assets/fundamentals-1/screens/module-teasers.png ':size=autox600') |
 
 ### Questions
 - What are semantic elements in HTML5?
@@ -220,19 +227,15 @@ If you recognize that something on your page does not work or is not accessible 
 And if you want to really judge a frontend web developer: just take his or her iPhone and tripple-click the home button ;-)
 
 ### Screens
-import nav from './assets/fundamentals-1/screens/nav.png'
-import navHover from './assets/fundamentals-1/screens/nav-hover.png'
 
-| Navigation Links | Navigation Links, hover |
-| ---------------- | ----------------------- |
-| <a href={nav}><img src={nav}/></a> | <a href={navHover}><img src={navHover}/></a> |
+| Navigation Links                                    | Navigation Links, hover                                                |
+|-----------------------------------------------------|------------------------------------------------------------------------|
+| ![nav.png](./assets/fundamentals-1/screens/nav.png) | ![conav-hoverntact.png](./assets/fundamentals-1/screens/nav-hover.png) |
 
 ### Questions
 - Which semantic element should be used for page navigation?
 - How can you add semantic meaning to any HTML elements?
 - Why should semantic attributes be added to html elements?
-
-<br/>
 
 ---------------------------------------
 
@@ -259,20 +262,14 @@ Note the screens provided below. Spot the differences in the different screen si
 Set the viewport meta tag.
 
 #### Screens
-import all480 from './assets/fundamentals-1/screens/all-480.png'
-import all600 from './assets/fundamentals-1/screens/all-600.png'
-import all768 from './assets/fundamentals-1/screens/all-768.png'
-import all1024 from './assets/fundamentals-1/screens/all-1024.png'
-import all1600 from './assets/fundamentals-1/screens/all-1600.png'
 
+| 320px                                                                         | 480px                                                                         | 600px                                                                         |
+|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| ![all-320.png](./assets/fundamentals-1/screens/all-320.png ':size=autox1000') | ![all-480.png](./assets/fundamentals-1/screens/all-480.png ':size=autox1000') | ![all-600.png](./assets/fundamentals-1/screens/all-600.png ':size=autox1000') |
 
-| 320px       | 480px       | 600px       |
-| ----------- | ----------- | ----------- |
-| <a href={all320}><img src={all320} height="1000"/></a> | <a href={all480}><img src={all480} height="1000"/></a> | <a href={all600}><img src={all600} height="1000"/></a> |
-
-| 768px       | 1024px      | 1600px      |
-| ----------- | ----------- | ----------- |
-| <a href={all768}><img src={all768} height="1000"/></a> | <a href={all1024}><img src={all1024} height="1000"/></a> | <a href={all1600}><img src={all1600} width="250"/></a> |
+| 768px                                                                         | 1024px                                                                          | 1600px                                                                          |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| ![all-768.png](./assets/fundamentals-1/screens/all-768.png ':size=autox1000') | ![all-1024.png](./assets/fundamentals-1/screens/all-1024.png ':size=autox1000') | ![all-1600.png](./assets/fundamentals-1/screens/all-1600.png ':size=autox1000') |
 
 
 ### Questions
@@ -281,7 +278,6 @@ import all1600 from './assets/fundamentals-1/screens/all-1600.png'
 - How can you realize a responsive image?
 - What do you use the viewport meta tag for?
 
-<br/>
 
 ---------------------------------------
 
@@ -304,9 +300,7 @@ In this task you will learn what SVG sprites are and how to use them.
 Create the document list component with SVG sprites. Based on the document typ another SVG Icon is displayed.
 
 #### Screens
-import documentlist from './assets/fundamentals-1/screens/module-documentlist.png'
-
-<div><a href={documentlist}><img src={documentlist}/></a></div>
+![documentlist.png](./assets/fundamentals-1/screens/module-documentlist.png)
 
 ### Questions
 - What is SVG?
@@ -314,8 +308,7 @@ import documentlist from './assets/fundamentals-1/screens/module-documentlist.pn
 - What are the advantages of SVG sprites compared to icon fonts and pixel graphics?
 
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'akrappe',
       name: 'Ann-Kristin Krappe'
@@ -323,11 +316,9 @@ import documentlist from './assets/fundamentals-1/screens/module-documentlist.pn
     {
       username: 'clemensf',
       name: 'Clemens Fiedler'
-    },
-    {
-      username: 'stefanieneubert',
-      name: 'Stefanie Neubert'
-    },
-  ]}
-/>
+    },]"/>
 
+
+---------------------------------------
+
+_**Please take a moment to find something you can improve in this chapter.**_

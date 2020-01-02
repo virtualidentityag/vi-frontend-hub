@@ -1,11 +1,3 @@
----
-name: 07. Biotope Ecosystem
----
-
-import Authors from './helpers/Authors';
-
-import biotope from './assets/biotope.jpg'
-
 # Biotope Ecosystem
 Level: *Wise Walrus*
 
@@ -20,12 +12,12 @@ https://help.github.com/articles/finding-open-source-projects-on-github/
 https://help.github.com/articles/about-labels/
 
 ## Chart
-<img src={biotope} />
+![biotope](./assets/biotope.jpg)
 
 ## Biotope Meeting Notes
 https://github.com/biotope/meeting-notes
 
-## Questions:
+## Questions
 01. How to open source?
     - Which labels are Open Source standards?
     - What is a fork?
@@ -33,12 +25,13 @@ https://github.com/biotope/meeting-notes
 
 02. What is the role of:
     - biotope-boilerplate
-    - biotope-core
     - biotope-build
+    - biotope-element
+    - biotope-configuration
     - biotope-generator
     - biotope-resource-loader
-    - biotope-headless-adapter
-    - biotope-components repository
+    - biotope-cli
+    - gists
 
 
 **Pair programming**:
@@ -46,11 +39,12 @@ To practice the new open source knowledge we are going to solve a biotope issue 
 Pair programming helps to fokus and solve problems efficiently
 
 
-<Authors
-  authors={[
+<authors-component v-bind:authors="[
     {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
-    }
-  ]}
-/>
+    }]"/>
+
+---------------------------------------
+
+_**Boy Scout Rule. Remember? ;-)**_
