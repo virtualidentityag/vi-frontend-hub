@@ -59,11 +59,14 @@ test('test requirements'), () => {
 };
 ```
 
-
-## Questions
-1. Whats the difference between unit and integration tests?
-2. Why do we use TDD? And do you think it's a good idea?
-3. What is Mocha, Chai and Jest and what are these three libraries doing?
+<questions-component>
+  <question-component>What's the difference between unit and integration tests?</question-component>
+  <answer-component>Unit tests, as they say only test the smallest units of a programm. Normaly one function at a time. Integration tests on the other hand, test that the building blocks of an programm work together as they should.</answer-component>
+  <question-component>Why do we use TDD? And do you think it's a good idea?</question-component>
+  <answer-component>TDD ensures that we only code what we need to and the we do not break anything after it already worked. It also helps us to create clean code.</answer-component>
+  <question-component>What are Mocha, Chai and Jest and what are these three libraries doing?</question-component>
+  <answer-component>Mocha is a test runner with a very basic set of test functions. Chai adds to mocha a lot of test functions to test specific cases. Jest is a all in one solutions which does not need a lot of configuration.</answer-component>
+</questions-component>
 
 <authors-component v-bind:authors="[
     {
