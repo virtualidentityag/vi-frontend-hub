@@ -20,7 +20,7 @@ Node.js is a way to run javascript code on your machine, without the need for a 
 Node.js comes with NPM, its very own package manager. This tool is used by the majority of web developers to install packages, libraries and other tools. It's pretty much your bread and butter and it is very much obligatory that you learn how to use it. The first step is to download and install it.
 > For windows we recomment [nvm](https://github.com/creationix/nvm) for installing it.
 If you are not on windows, just install it from [the Node.js homepage](https://nodejs.org/en/).
-To ensure the installation worked correctly, type the following command into your command line:  `node -v && npm -v` (for PowerShell `(node -v) -and (nqm -v)`)
+To ensure the installation worked correctly, type the following command into your command line:  `node -v && npm -v` (for PowerShell `(node -v) -and (npm -v)`)
 If you don't get any errors, everything worked out as planned. Congrats!
 
 ### Step 2: Fork the framework
