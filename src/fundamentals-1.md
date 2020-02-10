@@ -22,7 +22,7 @@ In this challenge you will learn how to create your own repository on GitHub, ho
 If you do not have an account at GitHub.com already, go to: https://github.com/join and create an account.
 Please note that GitHub is a professional social network and choose an appropriate username.
 
-And since you will soon be added to the <i>virtualidenityag</i> organization on GitHub, it's required that you enable two-factor authentication as a extra layer of protection. To do it, got to *settings > security*. There are three methods you can choose from (Authenticator app, Security keys and SMS). Just pick the one you're more comfortable with.
+And since you will soon be added to the <i>virtualidenityag</i> organization on GitHub, it's required that you enable two-factor authentication as a extra layer of protection. To do so, go to *settings > security*. There are three methods you can choose from (Authenticator app, Security keys and SMS). Just pick the one you're most comfortable with.
 
 #### Create a repository on GitHub
 Login to [GitHub](http://github.com/login) and create a [new repository](https://github.com/new).
