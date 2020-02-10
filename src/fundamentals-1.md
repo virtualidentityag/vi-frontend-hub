@@ -18,18 +18,18 @@ In this challenge you will learn how to create your own repository on GitHub, ho
 - Git Flow: https://codeburst.io/trunk-based-development-vs-git-flow-a0212a6cae64
 
 ### Challenge
-#### Create an account on Github
-If you do not have an account at Github.com already, go to: https://github.com/join and create an account.
-Please note that Github is a professional social network and choose an appropriate username.
+#### Create an account on GitHub
+If you do not have an account at GitHub.com already, go to: https://github.com/join and create an account.
+Please note that GitHub is a professional social network and choose an appropriate username.
 
 And since you will soon be added to the <i>virtualidenityag</i> organization on GitHub, it's required that you enable two-factor authentication as a extra layer of protection. To do it, got to *settings > security*. There are three methods you can choose from (Authenticator app, Security keys and SMS). Just pick the one you're more comfortable with.
 
-#### Create a repository on Github
+#### Create a repository on GitHub
 Login to [GitHub](http://github.com/login) and create a [new repository](https://github.com/new).
 
 Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you're lazy :-)
 
-#### Clone Github repository locally
+#### Clone GitHub repository locally
 For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from github with `git clone <your github URL>` to get a local copy.
 
 #### Add a new file to the empty repository locally
@@ -59,11 +59,11 @@ Now you're free to start playing with code, so download the HTML5 Boilerplate an
 Commit and push it into the repository.
 
 #### Git clients
-Some (normal 😄) people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
+Some (normal 😄) people prefer to use graphical tools to use git, so if you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
 There are a lot of options so feel free to use the one that you enjoy more! 🙂
 
 #### SSH
-On a final note, it's importat that you know about the SSH protocol. It allows you to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without using your username and password everytime. You can get all the information about how to create and setup your SSH keys at the [GitHub support page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
+On a final note, it's important that you know about the SSH protocol. It allows you to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without using your username and password everytime. You can get all the information about how to create and setup your SSH keys at the [GitHub support page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
 
 ### Questions
 - What's Git?
@@ -73,7 +73,7 @@ On a final note, it's importat that you know about the SSH protocol. It allows y
 - What does push mean?
 - What does fetch mean?
 - What is a pull request?
-- What's the difference between Git and Github?
+- What's the difference between Git and GitHub?
 - What's the Git Flow?
 - What is the .gitignore and its purpose?
 
