@@ -40,7 +40,13 @@ Rewrite your Accordion or, if you want a challenge, a useful component using an 
   <question-component>Can you write your own filter functions using reduce?</question-component>
   <answer-component>Yes!</answer-component>
   <question-component>How do you use a spread operator and what is it good for?</question-component>
-  <answer-component>A spread operator will return all the bare values of the spread itrable object. It is written as three dots: <code>...</code></answer-component>
+<answer-component>The spread operator allows an expression to be expanded in places where multiple elements/variables/arguments are expected. It is written as three dots: <code>...</code>. A simple example: 
+<code>
+const num1 = { a: '1', b: '2', c: '3'};
+const num2 = { ...num1, d: '4', e: '5'};
+// num2 = { a: '1', b: '2', c: '3', d: '4', e: '5' }
+</code>
+</answer-component>
   <question-component>How does a HTTP request work?</question-component>
   <answer-component>A HTTP request has separate steps: Ask for a resource/post Data somewhere. Initiate a handshake with the target server. The server responds to the handshake. Now the actual request is being transfered. The target processes this data and responds to the request.</answer-component>
   <question-component>What is a HTTP status code? Name three common codes and their meaning.</question-component>
