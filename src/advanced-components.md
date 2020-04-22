@@ -34,7 +34,7 @@ Rewrite your Accordion or, if you want a challenge, a useful component using an 
   <question-component>Why are we using TS?</question-component>
   <answer-component>Typescript enhances Javascript and gives it typesafety. This helps us to readicate a lot of potential bugs already on build time as well as keeping a clear pictures of the data strctures being used in the project.</answer-component>
   <question-component>What is immutable vs. mutable?</question-component>
-  <answer-component>An immutable value will never be changed. It is constant. Rather then changing the value we create a new values that represents the new state of the old one. A mutable value on the other hand can be change at will, which you will never know the current value of it.</answer-component>
+  <answer-component>An immutable value will never be changed. It is constant. Rather then changing the value we create a new value that represents the new state of the old one. A mutable value on the other hand can be change at will, which you will never know the current value of it.</answer-component>
   <question-component>When should you use a mutable data structure?</question-component>
   <answer-component>Never! Well, only if there I defenitely no way to solve your problem in an immutable way</answer-component>
   <question-component>Can you write your own filter functions using reduce?</question-component>
