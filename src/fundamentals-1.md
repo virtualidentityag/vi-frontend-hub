@@ -3,7 +3,7 @@ Level: *Busy Blackbird*
 
 You have already learned about our Manifesto, Biotope and have an overview of the first steps of this Roadmap.
 In this Level you will learn how to write mobile first responsive web pages with HTML5 and CSS and how to create and use SVG Icons and Webfonts.
-  
+
 ---------------------------------------
 ## Preparation
 In this challenge you will learn how to create your own repository on GitHub, how to use Git and how you can use HTML5 Boilerplate for the following challenges.
@@ -18,16 +18,18 @@ In this challenge you will learn how to create your own repository on GitHub, ho
 - Git Flow: https://codeburst.io/trunk-based-development-vs-git-flow-a0212a6cae64
 
 ### Challenge
-#### Create an account on Github
-If you do not have an account at Github.com already, go to: https://github.com/join and create an account.
-Please note that Github is a professional social network and choose an appropriate username.
+#### Create an account on GitHub
+If you do not have an account at GitHub.com already, go to: https://github.com/join and create an account.
+Please note that GitHub is a professional social network and choose an appropriate username.
 
-#### Create a repository on Github
+And since you will soon be added to the <i>virtualidenityag</i> organization on GitHub, it's required that you enable two-factor authentication as a extra layer of protection. To do so, go to *settings > security*. There are three methods you can choose from (Authenticator app, Security keys and SMS). Just pick the one you're most comfortable with.
+
+#### Create a repository on GitHub
 Login to [GitHub](http://github.com/login) and create a [new repository](https://github.com/new).
 
 Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you're lazy :-)
 
-#### Clone Github repository locally
+#### Clone GitHub repository locally
 For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from github with `git clone <your github URL>` to get a local copy.
 
 #### Add a new file to the empty repository locally
@@ -58,7 +60,11 @@ Commit and push it into the repository.
 
 #### Git clients
 Some people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
-There are a lot of options so feel free to use the one that you enjoy more! 🙂
+There are a lot of options so feel free to use the one that you enjoy more! 
+
+#### SSH
+On a final note, it's important that you know about the SSH protocol. It allows you to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without using your username and password everytime. You can get all the information about how to create and setup your SSH keys at the [GitHub support page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
+
 
 ### Questions to answer this chapter
 <questions-component>
@@ -87,7 +93,6 @@ There are a lot of options so feel free to use the one that you enjoy more! 🙂
   <question-component>What's the Git Flow?</question-component>
   <answer-component>Git Flow is an example process, how one can use git. It serves blueprints on how to name branches and how to handle them.</answer-component>
 </questions-component>
-
 <br/>
 
 ---------------------------------------
@@ -117,7 +122,7 @@ Other page content like headings, images, texts will be created later and are no
 
 #### Screens
 
----- you cant click on the images to zoom-in (applies for all images) ----  
+---- you can't click on the images to zoom-in (applies for all images) ----
 
 | Mobile 320px                                                                        | Desktop 1600px                                                                        |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
