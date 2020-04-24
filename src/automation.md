@@ -72,7 +72,7 @@ jobs:
 Nice job so far! Let's get into more detail on what you just did:
 
 ```jobs``` is the base component of a workflow run <br />
-```build``` is the indentifier to where you're attaching this job<br />
+```build``` is the identifier of where you're attaching this job<br />
 ```name``` is the name of the job which will be displayed in your Actions tab when the workflow is running<br />
 ```steps``` the sequence of operations that make up a job<br />
 ```uses: actions/checkout@v1``` reference a community action called checkout and it's content's repository<br />
