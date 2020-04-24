@@ -33,6 +33,7 @@ The first part of your journey is to get an overview of the topics, that come ac
 
 ### Fundamentals I
 In that first part of the fundamentals of frontend development, you will be shown how to handle the mobile first approach, html semantics and css. Besides that you will learn about multiple frontend related topics such as WAI-Aria or SVG Icons. Don't be afraid, if you do not have any experience with them. We'll figure it out together.
+
 __Challenges__
 - Page Layout
 - Content Structure and Webfonts
