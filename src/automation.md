@@ -34,7 +34,7 @@ Actions come in two flavours: **"Container Actions and JavaScript Actions"**
 
 #### Container Actions
 
-Docker Container actions have the advantage to be packaged with the GitHub Actions code and can only execute in the **GitHub-Hosted Linux Environment**. The development of this type of action requires a previous understanding of how Docker works. For more information click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-docker-container-action)
+Docker Container actions have the advantage of being packaged with the GitHub Actions code and can only execute in the **GitHub-Hosted Linux Environment**. The development of this type of action requires a previous understanding of how Docker works. For more information click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-docker-container-action)
 
 #### JavaScript Actions
 
