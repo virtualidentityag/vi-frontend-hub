@@ -4,7 +4,7 @@ Level: *Skilled Gorilla*
 ## Preparation
 
 Developer and operations are no longer the exclusive responsibility of DevOps engineers alone. Today, Frontend Developers help to reshape the form and the way process occurs within their projects improving collaboration between Frontends, Backends, and Stakeholders themselves. <br/>
-They also help improve deployment rates, bug detection, and flawless feature delivery. Originally, the idea of testing, building, authenticating and deploying softwares can be done in a more smoothly and automatically way by implementing principles of **Continuous Integration and Continuous Delivery** (CI/CD, for short).<br/>
+Testing, building, authenticating and deploying software can be done in a more smooth and automatic way by implementing principles of **Continuous Integration and Continuous Delivery** (CI/CD, for short).<br/>
 Automation tools like Jenkins or Github Actions make it simpler to bootstrap the workflow you want and to seamlessly integrate on your project of preference. Since 2019, **VI** uses Github to maintain its codebase, so this topic will be more focused on how to understand and create your own Github Actions.
 
 ## Introducing GitHub Actions
