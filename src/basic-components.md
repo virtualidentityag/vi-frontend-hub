@@ -12,7 +12,7 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 
 - A component always consists of CSS and HTML (JS is optional)
 - Each component lives in it's own folder
-- HTML and CSS are located in `index.js`
+- HTML and JS are located in `index.js`
 - Styles are located in `style.scss`
 - Each CSS class starts with a unique component name
 - The HTML of each component only uses it's own prefixed classes
