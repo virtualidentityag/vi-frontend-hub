@@ -85,8 +85,10 @@ Some examples to illustrate what we could actually implement
 </table>
 
 ## Roadmap
+This roadmap gives you an overview and orientation of all the topics and challenges that you are going to pass the next few weeks at VI.
 
-__Every new frontend developer is able to implement components in our Biotope projects, in compliance with our VI standards__
+### Goal
+> Every new frontend developer is able to implement components in our Biotope projects, in compliance with our VI standards!
 
 Which includes
 - knowing our common standards and
@@ -94,229 +96,126 @@ Which includes
 
 This roadmap and all tasks should be kept aligned to the overall Biotope Vision and updated accordingly.
 
-Please keep in mind. This roadmap will allways be work in progress. We want this to be a living document.
-Duration
+Please keep in mind: This roadmap will allways be work in progress. We want this to be a living document.
+Duration: more or less 13 weeks (= 3 months)
 
-more or less 13 weeks (= 3 months)
+During your onboarding you should always keep the following topics in mind and try to implement them in your work:
 
-<table cellPadding="5" style="tableLayout: 'fixed'; border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'; borderCollapse: 'collapse'">
-  <tbody>
-    <tr>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'">Preparation</th>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'">
-        <br/>
-      </th>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'"  colSpan="1">Ongoing</th>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <br/>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <ul>
-          <li>assign a mentor and buddies for each lesson</li>
-          <li>roadmap checklist for mentor</li>
-        </ul>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <br/>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <ul>
-          <li>Organize accounts</li>
-          <li>Adjust roadmap to individual skills</li>
-        </ul>
-        <p>
-          <em>Goal: you can start right away and know where you are heading without being over- or underchallenged</em>
-        </p>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <ul>
-          <li>
-            <strong>Manifesto Introduction</strong>
-          </li>
-        </ul>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <br/>
-      </td>
-    </tr>
-    <tr>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'">Fundamentals</th>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'">Use Github for this level</th>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'"  colSpan="1">
-        <br/>
-      </th>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <br/>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <ul>
-          <li>JIRA Introduction</li>
-          <li>Git Introduction</li>
-        </ul>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  rowspan="10">
-        <ul>
-          <li>Values of the Manifesto</li>
-          <li>Best Practices</li>
-          <li>Browser Support</li>
-          <li>Clean Code</li>
-          <li>QA</li>
-          <li>JIRA Workflow</li>
-          <li>Agile</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <p>
-          <span>Layout, Content Styling and Semantics</span>
-        </p>
-        <p>
-          <em>Goal: you know how to create a modern static web page</em>
-        </p>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <ul>
-          <li>
-           HTML + CSS</li>
-          <li>Webfonts, SVG Icons</li>
-          <li>Responsive Design, Mobile First</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <br/>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <ul>
-          <li>Component based architecture</li>
-          <li>node.js</li>
-          <li>npm + yarn</li>
-          <li> gulp</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <p>
-          <span>Components</span>
-        </p>
-        <p>
-          <em>Goal: you understand why we value components as building blocks of our frontends and you are able to implement interactive and animated components that can communicate with each other</em>
-        </p>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <ul>
-          <li>
-            JS + ES
-          </li>
-          <li>jQuery &amp; Web Component</li>
-          <li>
-            BEM + SASS
-          </li>
-          <li>DOM</li>
-          <li>Interaction</li>
-          <li>Animation</li>
-          <li>Component communication</li>
-          <li>Debugging</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'">Biotope</th>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'">Use Bitbucket for this level</th>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <br/>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <ul>
-          <li>Getting Started Jam:<ul>
-              <li>Biotope Vision</li>
-              <li>Biotope Setup</li>
-              <li>Biotope Boilerplate</li>
-            </ul>
-          </li>
-          <li>Advanced Git (Merge, Rebase, PR, Fast Forward, Cherry Picking)</li>
-          <li>State</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <p>Biotope Basic Components</p>
-        <p>
-          <em>Goal: you understand how Biotope helps us to build scalable and reusable frontend frameworks and you are able to implement a simple component in a typical Biotope project</em>
-        </p>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <ul>
-          <li>Biotope Component</li>
-          <li>Handlebars + JSON</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <br/>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
-        <ul>
-          <li>Testing: What, why &amp; how</li>
-          <li>TDD</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <p>Biotope Advanced Components</p>
-        <p>
-          <em>Goal: you know advanced coding techniques to build more complex components and how to improve code quality through types and unit tests</em>
-        </p>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <ul>
-          <li>TS</li>
-          <li>API, REST, Ajax, Fetch</li>
-          <li>Unit Tests</li>
-          <li>Security</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <p>Biotope Ecosystem</p>
-        <p>
-          <em>Goal: you gain insights into how the Biotope building blocks cooperate with each other to create a Biotope and learn how to improve them.</em>
-        </p>
-      </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'">
-        <ul>
-          <li>Build Config</li>
-          <li>Ecosystem</li>
-          <li>Jenkins / CI</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th style="backgroundColor: '#F0F0F0'; tableLayout: 'fixed'; border: 1 + 'px'; borderColor: '#333'; borderStyle: 'solid'; borderCollapse: 'collapse'; textAlign: 'left'"  colSpan="3">Goal</th>
-    </tr>
-    <tr>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="3">
-        <p>Every new frontend developer is able to implement components in our Biotope projects</p>
-        <p>Next step: Decide which direction you want to go on with learning new skills.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+- Values of the Manifesto
+- Best Practices
+- Browser Support
+- Clean Code
+- QA
+- JIRA Workflow
+- Agile
+
+<roadmap-component>
+
+### Preparation
+
+You will be assigned a mentor and also buddies for each lesson.
+You have to organize your accounts and tools and afterwards this roadmap will be adjust to your individual skills. Beside that you will also get an introduction to the development manifesto.
+
+*Goal:you can start right away and know where you are heading without being over- or underchallenged*
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Getting started
+
+The first part of your journey is to get an overview of the topics, that come across during your first weeks. You will learn which vision the onboarding process follows and get in touch with our toolset.
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Fundamentals I
+In that first part of the fundamentals of frontend development, you will be shown how to handle the mobile first approach, html semantics and css. Besides that you will learn about multiple frontend related topics such as WAI-Aria or SVG Icons. Don't be afraid, if you do not have any experience with them. We'll figure it out together.
+
+__Challenges__
+- Page Layout
+- Content Structure and Webfonts
+- Navigation
+- Responsive Webdesign
+- SVG Icons
+
+*Goal: you know how to create a modern static web page*
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Fundamentals II
+The second part of fundamentals of frontend development will take you into the css preprocessor world with SASS / SCSS and also bring you to frontend developers magic potion: JavaScript
+
+__Challenges__
+- Get your Workstation ready with node/npm and the taskrunner gulp
+- SCSS 
+- JavaScript (ES6 and beyond)
+- Events
+
+*Goal: you understand why we value components as building blocks of our frontends and you are able to implement interactive and animated components that can communicate with each other*
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Biotope - Basic Component
+Biotope is the VI default Frontend Ecosystem, which is implemented in every project of VI. You will be shown how biotope works and which architecture relies to it and how you can build simple components.
+
+__Challenges__
+- Biotope playground
+- Build a simple component
+- Introduction to Biotope element
+- Paths
+- Biotope Resource Loader
+- Build an accordion
+
+*Goal: you understand how Biotope helps us to build scalable and reusable frontend frameworks and you are able to implement a simple component in a typical Biotope project*
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Biotope - Advanced Component
+You will dive deeper into the functionalities of webcomponents and also typescript ( a typebased javascript language ). You will also be shown how to handle APIs correctly with the fetch API.
+
+__Challenges__
+- Extend the accordion with typescript and API requests
+
+*Goal: you know advanced coding techniques to build more complex components and how to improve code quality through types and unit tests*
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Testing
+In that topic you'll dive deeper into unit testing via different tools and learn more about the TDD approach.
+
+__Challenges__
+- Build some unit tests with jest, mocha and chai
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Biotope Ecosystem
+You will be shown the whole ecosystem of biotope and afterwards you be able to work on biotope and bring it to the next levels.
+
+__Challenges__
+- Resolve an issue
+
+*Goal: you gain insights into how the Biotope building blocks cooperate with each other to create a Biotope and learn how to improve them.*
+
+</roadmap-component>
+
+<roadmap-component>
+
+### Next Level Dev
+Decide which direction you want to go on with learning new skills.
+
+</roadmap-component>
 
 ## Tools
 
