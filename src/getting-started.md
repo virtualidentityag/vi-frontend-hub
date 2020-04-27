@@ -116,7 +116,7 @@ During your onboarding you should always keep the following topics in mind and t
 You will be assigned a mentor and also buddies for each lesson.
 You have to organize your accounts and tools and afterwards this roadmap will be adjust to your individual skills. Beside that you will also get an introduction to the development manifesto.
 
-*Goal:you can start right away and know where you are heading without being over- or underchallenged*
+*Goal: you can start right away and know where you are heading without being over- or underchallenged*
 
 </roadmap-component>
 
