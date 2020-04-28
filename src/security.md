@@ -1,6 +1,8 @@
 # Security
 Level: *Hidden Hippopotamus*
 
+<img src="./assets/hippo_badge.svg" width="30%" height="auto" alt="hidden_hippopotamus">
+
 **The security aspects of your projects are just as important as performance and UX!**
 
 A very good place to start getting an overview is the free and open software security community: The [OWASP Foundation](https://www.owasp.org/).
