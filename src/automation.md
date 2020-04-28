@@ -1,5 +1,7 @@
 # Automation Process
-Level: *Skilled Gorilla*
+Level: *Gorgeous Gorilla*
+
+<img src="./assets/gorilla_badge.svg" width="30%" height="auto" alt="gorgeous_gorilla">
 
 ## Preparation
 
