@@ -2,6 +2,8 @@
 
 Level: <i>Avid Ant</i>
 
+<img src="./assets/ant_badge.svg" width="30%" height="auto" alt="avid_ant">
+
 Hello there and welcome to VI!
 
 <strong>Goal:</strong> The newbie will have a basic understanding of our Manifesto, Biotope and will know the first steps of his Roadmap.
