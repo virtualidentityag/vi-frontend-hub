@@ -3,12 +3,17 @@ Level: *Tremendous Turtle*
 
 <img src="./assets/turtle_badge.svg" width="30%" height="auto" alt="tremendous_turtle">
 
-## Preparation
+You have learned a lot of basics in our daily developer life so far. You should feel comfortable with JS, CSS and HTML and have some experience with NPM, Node and Gulp. Now it is time for you to get to know Biotope!
 
-You have learned a lot of basics in our daily developer life so far. You should feel comfortable with JS, CSS and HTML and have some experience with NPM, Node and Gulp.
+---
+
+## Preparation
 
 You have heard about Biotope. Biotope is a Component Ecosystem we develop in the open here at VI. After this Level you should feel comfortable writing simple components inside Biotope. Don't fear to ask, propose and make changes.
 
+---
+
+## Biotope Element
 
 ### Hints and Guidelines
 
@@ -19,6 +24,16 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 - Each CSS class starts with a unique component name
 - The HTML of each component only uses it's own prefixed classes
 - Components can use other components, but they never overwrite their styles
+
+## Resources
+
+- Web components: https://developer.mozilla.org/en-US/docs/Web/Web_Components
+- Introduction to web components: https://www.webcomponents.org/introduction
+- Building applications with web components: https://www.youtube.com/watch?v=0FstJG9t5v0
+- Building progressive web apps with web components: https://www.youtube.com/watch?v=we3lLo-UFtk
+- Gulp: https://css-tricks.com/gulp-for-beginners/
+- SCSS: https://css-tricks.com/using-sass-control-scope-bem-naming/
+- Babel: https://www.pubnub.com/blog/2015-07-30-introduction-to-babel-javascript-compiler-for-es6/
 
 ## Challenge
 ### 1. Explore Biotope Element
@@ -50,16 +65,6 @@ Add the [resource loader](https://github.com/biotope/biotope-resource-loader) to
 
 ### 6. Build an accordion
 Add an accordion component. Get things working and then try to improve.
-
-## Resources
-
-- Web components: https://developer.mozilla.org/en-US/docs/Web/Web_Components
-- Introduction to web components: https://www.webcomponents.org/introduction
-- Building applications with web components: https://www.youtube.com/watch?v=0FstJG9t5v0
-- Building progressive web apps with web components: https://www.youtube.com/watch?v=we3lLo-UFtk
-- Gulp: https://css-tricks.com/gulp-for-beginners/
-- SCSS: https://css-tricks.com/using-sass-control-scope-bem-naming/
-- Babel: https://www.pubnub.com/blog/2015-07-30-introduction-to-babel-javascript-compiler-for-es6/
 
 ## Questions
 <questions-component>
