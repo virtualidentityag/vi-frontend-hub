@@ -1,6 +1,8 @@
 # Biotope Ecosystem
 Level: *Wise Walrus*
 
+<img src="./assets/walrus_badge.svg" width="30%" height="auto" alt="wise_walrusp">
+
 You now have all the knowledge to build great projects with biotope. The final step will be to improve biotope ongoingly.
 This chapter will help you to get a brief overview of the biotope architecture and all the repositories that play a role in there.
 
