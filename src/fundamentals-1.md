@@ -1,6 +1,8 @@
 # Fundamentals I: HTML Semantics, Layout and Styling
 Level: *Busy Blackbird*
 
+<img src="./assets/blackbird_badge.svg" width="30%" height="auto" alt="busy_blackbird">
+
 You have already learned about our Manifesto, Biotope and have an overview of the first steps of this Roadmap.
 In this Level you will learn how to write mobile first responsive web pages with HTML5 and CSS and how to create and use SVG Icons and Webfonts.
 
