@@ -1,6 +1,8 @@
 # Biotope: Advanced Components
 Level: *Labour-saving Ladybug*
 
+<img src="./assets/ladybug_badge.svg" width="30%" height="auto" alt="labour-saving_ladybug">
+
 ## Prerequisites
 - A suitable working component with some kind of state and more than one element in it e.g. an accordion.
 - Confidence in writing Code
