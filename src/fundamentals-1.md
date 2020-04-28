@@ -19,6 +19,9 @@ In this challenge you will learn how to create your own repository on GitHub, ho
 - What is Boilerplate: https://en.wikipedia.org/wiki/Boilerplate_code
 - Git Flow: https://codeburst.io/trunk-based-development-vs-git-flow-a0212a6cae64
 
+---
+## GitHub
+
 ### Challenge
 #### Create an account on GitHub
 If you do not have an account at GitHub.com already, go to: https://github.com/join and create an account.
@@ -67,8 +70,7 @@ There are a lot of options so feel free to use the one that you enjoy more!
 #### SSH
 On a final note, it's important that you know about the SSH protocol. It allows you to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without using your username and password everytime. You can get all the information about how to create and setup your SSH keys at the [GitHub support page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
 
-
-### Questions to answer this chapter
+### Questions
 <questions-component>
   <question-component>What's Git?</question-component>
   <answer-component>Git is a versioning software which allows developers to manage different versions of their code. It is like a time machine, which allows you to go back in time, amd merge different timelines together.</answer-component>
