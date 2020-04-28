@@ -1,7 +1,7 @@
 # Testing: Basic Unit Testing
 Level: *Subsidiary Sloth*
 
-![sloth.jpg](./assets/sloth.jpg)
+<img src="./assets/sloth_badge.svg" width="30%" height="auto" alt="subsidiary_sloth">
 
 ## Preparation
 - Read about TDD and learn the difference between Jest, Mocha and Chai. When you feel ready set up Jest (look up links in the resources).
