@@ -2,7 +2,7 @@
 
 *Level: Competent Carp*
 
-![carp.png](./assets/carp.jpg)
+![carp_badge-svg.png](./assets/carp_badge-svg.png)
 
 After you built a static page in the last chapter and learned about layout, content styling and semantics, you are now ready to take it a step further. In this chapter, you will learn about component based architecture and how to build components using SASS, BEM and Javascript. This should give you the necessary tools and knowledge to build state-of-the-art biotope components later on, and that's why you're here, right? Right. Let's get into it.
 
