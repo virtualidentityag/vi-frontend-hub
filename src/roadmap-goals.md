@@ -1,13 +1,30 @@
 # Roadmap & Goals
 
-the roadmap gives you an overview and orientation for your first weeks at VI.
-
 ## Goal
 > Every new frontend developer is able to implement components in our Biotope projects, in compliance with our VI standards!
 
+Which includes
+
+- knowing our common standards and
+- having mastered the technical basics
+
 ## Roadmap
 
-The following part is an overview of all the topics and challenges, that you are going to pass the next few weeks.
+This roadmap gives you an overview and orientation of all the topics and challenges that you are going to pass the next few weeks at VI.
+It should be kept aligned to the overall Biotope Vision and updated accordingly. 
+Please keep in mind: It will always be a work in progress. We want this to be a living document!
+
+Duration: more or less 13 weeks (= 3 months)
+
+During your onboarding you should always keep the following topics in mind and try to implement them in your work:
+
+- Values of the Manifesto
+- Best Practices
+- Browser Support
+- Clean Code
+- QA
+- JIRA Workflow
+- Agile
 
 
 <roadmap-component>
