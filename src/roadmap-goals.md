@@ -90,6 +90,16 @@ __Challenges__
 
 </roadmap-component>
 
+### Security
+Security aspects of your projects should be just as important as the appearance or functionality! You will learn about the most critical security risks and most common types of vulnerabilities in Web applications.
+
+__Challenges__
+- Learn about XSS by playing the XSS Game
+
+*Goal: you know the most critical security risks and vulnerabilities in Web applications*
+
+</roadmap-component>
+
 <roadmap-component>
 
 ### Biotope - Advanced Component
