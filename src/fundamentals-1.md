@@ -6,9 +6,11 @@ Level: *Busy Blackbird*
 You have already learned about our Manifesto, Biotope and have an overview of the first steps of this Roadmap.
 In this Level you will learn how to write mobile first responsive web pages with HTML5 and CSS and how to create and use SVG Icons and Webfonts.
 
+> Goal: You know how to create a modern static web page.
+
 ---------------------------------------
 ## Preparation
-In this challenge you will learn how to create your own repository on GitHub, how to use Git and how you can use HTML5 Boilerplate for the following challenges.
+First, you will learn how to create your own repository on GitHub, how to use Git and how you can use HTML5 Boilerplate for the following challenges.
 
 ### Resources
 - Git Clients: https://git-scm.com/downloads
@@ -27,25 +29,25 @@ In this challenge you will learn how to create your own repository on GitHub, ho
 If you do not have an account at GitHub.com already, go to: https://github.com/join and create an account.
 Please note that GitHub is a professional social network and choose an appropriate username.
 
-And since you will soon be added to the <i>virtualidenityag</i> organization on GitHub, it's required that you enable two-factor authentication as a extra layer of protection. To do so, go to *settings > security*. There are three methods you can choose from (Authenticator app, Security keys and SMS). Just pick the one you're most comfortable with.
+And since you will soon be added to the <i>virtualidenityag</i> organization on GitHub, it is required that you enable two-factor authentication as a extra layer of protection. To do so, go to *settings > security*. There are three methods you can choose from (Authenticator app, Security keys or SMS). Just pick the one you are most comfortable with.
 
 #### Create a repository on GitHub
 Login to [GitHub](http://github.com/login) and create a [new repository](https://github.com/new).
 
-Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you're lazy :-)
+Choose a *repository name* for this project. Take a name of your own choice, be creative! - or use this level's name "busy-blackbird-page" if you are lazy :-)
 
 #### Clone GitHub repository locally
-For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from github with `git clone <your github URL>` to get a local copy.
+For this step you need to know more about the command line and how to use it. Open your computer's command line and clone the new repository from gitHub with `git clone <your github URL>` to get a local copy.
 
 #### Add a new file to the empty repository locally
-After cloning your remote repository you need to add files to it. For this exercise we will create the README file for our project.
+After cloning your remote repository, you need to add files to it. For this exercise we will create the README file for our project.
 
 Go to your code editor, create a new file and write a nice description about your repository. Save your file with the name "README.md" and stage your changes using `git add README.md`.
 
 #### Commit and Push your new file
 At this point your file is created and staged, you need to add a message that explains what you did and commit those changes. For that you use `git commit -m " "`. Where "-m" means message and inside the quotes you should write something that describes what you did (example: you can use `git commit -m "Add README file"`).
 
-Now that your file is commited you need to send it to the project's remote repository so everybody can see your changes. For that you need to use `git push` and that's it!
+Now that your file is committed you need to send it to the project's remote repository so everybody can see your changes. For that you need to use `git push` and that's it!
 You have pushed your first file to your remote repository 😄
 
 #### Create new Branch
@@ -68,16 +70,16 @@ Some people prefer to use graphical tools to use git, so If you do not have inst
 There are a lot of options so feel free to use the one that you enjoy more! 
 
 #### SSH
-On a final note, it's important that you know about the SSH protocol. It allows you to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without using your username and password everytime. You can get all the information about how to create and setup your SSH keys at the [GitHub support page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
+On a final note, it's important that you know about the SSH protocol. It allows you to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without using your username and password every time. You can get all the information about how to create and setup your SSH keys at the [GitHub support page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
 
 ### Questions
 <questions-component>
   <question-component>What's Git?</question-component>
-  <answer-component>Git is a versioning software which allows developers to manage different versions of their code. It is like a time machine, which allows you to go back in time, amd merge different timelines together.</answer-component>
+  <answer-component>Git is a versioning software which allows developers to manage different versions of their code. It is like a time machine, which allows you to go back in time and merge different timelines together.</answer-component>
   <question-component>What is a repository?</question-component>
   <answer-component>A repository is an instance of a git project, which is typically hosted on a git server somewhere in the web. In it, it keeps track of all versions of all files.</answer-component>
   <question-component>What is a branch?</question-component>
-  <answer-component>A branch ist a copy of the whole project. By changing the files in one branch, you do not change the files in another branch of the same project.</answer-component>
+  <answer-component>A branch is a copy of the whole project. By changing the files in one branch, you do not change the files in another branch of the same project.</answer-component>
   <question-component>What is a commit?</question-component>
   <answer-component>A commit is a marker in time, to mark the current state of your files. Its basically like a checkpoint, you can go back to anytime.</answer-component>
   <question-component>What is a remote?</question-component>
@@ -87,13 +89,13 @@ On a final note, it's important that you know about the SSH protocol. It allows 
   <question-component>What does <code>git pull</code> do?</question-component>
   <answer-component>Git pull will get the newest version of the current branch from the repository.</answer-component>
   <question-component>What does <code>git add</code> do?</question-component>
-  <answer-component>This command adds files to a commit BEFORE commiting. It basically tells git: These files are ready to commit.</answer-component>
+  <answer-component>This command adds files to a commit BEFORE committing. It basically tells git: These files are ready to commit.</answer-component>
   <question-component>What does <code>git status</code> do?</question-component>
-  <answer-component>Git status will show the current status of your work. It will display changed files, and show if these files are already added or not.</answer-component>
+  <answer-component>Git status will show the current status of your work. It will display changed files and show if these files are already added or not.</answer-component>
   <question-component>What does <code>git push</code> do?</question-component>
   <answer-component>Git push will send all the commits on the current branch, which are not yet in the repository</answer-component>
-  <question-component>What's the difference between Git and Github?</question-component>
-  <answer-component>Git is the tool, Github is the platform. On github you can host repositories.</answer-component>
+  <question-component>What's the difference between Git and GitHub?</question-component>
+  <answer-component>Git is the tool, GitHub is the platform. On gitHub you can host repositories.</answer-component>
   <question-component>What's the Git Flow?</question-component>
   <answer-component>Git Flow is an example process, how one can use git. It serves blueprints on how to name branches and how to handle them.</answer-component>
 </questions-component>
@@ -106,7 +108,7 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 
 ### Hints and Guidelines
 1. Use semantic elements to structure your webpages.
-2. Use CSS Grid to define the layout
+2. Use CSS Grid to define the layout.
 3. Mobile first! Mobile first!
 4. ... but can we just say, the desktop second?!
 
@@ -121,7 +123,7 @@ In this challenge you will learn how to use HTML Semantic elements and how to de
 First create an html page based on the HTML5 Boilerplate and segment it with semantic elements.
 Then add basic CSS styling for these areas (the yellow boxes) to match the layout shown in the screen graphics.
 
-For the beginning you can set fixed heights to the elements so they match the screen graphics.
+For the beginning you can set fixed heights to the elements, so they match the screen graphics.
 Other page content like headings, images, texts will be created later and are not yet part of this challenge.
 
 #### Screens
@@ -205,7 +207,7 @@ Fix the reported validation errors in your HTML code.
 ### Questions
 <questions-component>
   <question-component>What are semantic elements in HTML5? Name at least 5</question-component>
-  <answer-component>Each element in HTML has a special usecase you use it for. In HTML version 5 there were multiple semantic elements added which replace workarounds the web came up with. Some examples could be:
+  <answer-component>Each element in HTML has a special use case you use it for. In HTML version 5 there were multiple semantic elements added which replace workarounds the web came up with. Some examples could be:
     - nav
     - header
     - footer
@@ -218,7 +220,7 @@ Fix the reported validation errors in your HTML code.
   <question-component>Why is the correct hierarchy of headlines important?</question-component>
   <answer-component>The correct semantic hierarchy of headlines is for human readers and automated search engines important to easily determine the information structure.</answer-component>
   <question-component>Should you use multiple h1 headlines in one HTML document?</question-component>
-  <answer-component>No! This will destroy the page structure and give you a penality to search rankings,</answer-component>
+  <answer-component>No! This will destroy the page structure and give you a penalty to search rankings,</answer-component>
   <question-component>What are pseudo elements? What is their purpose?</question-component>
   <answer-component>A CSS pseudo-element is used to style specified parts of an element. For example, it can be used to: Style the first letter, or line, of an element. Insert content before, or after, the content of an element.</answer-component>
   <question-component>How do you include webfonts?</question-component>
@@ -226,13 +228,13 @@ Fix the reported validation errors in your HTML code.
   <question-component>Which webfont formats could be used? Why are there different formats?</question-component>
   <answer-component>TTF, OTF, WOFF, EOT. Different Browsers support different webfoot formats.</answer-component>
   <question-component>How can you provide different font weights and different font styles for a webfont?</question-component>
-  <answer-component>Import correct font styles (every font weight you need on the page) with a @font-face, wehre you can then set the fonts weight. Change the displayed font styles with css in the rule with the font-weight attribute</answer-component>
+  <answer-component>Import correct font styles (every font weight you need on the page) with a @font-face, where you can then set the fonts weight. Change the displayed font styles with css in the rule with the font-weight attribute</answer-component>
   <question-component>How are CSS stylesheets embedded?</question-component>
   <answer-component>With a link tag in the html head</answer-component>
   <question-component>What is the purpose of normalize.css?</question-component>
   <answer-component>Consistently reset of default browser styles</answer-component>
-  <question-component>What's the effect of specifity of CSS selectors?</question-component>
-  <answer-component>Select specific DOM-elements with the matching css selector. Care: The more specific the selector, the harder to overwrite with an other style.</answer-component>
+  <question-component>What's the effect of specificity of CSS selectors?</question-component>
+  <answer-component>Select specific DOM-elements with the matching css selector. Care: The more specific the selector, the harder to overwrite with another style.</answer-component>
   <question-component>What has to be considered when declaring CSS selectors?</question-component>
   <answer-component>How specific needs the selector to be? Is the selector unnecessarily long or is the selector to general and you unintentionally overwrite other elements</answer-component>
   <question-component>What does <code>!important</code> do and why shouldn't you use it?</question-component>
@@ -251,7 +253,7 @@ Fix the reported validation errors in your HTML code.
   <answer-component>Use inline-block or layouting methods like flexbox or css grid.</answer-component>
   <question-component>What is CSS box-model?</question-component>
   <answer-component>CSS box model describes multiple properties including borders, margin, padding and the content itself, of each DOM-element.</answer-component>
-  <question-component>What is CSS flex-box? When do you use it?</question-component>
+  <question-component>What is CSS Flexbox? When do you use it?</question-component>
   <answer-component>Flexbox is a layout mode in css3, that provides for a better arrangement of all of the page elements that behave in a predictable mode.</answer-component>
 </questions-component>
 
@@ -287,7 +289,7 @@ If you don't have an Apple Device or operating system, get NVDA and try the same
 
 If you recognize that something on your page does not work or is not accessible with screen readers, try to improve it and make it accessible.
 
-And if you want to really judge a frontend web developer: just take his or her iPhone and tripple-click the home button ;-)
+And if you want to really judge a frontend web developer: just take his or her iPhone and triple-click the home button ;-)
 
 ### Screens
 
@@ -318,11 +320,11 @@ In this challenge you will learn how to implement a responsive web page.
 - Short introduction to the viewport meta tag: https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 - Responsive design vs. adaptive design: https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
 - Introduction to media queries: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
-- CSS Flex-Box: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ### Challenge
 #### Make your web page responsive
-Note the screens provided below. Spot the differences in the different screen sizes of the page layout. Enhance your page so that it fits the screens. Use flex-box to implement a responsive grid.
+Note the screens provided below. Spot the differences in the different screen sizes of the page layout. Enhance your page so that it fits the screens. Use Flexbox to implement a responsive grid.
 
 - Note the image on the page, which is surrounded by text on the desktop version.
 - Note the teaser, which can have two or three columns.
@@ -358,7 +360,7 @@ Set the viewport meta tag.
 In this task you will learn what SVG sprites are and how to use them.
 
 ### Hints and Guidelines
-1. Use SVG sprites instead of icon fonts
+1. Use SVG sprites instead of icon fonts.
 2. Clean up the SVGs before using them. Remove unnecessary markup that was added by graphic programs.
 3. Create the SVG sprite by hand or use a tool like Icomoon: https://icomoon.io/app/#/select/image
 
@@ -370,7 +372,7 @@ In this task you will learn what SVG sprites are and how to use them.
 
 ### Challenge
 #### Document list
-Create the document list component with SVG sprites. Based on the document typ another SVG Icon is displayed.
+Create the document list component with SVG sprites. Based on the document type another SVG Icon is displayed.
 
 #### Screens
 ![documentlist.png](./assets/fundamentals-1/screens/module-documentlist.png)
@@ -379,7 +381,7 @@ Create the document list component with SVG sprites. Based on the document typ a
 <questions-component>
   <question-component>What is SVG and what are its advantages over pixelgraphics?</question-component>
   <answer-component>
-    SVG is an image format, which is iamge and code in one. The single elements of the image are described by vectors. The advantage is that a vector image is scalable without loosing quality.
+    SVG is an image format, which is image and code in one. The single elements of the image are described by vectors. The advantage is that a vector image is scalable without losing quality.
   </answer-component>
   <question-component>What are SVG sprites and how do you use them?</question-component>
   <answer-component>
@@ -387,7 +389,7 @@ Create the document list component with SVG sprites. Based on the document typ a
   </answer-component>
   <question-component>What are the advantages of SVG sprites compared to icon fonts and pixel graphics?</question-component>
   <answer-component>
-    In iconfonts, individual parts of the icon cannot be colored individually. In addition the developer often has to use pseudoelements instead of "real" dom.
+    In iconfonts, individual parts of the icon cannot be colored individually. In addition, the developer often has to use pseudoelements instead of "real" dom.
     Pixel graphics are the most static icon formats. You cannot change anything about it but the size.
   </answer-component>
 </questions-component>

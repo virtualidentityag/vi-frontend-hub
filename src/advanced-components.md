@@ -3,12 +3,33 @@ Level: *Labour-saving Ladybug*
 
 <img src="./assets/ladybug_badge.svg" width="30%" height="auto" alt="labour-saving_ladybug">
 
-## Prerequisites
-- A suitable working component with some kind of state and more than one element in it e.g. an accordion.
-- Confidence in writing Code
+Two chapters ago you have learned how to build a basic component using Biotope Element. Now it is time to bring that component to the next level!
 
-## Subject Areas
-1. **Typescript**: Rewrite your components in typescript. Write Interfaces where needed and think about edgecases. Don't care about IE11! Make it as awesome and future proof as possible.
+> Goal: You know advanced coding techniques to build more complex components.
+
+---
+
+## Preparation
+In this chapter you will need confidence in writing code and a suitable working component with some kind of state and more than one element in it e.g. your gorgeous accordion from the chapter "Basic Components". 
+You will learn about the perks of TypeScript and how to handle data fetched from an API. If you do not know TypeScript yet start exploring it on the TypeScript playground!
+
+### Resources
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+http://www.typescriptlang.org/play/
+
+https://medium.com/infancyit/a-better-javascript-with-map-filter-reduce-b554f5bc3be3
+
+---
+
+## Building advanced components
+
+### Challenge
+Rewrite your Accordion or, if you want a challenge, a useful component using an [open API](https://github.com/toddmotto/public-apis). You need to tackle the following *subject areas*, so TypeScript is a must, as are data handling and an API.
+
+#### Subject Areas
+1. **Typescript**: Rewrite your components in TypeScript. Write Interfaces where needed and think about edge cases. Don't care about IE11! Make it as awesome and future proof as possible.
 2. **Data handling**:
     - Filter array
     - Find in array
@@ -18,27 +39,14 @@ Level: *Labour-saving Ladybug*
 3. **APIs**: Handle API Calls over HTTP
     - Fetch data from a real API
 
-## Resources
-
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-
-http://www.typescriptlang.org/play/
-
-https://medium.com/infancyit/a-better-javascript-with-map-filter-reduce-b554f5bc3be3
-
-
-## Challenge
-Rewrite your Accordion or, if you want a challenge, a useful component using an [open API](https://github.com/toddmotto/public-apis). You need to tackle the above mentioned *subject areas*, so typescript is a must, as are data handling and an API.
-
-
-## Questions
+### Questions
 <questions-component>
   <question-component>Why are we using TS?</question-component>
-  <answer-component>Typescript enhances Javascript and gives it typesafety. This helps us to readicate a lot of potential bugs already on build time as well as keeping a clear pictures of the data strctures being used in the project.</answer-component>
+  <answer-component>Typescript enhances JavaScript and gives it type-safety. This helps us to eradicate a lot of potential bugs already on build time as well as keeping a clear pictures of the data strctures being used in the project.</answer-component>
   <question-component>What is immutable vs. mutable?</question-component>
-  <answer-component>An immutable value will never be changed. It is constant. Rather then changing the value we create a new value that represents the new state of the old one. A mutable value on the other hand can be change at will, which you will never know the current value of it.</answer-component>
+  <answer-component>An immutable value will never be changed. It is constant. Rather than changing the value we create a new value that represents the new state of the old one. A mutable value on the other hand can be change at will, which you will never know the current value of it.</answer-component>
   <question-component>When should you use a mutable data structure?</question-component>
-  <answer-component>Never! Well, only if there I defenitely no way to solve your problem in an immutable way</answer-component>
+  <answer-component>Never! Well, only if there I definitely no way to solve your problem in an immutable way</answer-component>
   <question-component>Can you write your own filter functions using reduce?</question-component>
   <answer-component>Yes!</answer-component>
   <question-component>How do you use a spread operator and what is it good for?</question-component>
@@ -50,7 +58,7 @@ const num2 = { ...num1, d: '4', e: '5'};
 </code>
 </answer-component>
   <question-component>How does a HTTP request work?</question-component>
-  <answer-component>A HTTP request has separate steps: Ask for a resource/post Data somewhere. Initiate a handshake with the target server. The server responds to the handshake. Now the actual request is being transfered. The target processes this data and responds to the request.</answer-component>
+  <answer-component>A HTTP request has separate steps: Ask for a resource/post Data somewhere. Initiate a handshake with the target server. The server responds to the handshake. Now the actual request is being transferred. The target processes this data and responds to the request.</answer-component>
   <question-component>What is a HTTP status code? Name three common codes and their meaning.</question-component>
   <answer-component>
     A status code represents the status of a request.
@@ -65,7 +73,7 @@ const num2 = { ...num1, d: '4', e: '5'};
   <question-component>What are alternatives to HTTP1.1? How is it different?</question-component>
   <answer-component>HTTP2 will only make one handshake and open a stream of data, which will cut a lot of the request times. Especially for a lot of files.</answer-component>
   <question-component>What is REST? What describes it best?</question-component>
-  <answer-component>REST is a methology to build APIs. It has a clear url scheme to get, update and delete resources.</answer-component>
+  <answer-component>REST is a methodology to build APIs. It has a clear url scheme to get, update and delete resources.</answer-component>
   <question-component>What are alternatives to REST?</question-component>
   <answer-component>GraphQL</answer-component>
 </questions-component>
