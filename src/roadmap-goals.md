@@ -8,6 +8,8 @@ Which includes
 - knowing our common standards and
 - having mastered the technical basics
 
+---
+
 ## Roadmap
 
 This roadmap gives you an overview and orientation of all the topics and challenges that you are going to pass the next few weeks at VI.
@@ -27,22 +29,16 @@ During your onboarding you should always keep the following topics in mind and t
 - Agile
 
 
-<roadmap-component>
-
-### Preparation
-
-You will be assigned a mentor and also buddies for each lesson.
-You have to organize your accounts and tools and afterwards this roadmap will be adjust to your individual skills. Beside that you will also get an introduction to the development manifesto.
-
-*Goal:you can start right away and know where you are heading without being over- or underchallenged*
-
-</roadmap-component>
+--- 
 
 <roadmap-component>
 
 ### Getting started
 
-The first part of your journey is to get an overview of the topics, that come across during your first weeks. You will learn which vision the onboarding process follows and get in touch with our toolset.
+The first part of your journey is to get an overview of the topics, that come across during your first weeks. You will learn which vision the onboarding process follows and get in touch with our toolset. You will be assigned a mentor and also buddies for each lesson.
+You have to organize your accounts and tools and afterwards this roadmap will be adjust to your individual skills. Beside that you will also get an introduction to the development manifesto and biotope.
+
+*Goal: you can start right away and know where you are heading without being over- or underchallenged*
 
 </roadmap-component>
 
@@ -102,7 +98,7 @@ You will dive deeper into the functionalities of webcomponents and also typescri
 __Challenges__
 - Extend the accordion with typescript and API requests
 
-*Goal: you know advanced coding techniques to build more complex components and how to improve code quality through types and unit tests*
+*Goal: you know advanced coding techniques to build more complex components*
 
 </roadmap-component>
 
@@ -113,6 +109,8 @@ In that topic you'll dive deeper into unit testing via different tools and learn
 
 __Challenges__
 - Build some unit tests with jest, mocha and chai
+
+*Goal: You know how to improve code quality through types and unit tests*
 
 </roadmap-component>
 
