@@ -86,7 +86,7 @@ Some examples to illustrate what we could actually implement
 
 ## Roadmap
 
-Have a look at the [roadmap](roadmap-goals.md) and adjust it to your individual skills with your buddy. Ask him if anything is unclear and tell him if you feel over- or underchallenged.
+Have a look at the [roadmap](roadmap-goals.md) and adjust it to your individual skills along with your buddy. Ask him if anything is unclear and tell him if you feel over- or underchallenged.
 
 ## Tools
 
