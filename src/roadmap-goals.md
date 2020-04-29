@@ -54,7 +54,7 @@ __Challenges__
 - Responsive Webdesign
 - SVG Icons
 
-*Goal: you know how to create a modern static web page*
+*Goal: You know how to create a modern static web page.*
 
 </roadmap-component>
 
@@ -69,7 +69,7 @@ __Challenges__
 - JavaScript (ES6 and beyond)
 - Events
 
-*Goal: you understand why we value components as building blocks of our frontends and you are able to implement interactive and animated components that can communicate with each other*
+*Goal: You understand why we value components as building blocks of our frontends and you are able to implement interactive and animated components that can communicate with each other.*
 
 </roadmap-component>
 
@@ -86,7 +86,7 @@ __Challenges__
 - Biotope Resource Loader
 - Build an accordion
 
-*Goal: you understand how Biotope helps us to build scalable and reusable frontend frameworks and you are able to implement a simple component in a typical Biotope project*
+*Goal: You understand how Biotope helps us to build scalable and reusable frontend frameworks and you are able to implement a simple component in a typical Biotope project.*
 
 </roadmap-component>
 
@@ -96,7 +96,7 @@ Security aspects of your projects should be just as important as the appearance 
 __Challenges__
 - Learn about XSS by playing the XSS Game
 
-*Goal: you know the most critical security risks and vulnerabilities in Web applications*
+*Goal: You know the most critical security risks and vulnerabilities in Web applications.*
 
 </roadmap-component>
 
@@ -108,7 +108,7 @@ You will dive deeper into the functionalities of webcomponents and also typescri
 __Challenges__
 - Extend the accordion with typescript and API requests
 
-*Goal: you know advanced coding techniques to build more complex components*
+*Goal: You know advanced coding techniques to build more complex components.*
 
 </roadmap-component>
 
@@ -120,7 +120,7 @@ In that topic you'll dive deeper into unit testing via different tools and learn
 __Challenges__
 - Build some unit tests with jest, mocha and chai
 
-*Goal: You know how to improve code quality through types and unit tests*
+*Goal: You know how to improve code quality through types and unit tests.*
 
 </roadmap-component>
 
@@ -132,7 +132,7 @@ You will be shown the whole ecosystem of biotope and afterwards you be able to w
 __Challenges__
 - Resolve an issue
 
-*Goal: you gain insights into how the Biotope building blocks cooperate with each other to create a Biotope and learn how to improve them.*
+*Goal: You gain insights into how the Biotope building blocks cooperate with each other to create a Biotope and learn how to improve them.*
 
 </roadmap-component>
 
