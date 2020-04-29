@@ -1,7 +1,7 @@
 # Automation Process
-Level: *Gorgeous Gorilla*
+Level: *Groovy Gorilla*
 
-<img src="./assets/gorilla_badge.svg" width="30%" height="auto" alt="gorgeous_gorilla">
+<img src="./assets/gorilla_badge.svg" width="30%" height="auto" alt="groovy_gorilla">
 
 ## Preparation
 
