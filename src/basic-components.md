@@ -27,7 +27,7 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 - The HTML of each component only uses its own prefixed classes
 - Components can use other components, but they never overwrite their styles
 
-## Resources
+### Resources
 
 - Web components: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 - Introduction to web components: https://www.webcomponents.org/introduction
@@ -37,17 +37,17 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 - SCSS: https://css-tricks.com/using-sass-control-scope-bem-naming/
 - Babel: https://www.pubnub.com/blog/2015-07-30-introduction-to-babel-javascript-compiler-for-es6/
 
-## Challenge
-### 1. Explore Biotope Element
+### Challenge
+#### 1. Explore Biotope Element
 Install Biotope Element in a local project using npm and start exploring. Your mentor will help you get going. Try to figure out how Biotope works. Have a look at our [documentation](https://element.biotope.sh/).
 
-### 2. Add a simple component
+#### 2. Add a simple component
 Add a simple component like a `title-component` or a `headline-component`
 
-### 3. Templating with Handlebars
+#### 3. Templating with Handlebars
 Try to use handlebars in a component. Add some JSON data and do some plug and play.
 
-### 4. Paths
+#### 4. Paths
 Getting paths right.
 ```
 ./
@@ -57,7 +57,7 @@ Getting paths right.
 HTML path to server path mapping
 When do i use relative and when absolute paths?
 
-### 5. Biotope Resource Loader
+#### 5. Biotope Resource Loader
 Add the [resource loader](https://github.com/biotope/biotope-resource-loader) to your project.
 - Reference resources
 - dependencies
@@ -65,10 +65,10 @@ Add the [resource loader](https://github.com/biotope/biotope-resource-loader) to
 - programmatic loading
 - have a look in the main.js how it's initialized
 
-### 6. Build an accordion
+#### 6. Build an accordion
 Add an accordion component. Get things working and then try to improve.
 
-## Questions
+### Questions
 <questions-component>
   <question-component>What is Biotope? (your own words)</question-component>
   <answer-component>Biotope is a toolchain for lasting Design Systems. It's a collection of tools to help you develop components for said system.</answer-component>
