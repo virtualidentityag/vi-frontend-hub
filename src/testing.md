@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=0GypdsJulKE
 ## TDD
 
 ### Challenge
-Starting With TDD. Write a test for a function that checks if a dashed string is converted to camel case.
+Starting with TDD: Write a test for a function that checks if a dashed string is converted to camel case.
 
 `_Convert_me_to_camel_case_ => convertMeToCamelCase`
 
