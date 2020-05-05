@@ -29,7 +29,7 @@ https://medium.com/infancyit/a-better-javascript-with-map-filter-reduce-b554f5bc
 Rewrite your Accordion or, if you want a challenge, a useful component using an [open API](https://github.com/toddmotto/public-apis). You need to tackle the following *subject areas*, so TypeScript is a must, as are data handling and an API.
 
 #### Subject Areas
-1. **Typescript**: Rewrite your components in TypeScript. Write Interfaces where needed and think about edge cases. Don't care about IE11! Make it as awesome and future proof as possible.
+1. **TypeScript**: Rewrite your components in TypeScript. Write Interfaces where needed and think about edge cases. Don't care about IE11! Make it as awesome and future proof as possible.
 2. **Data handling**:
     - Filter array
     - Find in array
