@@ -2,30 +2,33 @@
 
 Level: <i>Avid Ant</i>
 
+<img src="./assets/ant_badge.svg" width="30%" height="auto" alt="avid_ant">
+
 Hello there and welcome to VI!
 
-<strong>Goal:</strong> The newbie will have a basic understanding of our Manifesto, Biotope and will know the first steps of his Roadmap.
+> Goal: You will have a basic understanding of our Manifesto and Biotope. You can start right away and know where you are heading without being over- or underchallenged.
+
+---
 
 ## Preparation
 
-In your first chapter you'll learn about our Developer-Manifesto, the history and vision of Biotope and you'll setup the first steps of your Roadmap with your mentor!
+In your first chapter you will learn about our Developer Manifesto, the history and vision of Biotope and you will setup the first steps of your roadmap with your mentor!
 
-
-## Resources
+### Resources
 
 http://manifest-dev.virtual-identity.com/  
 https://github.com/biotope/meeting-notes/blob/biotopeVision/biotope/2018-06-05_biotopeVision.md
 
-Welcome to Virtual Identity, i'll be your guide.
+---
 
 ## Our Vision
 
-New developers are enthusiastic to work with biotope right from the start -
+New developers are enthusiastic to work with Biotope right away -
 we share our experience so they can quickly make progress
-and become an active part of the community,
-giving them an easy start with a sense of achievement,
-so that they are able to easily carry out projects with biotope
-and to participate in improving biotope itself.
+and become an active part of the community.
+We give them an easy start with a sense of achievement,
+so that they are able to easily carry out projects with Biotope
+and to participate in improving Biotope itself.
 
 
 Please keep in mind: This vision and all resulting actions should be kept aligned to the overall Biotope Vision
@@ -35,7 +38,7 @@ We imagine three pillars:
 - Sharing
 - Mentoring
 
-Some examples to illustrate what we could actually implement
+Some examples to illustrate what we could actually implement:
 
 
 <table cellPadding="5" style="tableLayout: 'fixed'; border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'; borderCollapse: 'collapse';">
@@ -74,7 +77,7 @@ Some examples to illustrate what we could actually implement
       <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">
         Chats
       </td>
-      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">Initialisation, Ritual</td>
+      <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">Initialization, Ritual</td>
     </tr>
     <tr>
       <td style="border: 1 + 'px'; borderColor: 'black'; borderStyle: 'solid'"  colSpan="1">...</td>
@@ -83,6 +86,8 @@ Some examples to illustrate what we could actually implement
     </tr>
   </tbody>
 </table>
+
+---
 
 ## Roadmap
 
@@ -318,11 +323,13 @@ more or less 13 weeks (= 3 months)
   </tbody>
 </table>
 
+---
+
 ## Tools
 
-Your Buddy ensures that all necessary accounts are setup, the day you start at VI, this includes:
+Your Buddy ensures that all necessary accounts are setup the day you start at VI, this includes:
 
-- Jira/Bitbucket (SSO)
+- Jira (SSO)
 - Confluence
 - WPS
 - Email
@@ -333,19 +340,22 @@ Your Buddy ensures that all necessary accounts are setup, the day you start at V
 - Teams
 
 
-You have freedom in choosing an IDE. We recommend Visual Code but if you prefer another one, we'll provide a licence.
+You have freedom in choosing an IDE. We recommend Visual Code but if you prefer another one, we will provide a license.
 
-Please discuss with the buddy.
+Please discuss that with your buddy.
 
-The following software is available if the new developer needs them.
-Usually images and vector graphics are provided by designers so not everyone needs these tools.
+The following software is available if the new developer needs them:
 
 - Sketch
 - Adobe CC
 
+Usually images and vector graphics are provided by designers so not everyone needs these tools.
+
+---
+
 ## The Boy Scout Rule
 
-The Boy Scouts of America have a simple rule (and I'm sure this also applies to the the Girl Scouts of America):
+The Boy Scouts of America have a simple rule (and I am sure this also applies to the Girl Scouts of America):
 
 > Leave the campground cleaner than you found it.
 

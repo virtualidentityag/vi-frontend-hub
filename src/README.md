@@ -6,10 +6,6 @@
       name: 'Deborah Köpfer'
     },
     {
-      username: 'adrianfella',
-      name: 'Adrian Fella'
-    },
-    {
       username: 'SheepFromHeaven',
       name: 'Marc Emmanuel'
     }]"></authors-component>
