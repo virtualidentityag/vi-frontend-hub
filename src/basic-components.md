@@ -9,7 +9,7 @@ You have learned a lot of basics in our daily developer life so far. You should 
 
 ## Preparation
 
-You have heard about Biotope. Biotope is a Component Ecosystem we develop in the open here at VI. After this Level you should feel comfortable writing simple components inside Biotope with Biotope Element. Don't fear to ask, propose and make changes.
+You have heard about Biotope. Biotope is a Component Ecosystem we develop in the open here at VI. After this level you should feel comfortable writing simple components inside Biotope. Don't fear to ask, propose and make changes.
 
 ---
 
