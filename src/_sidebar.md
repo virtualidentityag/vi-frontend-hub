@@ -9,3 +9,4 @@
   6. [Advanced Components](advanced-components.md)
   7. [Testing](testing.md)
   8. [Biotope Ecosystem](biotope-ecosystem.md)
+  9. [Automation Process](automation.md)
