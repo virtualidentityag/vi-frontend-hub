@@ -56,7 +56,7 @@ Feeling lost? Don't worry, I will tell you what you did!
 ```name``` sets the workflow name. This name will appear on each and every Pull Request or in your Actions Tab. Rename it whatever you want! It's really important when you have multiple workflows on your repository. <br/>
 ```on: push``` means that your workflow will only execute when code is pushed in your repository. i.e, using the ```push``` event.
 
-It doesn't seem much, right ? So let's add some more jobs to this workflow! 💼
+It doesn't seem much, right? So let's add some more jobs to this workflow! 💼
 
 Inside your ```./github/workflows/main.yml``` append:
 
