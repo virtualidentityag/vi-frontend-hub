@@ -11,7 +11,7 @@ Automation tools like Jenkins or GitHub Actions make it simpler to bootstrap the
 
 ## Introducing GitHub Actions
 
-GitHub Actions is a flexible and scalable way of automating every aspect of your team's software workflow on your project, like:
+GitHub Actions is a flexible and scalable way of automating every aspect of your team's software workflow, as in:
 
   - Automated Testing (CI)
   - Continuous Delivery and Deployment
