@@ -5,8 +5,10 @@ Level: *Groovy Gorilla*
 
 ## Preparation
 
-Developer and operations are no longer the exclusive responsibility of DevOps engineers alone. Today, Frontend Developers help to reshape the form and the way process occurs within their projects improving collaboration between Frontends, Backends, and Stakeholders themselves. <br/>
-Testing, building, authenticating and deploying software can be done in a more smooth and automatic way by implementing principles of **Continuous Integration and Continuous Delivery** (CI/CD, for short).<br/>
+Developer and operations are no longer the exclusive responsibility of DevOps engineers alone. Today, Frontend Developers help to reshape the form and the way process occurs within their projects improving collaboration between Frontends, Backends, and Stakeholders themselves.
+
+Testing, building, authenticating and deploying software can be done in a more smooth and automatic way by implementing principles of **Continuous Integration and Continuous Delivery** (CI/CD, for short).
+
 Automation tools like Jenkins or GitHub Actions make it simpler to bootstrap the workflow you want and to seamlessly integrate on your project of preference. Since 2019, **VI** uses GitHub to maintain its codebase, so this topic will be more focused on how to understand and create your own GitHub Actions.
 
 ## Introducing GitHub Actions
@@ -44,23 +46,24 @@ It is the same as above, but with the environment decoupled from GitHub allowing
 
 ## Start your workflow file
 
-On your repository create a ```.github/workflows/main.yml``` file and add the following code inside:
+On your repository create a `.github/workflows/main.yml` file and add the following code inside:
 
-```sh
+```yml
 name: My Simple Workflow
 on: push
 ```
 
 Feeling lost ? Don't worry, I will tell you what you did!
 
-```name``` gives you the workflow name. This name will appear on each and every Pull Request or in your Actions Tab. Rename it whatever you want! It's really important when you have multiple workflows on your repository. <br/>
-```on: push``` means that your workflow will only execute when code is pushed in your repository. i.e, using the ```push``` event.
+`name` gives you the workflow name. This name will appear on each and every Pull Request or in your Actions Tab. Rename it whatever you want! It's really important when you have multiple workflows on your repository.
+
+`on: push` means that your workflow will only execute when code is pushed in your repository. i.e, using the `push` event.
 
 It doesn't seem much, right ? So let's add some more jobs to this workflow! 💼
 
-Inside your ```./github/workflows/main.yml``` append:
+Inside your `./github/workflows/main.yml` append:
 
-```sh
+```yml
 jobs:
   build:
     name: My Simple Workflow
@@ -73,21 +76,27 @@ jobs:
 
 Nice job so far! Let's get into more detail on what you just did:
 
-```jobs``` is the base component of a workflow run <br />
-```build``` is the identifier of where you're attaching this job<br />
-```name``` is the name of the job which will be displayed in your Actions tab when the workflow is running<br />
-```steps``` the sequence of operations that make up a job<br />
-```uses: actions/checkout@v1``` reference a community action called checkout and it's content's repository<br />
-```env``` is used to specify the environment variables that will be available to your action in runtime<br />
+`jobs` is the base component of a workflow run
+
+`build` is the identifier of where you're attaching this job
+
+`name` is the name of the job which will be displayed in your Actions tab when the workflow is running
+
+`steps` the sequence of operations that make up a job
+
+`uses: actions/checkout@v1` reference a community action called checkout and it's content's repository
+
+`env` is used to specify the environment variables that will be available to your action in runtime
+
 
 ## Keeping a secret 🗝️
 
-The internet is a volatile thing, and sometimes you just need to keep information to yourself. If you don't feel like sharing your tokens, passwords or sensible information don't worry, I got you covered!<br/>
+The internet is a volatile thing, and sometimes you just need to keep information to yourself. If you don't feel like sharing your tokens, passwords or sensible information don't worry, I got you covered!
 
 On your project's navigation tab select **Settings** and then, on your left sidebar click on **Secrets**.
 The **Secrets** tab will show you a simple key/value pair where you can safely store all sensible information relevant to your project. To reference these on your workflow simply add:
 
-```sh
+```yml
 jobs:
   build:
     name: My Simple Workflow
