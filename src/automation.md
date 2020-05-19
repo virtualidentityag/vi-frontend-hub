@@ -126,6 +126,8 @@ If this section stimulated your curiosity and you want to find out more, click [
 
 ### Questions
 
+- What are the benefits of CD/CI?
+
 <authors-component v-bind:authors="[
     {
       username: 'SheepFromHeaven',
