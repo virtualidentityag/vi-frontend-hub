@@ -9,10 +9,11 @@ Last chapter you have got more insights in our Biotope Ecosystem and now you are
 
 ---
 ## Preparation
-Developer and operations are no longer the exclusive responsibility of DevOps engineers alone. Today, Frontend Developers help to reshape the form and the way process occurs within their projects improving collaboration between Frontends, Backends, and Stakeholders themselves. <br/>
+Developer and operations are no longer the exclusive responsibility of DevOps engineers alone. Today, Frontend Developers help to reshape the form and the way process occurs within their projects improving collaboration between Frontends, Backends, and Stakeholders themselves.
+
 Testing, building, authenticating and deploying software can be done in a more smooth and automatic way by implementing principles of **Continuous Integration and Continuous Delivery** (CI/CD, for short).
 
-Automation tools like Jenkins or Github Actions make it simpler to bootstrap the workflow you want and to seamlessly integrate on your project of preference. Since 2019, **VI** uses Github to maintain its codebase, so this topic will be more focused on how to understand and create your own Github Actions.
+Automation tools like Jenkins or GitHub Actions make it simpler to bootstrap the workflow you want and to seamlessly integrate on your project of preference. Since 2019, **VI** uses GitHub to maintain its codebase, so this topic will be more focused on how to understand and create your own GitHub Actions.
 
 ---
 ## Introducing GitHub Actions
@@ -44,7 +45,7 @@ Actions come in two flavours: **"Container Actions"** and **"JavaScript Actions"
 
 **Container Actions**
 
-Docker Container actions have the advantage of being packaged with the GitHub Actions code and can only execute in the **GitHub-Hosted Linux Environment**. The development of this type of action requires a previous understanding of how Docker works. For more information click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-docker-container-action)
+Docker Container actions have the advantage of being packaged with the GitHub Actions code and can only execute in the **GitHub-Hosted Linux Environment**. The development of this type of action requires a previous understanding of how Docker works. For more information click [here](https://help.GitHub.com/en/actions/automating-your-workflow-with-GitHub-actions/creating-a-docker-container-action)
 
 **JavaScript Actions**
 
@@ -52,12 +53,12 @@ It is the same as above, but with the environment decoupled from GitHub allowing
 
 ### Resources
 
-- [GitHub Actions Documentation](https://help.github.com/en/actions)
+- [GitHub Actions Documentation](https://help.GitHub.com/en/actions)
 
 ## Challenge
 #### Start your workflow file
 
-On your repository create a `.github/workflows/main.yml` file and add the following code inside:
+On your repository create a `.GitHub/workflows/main.yml` file and add the following code inside:
 
 ```yml
 name: My Simple Workflow
@@ -72,7 +73,7 @@ Feeling lost? Don't worry, I will tell you what you did!
 
 It doesn't seem much, right? So let's add some more jobs to this workflow! 💼
 
-Inside your `./github/workflows/main.yml` append:
+Inside your `./GitHub/workflows/main.yml` append:
 
 ```yml
 jobs:
@@ -121,7 +122,7 @@ jobs:
 
 Still don't know how this .yml works? click [here](https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes)
 
-If this section stimulated your curiosity and you want to find out more, click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action)
+If this section stimulated your curiosity and you want to find out more, click [here](https://help.GitHub.com/en/actions/automating-your-workflow-with-GitHub-actions/creating-a-javascript-action)
 
 ### Questions
 
