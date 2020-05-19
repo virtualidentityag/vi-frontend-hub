@@ -81,7 +81,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       env:
-        MY_NAME: "Skilled Gorilla"
+        MY_NAME: "Groovy Gorilla"
 ```
 
 Nice job so far! Let's get into more detail on what you just did:
@@ -114,7 +114,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       env:
-        MY_NAME: "Skilled Gorilla"
+        MY_NAME: "Groovy Gorilla"
         TOKEN: ${{secrets.MY_SUPER_SECRET_STORED_KEY}}
 ```
 
