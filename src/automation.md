@@ -3,14 +3,17 @@ Level: *Groovy Gorilla*
 
 <img src="./assets/gorilla_badge.svg" width="30%" height="auto" alt="groovy_gorilla">
 
+Last chapter you have got more insights in our Biotope Ecosystem and now you are able to use it in our projects and help us improving it. That's great! In this chapter you will learn more about automation and automation tools like GitHub Actions.
+
+> Goal: You know how to implement an automated workflow with GitHub Actions in your projects.
+
+---
 ## Preparation
+Developer and operations are no longer the exclusive responsibility of DevOps engineers alone. Today, Frontend Developers help to reshape the form and the way process occurs within their projects improving collaboration between Frontends, Backends, and Stakeholders themselves. <br/>
+Testing, building, authenticating and deploying software can be done in a more smooth and automatic way by implementing principles of **Continuous Integration and Continuous Delivery** (CI/CD, for short).<br/>
+Automation tools like Jenkins or Github Actions make it simpler to bootstrap the workflow you want and to seamlessly integrate on your project of preference. Since 2019, **VI** uses Github to maintain its codebase, so this topic will be more focused on how to understand and create your own Github Actions.
 
-Developer and operations are no longer the exclusive responsibility of DevOps engineers alone. Today, Frontend Developers help to reshape the form and the way process occurs within their projects improving collaboration between Frontends, Backends, and Stakeholders themselves.
-
-Testing, building, authenticating and deploying software can be done in a more smooth and automatic way by implementing principles of **Continuous Integration and Continuous Delivery** (CI/CD, for short).
-
-Automation tools like Jenkins or GitHub Actions make it simpler to bootstrap the workflow you want and to seamlessly integrate on your project of preference. Since 2019, **VI** uses GitHub to maintain its codebase, so this topic will be more focused on how to understand and create your own GitHub Actions.
-
+---
 ## Introducing GitHub Actions
 
 GitHub Actions is a flexible and scalable way of automating every aspect of your team's software workflow, as in:
@@ -24,7 +27,9 @@ GitHub Actions is a flexible and scalable way of automating every aspect of your
 
 In this chapter, we're going to understand how they work, and how to create your own.
 
-## Actions and Workflows
+### Hints and Guidelines
+
+#### Actions and Workflows
 
 There are two components to use GitHub Actions:
   - The action itself
@@ -32,19 +37,24 @@ There are two components to use GitHub Actions:
 
 A workflow can have as many actions as needed and each action has it's own purpose.
 
-### Types of Actions
+#### Types of Actions
 
-Actions come in two flavours: **"Container Actions and JavaScript Actions"**
+Actions come in two flavours: **"Container Actions"** and **"JavaScript Actions"**
 
-#### Container Actions
+**Container Actions**
 
 Docker Container actions have the advantage of being packaged with the GitHub Actions code and can only execute in the **GitHub-Hosted Linux Environment**. The development of this type of action requires a previous understanding of how Docker works. For more information click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-docker-container-action)
 
-#### JavaScript Actions
+**JavaScript Actions**
 
 It is the same as above, but with the environment decoupled from GitHub allowing faster execution but also accepting great dependency management responsability. For this onboarding document, let's focus on this type of Action, and straight to work!
 
-## Start your workflow file
+### Resources
+
+- [GitHub Actions Documentation](https://help.github.com/en/actions)
+
+## Challenge
+#### Start your workflow file
 
 On your repository create a `.github/workflows/main.yml` file and add the following code inside:
 
@@ -89,7 +99,7 @@ Nice job so far! Let's get into more detail on what you just did:
 `env` is used to specify the environment variables that will be available to your action in runtime
 
 
-## Keeping a secret 🗝️
+#### Keeping a secret 🗝️
 
 The internet is a volatile thing, and sometimes you just need to keep information to yourself. If you don't feel like sharing your tokens, passwords or sensible information don't worry, I got you covered!
 
@@ -108,12 +118,14 @@ jobs:
         TOKEN: ${{secrets.MY_SUPER_SECRET_STORED_KEY}}
 ```
 
-If this section stimulated your curiosity and you want to find out more, click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action).
+Still don't know how this .yml works? click [here](https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes)
 
-Still don't know how this .yml works? click [here](https://www.codeproject.com/Articles/1214409/Learn-YAML-in-five-minutes).
+If this section stimulated your curiosity and you want to find out more, click [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action)
+
+### Questions
 
 <authors-component v-bind:authors="[
     {
-      username: 'tiagoaguiar31',
-      name: 'Tiago Aguiar'
+      username: 'SheepFromHeaven',
+      name: 'Marc Emmanuel'
     },]"/>
