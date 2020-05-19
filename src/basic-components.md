@@ -1,6 +1,8 @@
 # Biotope: Basic Component
 Level: *Tremendous Turtle*
 
+<img src="./assets/turtle_badge.svg" width="30%" height="auto" alt="tremendous_turtle">
+
 You have learned a lot of basics in our daily developer life so far. You should feel comfortable with JS, CSS and HTML and have some experience with NPM, Node and Gulp. Now it is time for you to get to know Biotope!
 
 > Goal: You understand how Biotope helps us to build scalable and reusable frontend frameworks and you are able to implement a simple component in a typical Biotope project.
@@ -8,8 +10,6 @@ You have learned a lot of basics in our daily developer life so far. You should 
 ---
 
 ## Preparation
-
-You have heard about Biotope. Biotope is a Component Ecosystem we develop in the open here at VI. After this level you should feel comfortable writing simple components inside Biotope. Don't fear to ask, propose and make changes.
 
 ---
 
