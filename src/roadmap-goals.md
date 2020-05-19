@@ -140,6 +140,18 @@ __Challenges__
 
 <roadmap-component>
 
+### Automation
+You will learn more about an automated workflow and GitHub Actions.
+
+__Challenges__
+- Set up a workflow file in your repository
+
+*Goal: You know how to implement an automated workflow with GitHub Actions in your projects.*
+
+</roadmap-component>
+
+<roadmap-component>
+
 ### Next Level Dev
 Decide which direction you want to go on with learning new skills.
 
