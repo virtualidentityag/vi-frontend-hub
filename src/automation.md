@@ -3,7 +3,7 @@ Level: *Groovy Gorilla*
 
 <img src="./assets/gorilla_badge.svg" width="30%" height="auto" alt="groovy_gorilla">
 
-Last chapter you have got more insights in our Biotope Ecosystem and now you are able to use it in our projects and help us improving it. That's great! In this chapter you will learn more about automation and automation tools like GitHub Actions.
+Last chapter you have got more insights in our Biotope Ecosystem and now you are able to use it in our projects and help us improving it. That's great! In this chapter you will learn more about automation and the automation tool GitHub Actions.
 
 > Goal: You know how to implement an automated workflow with GitHub Actions in your projects.
 
