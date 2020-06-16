@@ -11,6 +11,8 @@ You have learned a lot of basics in our daily developer life so far. You should 
 
 ## Preparation
 
+You have already read about our Biotope vision. In this chapter you will start to get to know Biotope by building a simple webcomponent with Biotope Element. 
+
 ---
 
 ## Biotope Element
@@ -43,12 +45,22 @@ You have learned a lot of basics in our daily developer life so far. You should 
 Install Biotope and Biotope Element in a local project using npm and start exploring. Your mentor can help you get going. Try to figure out how Biotope works. Have a look at our [Biotope Element documentation](https://element.biotope.sh/) and the [Biotope Repository](https://github.com/biotope/biotope).
 
 #### 2. Add a simple component
-Add a simple component like a `title-component` or a `headline-component`
+Add a simple JavaScript component like a `title-component` or a `headline-component`.
 
-#### 3. Templating with Handlebars
+#### 3. Add configuration to projectConfig.js
+Biotope build is mainly used for bundling TypeScript components. As we want to use it for our JavaScript component we need to add the following configuration to our projectConfig.js:
+```
+copy: {
+  ignoreList: [
+		'components/**/*.js'
+	]
+}
+```
+
+#### 4. Templating with Handlebars
 Try to use handlebars in a component. Add some JSON data and do some plug and play.
 
-#### 4. Paths
+#### 5. Paths
 Getting paths right: Think about where those paths lead and when you should use relative and when absolute paths.
 ```
 ./
@@ -69,7 +81,7 @@ Add an accordion component. Get things working and then try to improve.
   <answer-component>A polyfill is a script which looks for functionality of the browser and add it, if it does not exist. So if for example <code>Array.prototype.find</code> is not defined, the polyfill will add this functionality which was written in JS by the author.</answer-component>
   <question-component>I would like to render an HBS template into the DOM, how would I do it?</question-component>
   <answer-component>You would have to include the handlebars runtime in the browser and then provide the loaded template with data to generate HTML. This HTML can then be appended to the DOM.</answer-component>
-  <question-component>How can i check if a client supports a CSS property?</question-component>
+  <question-component>How can I check if a client supports a CSS property?</question-component>
   <answer-component><a href="http://www.caniuse.com" target=_blank>http://www.caniuse.com</a></answer-component>
   <question-component>What is a blocking script?</question-component>
   <answer-component>A blocking script is a script that is being loaded by a script tag in the DOM and blocks the loading of the rest of the resources, until it's done.</answer-component>
