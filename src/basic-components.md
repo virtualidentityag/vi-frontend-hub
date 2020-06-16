@@ -42,7 +42,7 @@ You have already read about our Biotope vision. In this chapter you will start t
 
 ### Challenge
 #### 1. Explore Biotope Element
-Install Biotope and Biotope Element in a local project using npm and start exploring. Your mentor can help you get going. Try to figure out how Biotope works. Have a look at our [Biotope Element documentation](https://element.biotope.sh/) and the [Biotope Repository](https://github.com/biotope/biotope).
+Create a new Biotope project and install Biotope Element v4 in a local project using npm and start exploring. Your mentor can help you get going. Try to figure out how Biotope works. Have a look at our [Biotope Element documentation](https://element.biotope.sh/) and the [Biotope Repository](https://github.com/biotope/biotope).
 
 #### 2. Add a simple component
 Add a simple JavaScript component like a `title-component` or a `headline-component`.
@@ -54,7 +54,12 @@ copy: {
   ignoreList: [
 		'components/**/*.js'
 	]
-}
+},
+tsEntryPoints: [
+			'resources/ts/**/*.ts',
+			'components/**/*.ts',
+			'components/**/*.js'
+		]
 ```
 
 #### 4. Templating with Handlebars
