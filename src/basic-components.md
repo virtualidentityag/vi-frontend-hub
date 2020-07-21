@@ -21,9 +21,8 @@ You have already read about our Biotope vision. In this chapter you will start t
 
 - A component always consists of CSS and HTML (JS is optional)
 - Each component lives in its own folder
-- HTML is located in `template.js`
-- JS is located in the `template.js` or `[your-component-name].js`
 - Styles are located in `style.scss`
+- Where HTML and JS is located depends on the way the component is generated. You can have one file for the whole component or split it up in multiple files for more complex components. 
 - Each CSS class starts with a unique component name
 - The HTML of each component only uses its own prefixed classes
 - Components can use other components, but they never overwrite their styles
