@@ -39,11 +39,11 @@ See following types of data and the XSS Game below for real-world examples.
 Incoming data from URL parameters is considered the most critical security risk.
 This data might be easily injected from incoming links even if the website is read-only.
 
-Some very simple and unsafe jQuery snippet example:
+Some very simple and unsafe JS snippet example:
 ```
 // Example-URL: `www.domain.com?search=foo`
 // ... grab parameter directly from URL and paste the search word above the results
-$('.search__searchPhrase').html(urlParams['search']);
+document.getElementsByClassName('search__searchPhrase')[0].html(urlParams['search']);
 ```
 Try this example with a search parameter like `www.domain.com/search=<script>alert('XSS')</script>`
 
