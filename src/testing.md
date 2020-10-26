@@ -3,7 +3,7 @@ Level: *Subsidiary Sloth*
 
 <img src="./assets/sloth_badge.svg" width="30%" height="auto" alt="subsidiary_sloth">
 
-You have learned how to build basic webcomponents but do you also know how to improve them on the go? In this section you will learn more about unit testing and the TDD approach.
+You have learned how to build basic webcomponents but do you also know how to improve them on the go? In this section you will learn more about unit testing and the Test Driven Development (TDD) approach. This means in short, test cases are created before code is written. The purpose of TDD is to make the code clearer, simple and bug-free.
 
 > Goal: You know how to improve code quality through types and unit tests.
 
