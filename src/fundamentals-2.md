@@ -122,7 +122,7 @@ Build a so called 'call to action', consisting of an image, text and button. The
 ## JavaScript
 
 'Finally', is what you are thinking to yourself probably. Yes, now we're getting into the good stuff. Up until now, everything you have coded is more or less 'static'. Well, that changes now. in this section you will get to know Javascript and get familiar with one of the latest versions called ECMAScript2015 (also known as ES6).
-Let's not forget to mention that we (and the web in general) come from a period where jQuery was the standard. However from today's point of view, everything JQuery can do, VanillaJS or TypeScript (see Chapter 'Advanced Components') can do better and faster. We here at VI want to leave the jQuery era behind and try to write our code in ES6 (or even newer ES versions) whenever possible.
+Let's not forget to mention that we (and the web in general) come from a period where jQuery was the standard. However, from today's point of view everything JQuery can do, VanillaJS or TypeScript (see Chapter 'Advanced Components') can do better and faster. We here at VI want to leave the jQuery era behind and try to write our code in ES6 (or even newer ES versions) whenever possible.
 
 
 ### Hints and Guidelines

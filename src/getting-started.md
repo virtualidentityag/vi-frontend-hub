@@ -31,7 +31,7 @@ so that they are able to easily carry out projects with Biotope
 and to participate in improving Biotope itself.
 
 
-Please keep in mind: This vision and all resulting actions should be kept aligned to the overall Biotope Vision
+Please keep in mind: This vision and all resulting actions should be kept aligned to the overall Biotope vision.
 We imagine three pillars:
 
 - Enabling
