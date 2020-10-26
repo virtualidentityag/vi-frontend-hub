@@ -43,7 +43,7 @@ Some very simple and unsafe JS snippet example:
 ```
 // Example-URL: `www.domain.com?search=foo`
 // ... grab parameter directly from URL and paste the search word above the results
-document.querySelector('.search__searchPhrase')innerHtml = urlParams['search'];
+document.querySelector('.search__searchPhrase').innerHtml = urlParams['search'];
 ```
 Try this example with a search parameter like `www.domain.com/search=<script>alert('XSS')</script>`
 

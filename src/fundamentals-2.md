@@ -109,7 +109,7 @@ Build a so called 'call to action', consisting of an image, text and button. The
   <question-component>What are the benefits of sass compared to plain CSS?</question-component>
   <answer-component>
   In sass you, can declare variables, mixins, functions and baseclasses which you then can use all over your styles. The helps to avoid repetition and keeps your codebase clean (DRY principle)</answer-component>
-  <question-component>Unmodified sass code can be used in web browsers. True of false?</question-component>
+  <question-component>Unmodified sass code can be used in web browsers. True or false?</question-component>
   <answer-component>False! Sass always needs to be compiled to css to be run in the browser.</answer-component>
   <question-component>What is a mixin in sass?</question-component>
   <answer-component>A mixin is a reusable block of sass that inserts rules into the place where you use it.</answer-component>
@@ -152,7 +152,7 @@ Add the following functionality to the component, that you built in the section 
   <answer-component>As a lot of the functionality of jQuery is already in vanilla JS, jQuery doesn't add any benefits anymore but still adds a lot of filesize.</answer-component>
   <question-component>What is ECMAScript? How is it different from vanilla JS?</question-component>
   <answer-component>Trick question! ECMAScript basically is JavaScript and the version of JS is represented by the ECMAScript abbrevation: ES (i.e. ES6)</answer-component>
-  <question-component>ES6 can be used in every browser. True of false?</question-component>
+  <question-component>ES6 can be used in every browser. True or false?</question-component>
   <answer-component>Tralse/Frue. Not without transpilation (i.e. with babel)</answer-component>
   <question-component>What are common ways to debug code in the web development environment?</question-component>
   <answer-component>You either can use the debugger of your preferred browser, or add console.log, preferably debugger statements to your code.</answer-component>
