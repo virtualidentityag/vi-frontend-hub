@@ -11,7 +11,7 @@ You have learned a lot of basics in our daily developer life so far. You should 
 
 ## Preparation
 
-You have heard about Biotope. Biotope is a Component Ecosystem we develop in the open here at VI. After this Level you should feel comfortable writing simple components inside Biotope. Don't fear to ask, propose and make changes.
+You have already read about our Biotope vision. In this chapter you will start to get to know Biotope by building a simple webcomponent with Biotope Element. 
 
 ---
 
@@ -21,11 +21,13 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 
 - A component always consists of CSS and HTML (JS is optional)
 - Each component lives in its own folder
-- HTML and JS are located in `index.js`
 - Styles are located in `style.scss`
+- Where HTML and JS is located depends on the way the component is generated. You can have one file for the whole component or split it up in multiple files for more complex components. 
 - Each CSS class starts with a unique component name
 - The HTML of each component only uses its own prefixed classes
 - Components can use other components, but they never overwrite their styles
+- The seperate files of your component will be merged to one file by the biotope build system. So everything you import in the index.js, the imports of those imports, the imports of those imports... (see where I am going? ;)) will be merged and bundeled into one file.
+
 
 ### Resources
 
@@ -39,33 +41,38 @@ You have heard about Biotope. Biotope is a Component Ecosystem we develop in the
 
 ### Challenge
 #### 1. Explore Biotope Element
-Install Biotope Element in a local project using npm and start exploring. Your mentor will help you get going. Try to figure out how Biotope works. Have a look at our [documentation](https://element.biotope.sh/).
+Create a new Biotope project and install Biotope Element v4 in a local project using npm and start exploring. Your mentor can help you get going. Try to figure out how Biotope works. Have a look at our [Biotope Element documentation](https://element.biotope.sh/) and the [Biotope Repository](https://github.com/biotope/biotope).
 
 #### 2. Add a simple component
-Add a simple component like a `title-component` or a `headline-component`
+Add a simple JavaScript component like a `title-component` or a `headline-component`.
 
-#### 3. Templating with Handlebars
+#### 3. Add configuration to projectConfig.js
+Biotope build is mainly used for bundling TypeScript components. As we want to use it for our JavaScript component we need to add the following configuration to our projectConfig.js:
+```
+copy: {
+  ignoreList: [
+		'components/**/*.js'
+	]
+},
+tsEntryPoints: [
+			'resources/ts/**/*.ts',
+			'components/**/*.ts',
+			'components/**/*.js'
+		]
+```
+
+#### 4. Templating with Handlebars
 Try to use handlebars in a component. Add some JSON data and do some plug and play.
 
-#### 4. Paths
-Getting paths right.
+#### 5. Paths
+Getting paths right: Think about where those paths lead and when you should use relative and when absolute paths.
 ```
 ./
 ../
 /*
 ```
-HTML path to server path mapping
-When do i use relative and when absolute paths?
 
-#### 5. Biotope Resource Loader
-Add the [resource loader](https://github.com/biotope/biotope-resource-loader) to your project.
-- Reference resources
-- dependencies
-- loading order
-- programmatic loading
-- have a look in the main.js how it's initialized
-
-#### 6. Build an accordion
+#### 5. Build an accordion
 Add an accordion component. Get things working and then try to improve.
 
 ### Questions
@@ -78,7 +85,7 @@ Add an accordion component. Get things working and then try to improve.
   <answer-component>A polyfill is a script which looks for functionality of the browser and add it, if it does not exist. So if for example <code>Array.prototype.find</code> is not defined, the polyfill will add this functionality which was written in JS by the author.</answer-component>
   <question-component>I would like to render an HBS template into the DOM, how would I do it?</question-component>
   <answer-component>You would have to include the handlebars runtime in the browser and then provide the loaded template with data to generate HTML. This HTML can then be appended to the DOM.</answer-component>
-  <question-component>How can i check if a client supports a CSS property?</question-component>
+  <question-component>How can I check if a client supports a CSS property?</question-component>
   <answer-component><a href="http://www.caniuse.com" target=_blank>http://www.caniuse.com</a></answer-component>
   <question-component>What is a blocking script?</question-component>
   <answer-component>A blocking script is a script that is being loaded by a script tag in the DOM and blocks the loading of the rest of the resources, until it's done.</answer-component>
