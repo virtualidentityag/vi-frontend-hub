@@ -162,7 +162,7 @@ In this challenge you will learn how to structure content in html documents and 
 - Dummy Image generator: https://dummyimage.com/.
 - Use the [free webfont Lato](https://fonts.google.com/specimen/Lato) with font-weight 300, 400 and 700.
 - W3C HTML5 Validator: https://validator.w3.org/
-- [How To SEO H1 to H6 HTML Headings Elements](https://www.hobo-web.co.uk/headers/)
+- [How To SEO: H1 to H6 HTML Heading Elements](https://www.hobo-web.co.uk/headers/)
 
 ### Challenge
 In this challenge you will learn how to structure content in html documents and how to use headlines and semantic HTML5 elements.
