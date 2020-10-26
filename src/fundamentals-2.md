@@ -109,7 +109,7 @@ Build a so called 'call to action', consisting of an image, text and button. The
   <question-component>What are the benefits of sass compared to plain CSS?</question-component>
   <answer-component>
   In sass you, can declare variables, mixins, functions and baseclasses which you then can use all over your styles. The helps to avoid repetition and keeps your codebase clean (DRY principle)</answer-component>
-  <question-component>Unmodified sass code can be used in web browsers. True of false?</question-component>
+  <question-component>Unmodified sass code can be used in web browsers. True or false?</question-component>
   <answer-component>False! Sass always needs to be compiled to css to be run in the browser.</answer-component>
   <question-component>What is a mixin in sass?</question-component>
   <answer-component>A mixin is a reusable block of sass that inserts rules into the place where you use it.</answer-component>
@@ -121,19 +121,20 @@ Build a so called 'call to action', consisting of an image, text and button. The
 
 ## JavaScript
 
-'Finally', is what you are thinking to yourself probably. Yes, now we're getting into the good stuff. Up until now, everything you have coded is more or less 'static'. Well, that changes now. In this section, you will get to JavaScript, its newest version ES2015 (2016 / 2017 / 2018) & ESNext and, to a lesser extent, jQuery. We here at VI try to write our code in ES6 whenever possible. jQuery, while it used to be the standard and provides a lot of functionality that makes our lives easier, is being used less and less and it's more than likely that it will completely die eventually. That is why coding in 'plain' JS is always preferred.
+'Finally', is what you are thinking to yourself probably. Yes, now we're getting into the good stuff. Up until now, everything you have coded is more or less 'static'. Well, that changes now. in this section you will get to know Javascript and get familiar with one of the latest versions called ECMAScript2015 (also known as ES6).
+Let's not forget to mention that we (and the web in general) come from a period where jQuery was the standard. However, from today's point of view everything JQuery can do, VanillaJS or TypeScript (see Chapter 'Advanced Components') can do better and faster. We here at VI want to leave the jQuery era behind and try to write our code in ES6 (or even newer ES versions) whenever possible.
+
 
 ### Hints and Guidelines
 
-- Try to apply ES6 code when possible (it's the future!), but also try out jQuery here and there
+- Try to apply ES6 code when possible (it's the future!)
 - To debug, use the tools that you are provided with (*hint* Chrome dev tools *hint*)
-- There is more than one way to skin a cat.. uhhh animate. CSS, jQuery and JavaScript can all do this, ask your buddy for help!
+- There is more than one way to skin a cat.. uhhh animate. CSS and JavaScript can do this, ask your buddy for help!
 
 ### Resources
 
 - [JavaScript Basics](https://medium.freecodecamp.org/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf)
 - [Getting started with ES6](http://2ality.com/2015/08/getting-started-es6.html)
-- [jQuery Fundamentals](http://jqfundamentals.com/chapter/jquery-basics)
 - [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 - [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 
@@ -147,13 +148,11 @@ Add the following functionality to the component, that you built in the section 
 ### Questions
 
 <questions-component>
-  <question-component>What is jQuery and what are its benefits?</question-component>
-  <answer-component>When jQuery came up, it provided a lot of useful functionality to develop websites. Nowadays vanilla JS incorporated a lot of these functionalities directly. So most of the time there is no real use case for jQuery anymore.</answer-component>
-  <question-component>Why should you try to use plain JS whenever possible and avoid jQuery?</question-component>
-  <answer-component>As a lot of the functionality of jQuery is already in vanilla JS, jQuery doesn't add that much but still adds a lot of filesize.</answer-component>
+  <question-component>Why should you use plain JS and avoid jQuery?</question-component>
+  <answer-component>As a lot of the functionality of jQuery is already in vanilla JS, jQuery doesn't add any benefits anymore but still adds a lot of filesize.</answer-component>
   <question-component>What is ECMAScript? How is it different from vanilla JS?</question-component>
   <answer-component>Trick question! ECMAScript basically is JavaScript and the version of JS is represented by the ECMAScript abbrevation: ES (i.e. ES6)</answer-component>
-  <question-component>ES6 can be used in every browser. True of false?</question-component>
+  <question-component>ES6 can be used in every browser. True or false?</question-component>
   <answer-component>Tralse/Frue. Not without transpilation (i.e. with babel)</answer-component>
   <question-component>What are common ways to debug code in the web development environment?</question-component>
   <answer-component>You either can use the debugger of your preferred browser, or add console.log, preferably debugger statements to your code.</answer-component>
@@ -175,13 +174,12 @@ One possibility to do this is using events. The usual approach to this is to fir
 
 ### Hints and Guidelines
 
-- As stated before, JS/ES6 is preferred. However, jQuery provides a different way of implementing events. Try completing the challenge twice, once in plain JS and once in jQuery to see the difference
 - Optional challenge: Perhaps you are familiar with a more modern approach to component communication: State management. If you want to, you can complete the challenge using Redux or something similar as well
 
 ### Resources
 
-- [jQuery Events reference](https://api.jquery.com/category/events/)
-- [More specifically, the jQuery `on()` function](https://api.jquery.com/on/)
+- [JS Events reference](https://developer.mozilla.org/en-US/docs/Web/Events)
+- [More specifically, the JS `addEventListener()` function](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 ### Challenge
 
@@ -190,7 +188,7 @@ Copy the component you built in the previous step. When one of the buttons is cl
 ### Questions
 
 - What are events and how do they work? What purpose do they serve?
-- What is event delegation and how does it work in JS vs jQuery?
+- What is event delegation and how does it work?
 
 <authors-component v-bind:authors="[
     {
