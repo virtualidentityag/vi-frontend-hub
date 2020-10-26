@@ -121,7 +121,7 @@ Build a so called 'call to action', consisting of an image, text and button. The
 
 ## JavaScript
 
-'Finally', is what you are thinking to yourself probably. Yes, now we're getting into the good stuff. Up until now, everything you have coded is more or less 'static'. Well, that changes now. In this section, you will get to JavaScript, its newest version ECMAScript2015 (also called ES6) and, to a lesser extent, jQuery. We here at VI try to write our code in ES6 whenever possible. jQuery, while it used to be the standard and provides a lot of functionality that makes our lives easier, is being used less and less and it's more than likely that it will completely die eventually. That is why coding in 'plain' JS is always preferred.
+'Finally', is what you are thinking to yourself probably. Yes, now we're getting into the good stuff. Up until now, everything you have coded is more or less 'static'. Well, that changes now. In this section, you will get to JavaScript, its newest version ES2015 (2016 / 2017 / 2018) & ESNext and, to a lesser extent, jQuery. We here at VI try to write our code in ES6 whenever possible. jQuery, while it used to be the standard and provides a lot of functionality that makes our lives easier, is being used less and less and it's more than likely that it will completely die eventually. That is why coding in 'plain' JS is always preferred.
 
 ### Hints and Guidelines
 
