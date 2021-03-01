@@ -6,8 +6,8 @@
       name: 'Rebecca Emmanuel'
     },
     {
-      username: 'SheepFromHeaven',
-      name: 'Marc Emmanuel'
+      username: 'iam-robin',
+      name: 'Robin Spielmann'
     }]"></authors-component>
   
 <team-component></team-component> 
