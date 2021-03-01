@@ -2,8 +2,8 @@
 
 <authors-component v-bind:authors="[
     {
-      username: 'koepferd',
-      name: 'Deborah Köpfer'
+      username: 'RunzelRosinchen',
+      name: 'Rebecca Emmanuel'
     },
     {
       username: 'SheepFromHeaven',

@@ -13,6 +13,45 @@ const StyledAnswer = styled.blockquote`
 `;
 
 
+window.$docsify = window.$docsify || {};
+window.$docsify.vueComponents = window.$docsify.vueComponents || {};
+window.$docsify.vueComponents = {
+  ...window.$docsify.vueComponents,
+  'questions-component': {
+    components: {
+      'styled-questions': StyledQuestions
+    },
+    template: `
+      <styled-questions>
+        <slot></slot>
+      </styled-questions>`
+  },
+  'question-component': {
+    components: {
+      'styled-question': StyledQuestion,
+    },
+    template: `
+      <styled-question>
+        <slot></slot>
+      </styled-question>`
+  },
+  'answer-component': {
+    data: function () {
+      return {
+        display: window.location.search.indexOf('cheatmode') !== -1
+      }
+    },
+    components: {
+      'styled-answer': StyledAnswer,
+    },
+    template: `
+      <styled-answer v-if="display">
+        <slot></slot>
+      </styled-answer>`
+  }
+}
+
+
 Vue.component('questions-component', {
   components: {
     'styled-questions': StyledQuestions

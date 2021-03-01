@@ -107,8 +107,8 @@ const num2 = { ...num1, d: '4', e: '5'};
 
 <authors-component v-bind:authors="[
     {
-      username: 'SheepFromHeaven',
-      name: 'Marc Emmanuel'
+      username: 'RunzelRosinchen',
+      name: 'Rebecca Emmanuel'
     }]"/>
 
 ---------------------------------------
