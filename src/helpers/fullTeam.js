@@ -24,8 +24,8 @@ export const team = [
     name: 'Marc Emmanuel'
   },
   {
-    username: 'rhafner',
-    name: 'Ralf Hafner'
+    username: 'iam-robin',
+    name: 'Robin Spielmann'
   },
   {
     username: 'RunzelRosinchen',

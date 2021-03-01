@@ -57,8 +57,8 @@ Each chapter should have a similar structure. You can copy the following example
       name: 'Rebecca Emmanuel'
     },
      {
-      username: 'SheepFromHeaven',
-      name: 'Marc Emmanuel'
+      username: 'iam-robin',
+      name: 'Robin Spielmann'
     }
     ]"/>
 
