@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "scripts": {
     "start": "docsify serve src",
     "build": "cp -R src dist",
