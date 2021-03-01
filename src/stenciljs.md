@@ -11,7 +11,7 @@ You have learned a lot of basics in our daily developer life so far. You should 
 
 ## Preparation
 
-You have already heard about StencilJS. In this chapter you will start to get to know Stencil by building a simple webcomponent.
+You have already heard about StencilJS. In this chapter you will start to get to know Stencil by building a simple web component.
 Stencil components are written in TSX (TypeScript + JSX). If you do not know TypeScript yet start exploring it on the TypeScript playground! 
 
 ---
@@ -65,8 +65,8 @@ If you want a challenge, try using an [open API](https://github.com/toddmotto/pu
 <questions-component>
   <question-component>What is StencilJS? (your own words)</question-component>
   <answer-component>Stencil is a toolchain for building reusable, scalable Design Systems by creating Web Components that run in every browser.</answer-component>
-  <question-component>What is a webcomponent?</question-component>
-  <answer-component>A webcomponent is an encapsulated peace of functionality/styles which represent a part of the DOM. It is a relatively new technology which is not supported by all browsers. But there a good polyfills.</answer-component>
+  <question-component>What is a web component?</question-component>
+  <answer-component>A web component is an encapsulated peace of functionality/styles which represent a part of the DOM. It is a relatively new technology which is not supported by all browsers. But there a good polyfills.</answer-component>
   <question-component>What is a polyfill and how does it work under the hood?</question-component>
   <answer-component>A polyfill is a script which looks for functionality of the browser and add it, if it does not exist. So if for example <code>Array.prototype.find</code> is not defined, the polyfill will add this functionality which was written in JS by the author.</answer-component>
   <question-component>How can I check if a client supports a CSS property?</question-component>

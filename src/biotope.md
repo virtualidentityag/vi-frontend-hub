@@ -12,7 +12,7 @@ This chapter will help you to get a brief overview of how Biotope works so you c
 
 ## Preparation
 
-Biotope is similar to StencilJS, though it works in a little bit different way. In this chapter you will start to get to know Biotope by building a simple webcomponent with Biotope Element.
+Biotope is similar to StencilJS, though it works a little bit differently. In this chapter you will start to get to know Biotope by building a simple web component with Biotope Element.
 
 ---
 
@@ -22,12 +22,12 @@ Biotope is similar to StencilJS, though it works in a little bit different way. 
 
 - A component always consists of CSS and HTML (JS is optional)
 - Each component lives in its own folder
-- Styles are located in `style.scss`
+- Styles are located in `styles.scss`
 - Where HTML and JS is located depends on the way the component is generated. You can have one file for the whole component or split it up in multiple files for more complex components. 
 - Each CSS class starts with a unique component name
 - The HTML of each component only uses its own prefixed classes
 - Components can use other components, but they never overwrite their styles
-- The seperate files of your component will be merged to one file by the biotope build system. So everything you import in the index.js, the imports of those imstports, the imports of those imports... (see where I am going? ;)) will be merged and bundeled into one file.
+- The separate files of your component will be merged to one file by the biotope build system. So everything you import in the index.js, the imports of those imports, the imports of those imports... (see where I am going? ;)) will be merged and bundled into one file.
 
 
 ### Resources
