@@ -13,6 +13,27 @@ const Img = styled.img`
   margin-right: 1em;
 `;
 
+
+window.$docsify = window.$docsify || {};
+window.$docsify.vueComponents = window.$docsify.vueComponents || {};
+window.$docsify.vueComponents = {
+  ...window.$docsify.vueComponents,
+  'author-component': {
+    props: ['username', 'name'],
+    components: {
+      'styled-author': StyledAuthor,
+      'styled-img': Img
+    },
+    template: `
+      <styled-author v-bind:href="'https://github.com/' + username" target="_blank">
+        <styled-img v-bind:src="'https://avatars.githubusercontent.com/' + username" />
+        <span>
+          {{name}}
+        </span>
+      </styled-author>`
+  }
+}
+
 Vue.component('author-component', {
   props: ['username', 'name'],
   components: {

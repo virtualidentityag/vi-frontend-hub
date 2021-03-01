@@ -1,6 +1,6 @@
 # Welcome!
 
-Hello and welcome, fellow Frontend-Dev, at Virtual Identity.
+Hello and welcome fellow Frontend-Dev at Virtual Identity.
 
 We, your new colleagues, created this Wiki to give you a guided start during your first weeks.
 

@@ -1,7 +1,7 @@
 # Roadmap & Goals
 
 ## Goal
-> Every new frontend developer is able to implement components in our Biotope projects, in compliance with our VI standards!
+> Every new frontend developer is able to implement components in our StencilJS projects, in compliance with our VI standards!
 
 Which includes
 
@@ -13,7 +13,7 @@ Which includes
 ## Roadmap
 
 This roadmap gives you an overview and orientation of all the topics and challenges that you are going to pass the next few weeks at VI.
-It should be kept aligned to the overall Biotope Vision and updated accordingly. 
+It should be kept aligned to the overall VI Vision and updated accordingly. 
 Please keep in mind: It will always be a work in progress. We want this to be a living document!
 
 Duration: more or less 13 weeks (= 3 months)
@@ -35,10 +35,10 @@ During your onboarding you should always keep the following topics in mind and t
 
 ### Getting started
 
-The first part of your journey is to get an overview of the topics, that come across during your first weeks. You will learn which vision the onboarding process follows and get in touch with our toolset. You will be assigned a mentor and also buddies for each lesson.
-You have to organize your accounts and tools and afterwards this roadmap will be adjusted to your individual skills. Beside that you will also get an introduction to the development manifesto and biotope.
+The first part of your journey is to get an overview of the topics, that will come across during your first weeks. You will learn which vision the onboarding process follows and get in touch with our toolset. You will be assigned a mentor and also buddies for each lesson.
+You have to organize your accounts and tools and afterwards this roadmap will be adjusted to your individual skills. Besides that you will also get an introduction to the development manifesto and StencilJS.
 
-*Goal: You will have a basic understanding of our Manifesto and Biotope. You can start right away and know where you are heading without being over- or underchallenged.*
+*Goal: You will have a basic understanding of our Manifesto and StencilJS. You can start right away and know where you are heading without being over- or underchallenged.*
 
 </roadmap-component>
 
@@ -75,23 +75,24 @@ __Challenges__
 
 <roadmap-component>
 
-### Biotope - Basic Component
-Biotope is the VI default Frontend Ecosystem, which is implemented in every project of VI. You will be shown how biotope works and which architecture relies to it and how you can build simple components.
+### StencilJS - Basic Component
+StencilJS is the VI default Frontend Ecosystem, which is implemented in new project of VI if possible and advisable. You will be shown how StencilJS works and which architecture relies to it and how you can build simple components.
 
 __Challenges__
-- Biotope playground
+- StencilJS playground
 - Build a simple component
-- Introduction to Biotope element
+- Introduction
 - Paths
-- Biotope Resource Loader
 - Build an accordion
+- Enhance your component
 
-*Goal: You understand how Biotope helps us to build scalable and reusable frontend frameworks and you are able to implement a simple component in a typical Biotope project.*
+*Goal: You understand how StencilJS helps us to build scalable and reusable frontend frameworks and you are able to implement a simple component in a typical VI project.*
 
 </roadmap-component>
 
+
 <roadmap-component>
-  
+
 ### Security
 Security aspects of your projects should be just as important as the appearance or functionality! You will learn about the most critical security risks and most common types of vulnerabilities in Web applications.
 
@@ -99,18 +100,6 @@ __Challenges__
 - Learn about XSS by playing the XSS Game
 
 *Goal: You know the most critical security risks and vulnerabilities in Web applications.*
-
-</roadmap-component>
-
-<roadmap-component>
-
-### Biotope - Advanced Component
-You will dive deeper into the functionalities of webcomponents and also TypeScript ( a type-based JavaScript language ). You will also be shown how to handle APIs correctly with the fetch API.
-
-__Challenges__
-- Extend the accordion with typescript and API requests
-
-*Goal: You know advanced coding techniques to build more complex components.*
 
 </roadmap-component>
 
@@ -128,13 +117,12 @@ __Challenges__
 
 <roadmap-component>
 
-### Biotope Ecosystem
-You will be shown the whole ecosystem of biotope and afterwards you be able to work on biotope and bring it to the next levels.
-
+### Biotope
+Since Biotope is still used in many projects here at VI, we want you to get an basic understanding of how it works.
 __Challenges__
-- Resolve an issue
+- Build a basic component with biotope
 
-*Goal: You gain insights into how the Biotope building blocks cooperate with each other to create a Biotope and learn how to improve them.*
+*Goal: You gain a basic understanding of how Biotope works and how to create components with it.*
 
 </roadmap-component>
 

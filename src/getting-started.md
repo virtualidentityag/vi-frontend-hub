@@ -6,13 +6,13 @@ Level: <i>Avid Ant</i>
 
 Hello there and welcome to VI!
 
-> Goal: You will have a basic understanding of our Manifesto and Biotope. You can start right away and know where you are heading without being over- or underchallenged.
+> Goal: You will have a basic understanding of our Manifesto and Quality Matrix. You can start right away and know where you are heading without being over- or underchallenged.
 
 ---
 
 ## Preparation
 
-In your first chapter you will learn about our Developer Manifesto, the history and vision of Biotope and you will setup the first steps of your roadmap with your mentor!
+In your first chapter you will learn about our Developer Manifesto and our Quality Matrix and you will setup the first steps of your roadmap with your mentor!
 
 ### Resources
 

@@ -28,7 +28,7 @@ export const team = [
     name: 'Ralf Hafner'
   },
   {
-    username: 'tiagoaguiar31',
-    name: 'Tiago Aguiar'
+    username: 'RunzelRosinchen',
+    name: 'Rebecca Emmanuel'
   }
 ];

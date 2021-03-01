@@ -35,6 +35,35 @@ const Button = styled('button', buttonProps)`
 `;
 
 
+window.$docsify = window.$docsify || {};
+window.$docsify.vueComponents = window.$docsify.vueComponents || {};
+window.$docsify.vueComponents = {
+  ...window.$docsify.vueComponents,
+  'authors-component': {
+    data: function () {
+      const authorsString = JSON.stringify(this.authors);
+      return {
+        viewAll: false,
+        nonAuthors: team.filter(author => authorsString.indexOf(author.username) === -1)
+      }
+    },
+    props: ['authors'],
+    components: {
+      'styled-authors': StyledAuthors,
+      'styled-headline': Headline,
+      'styled-span': Span,
+      'styled-button': Button
+    },
+    template: `
+      <styled-authors>
+        <styled-headline>Got questions? <styled-span>Responsible for this section:</styled-span></styled-headline>
+        <author-component v-for="(author, idx) in authors" v-bind:key="'author-' + idx" v-bind:username="author.username" v-bind:name="author.name" />
+        <styled-button v-if="nonAuthors.length > 0" v-bind:viewAll="viewAll" v-on:click="viewAll = !viewAll">View contributors</styled-button>
+        <author-component v-if="viewAll" v-for="(author, idx) in nonAuthors" v-bind:key="'non-author-' + idx" v-bind:username="author.username" v-bind:name="author.name" />
+      </styled-authors>`
+  }
+}
+
 Vue.component('authors-component', {
   data: function () {
     const authorsString = JSON.stringify(this.authors);

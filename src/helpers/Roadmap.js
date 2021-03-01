@@ -49,7 +49,20 @@ const StyledItem = styled.div`
   }
 `;
 
-
+window.$docsify = window.$docsify || {};
+window.$docsify.vueComponents = window.$docsify.vueComponents || {};
+window.$docsify.vueComponents = {
+  ...window.$docsify.vueComponents,
+  'roadmap-component': {
+    components: {
+      'styled-item': StyledItem
+    },
+    template: `
+      <styled-item v-markdown>
+        <slot/>
+      </styled-item>`
+  }
+}
 Vue.component('roadmap-component', {
   components: {
     'styled-item': StyledItem
