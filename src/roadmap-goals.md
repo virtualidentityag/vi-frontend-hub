@@ -79,10 +79,8 @@ __Challenges__
 StencilJS is the VI default Frontend Ecosystem, which is implemented in new project of VI if possible and advisable. You will be shown how StencilJS works and which architecture relies to it and how you can build simple components.
 
 __Challenges__
-- StencilJS playground
+- TypeScript playground
 - Build a simple component
-- Introduction
-- Paths
 - Build an accordion
 - Enhance your component
 
