@@ -119,6 +119,7 @@ __Challenges__
 
 ### Biotope
 Since Biotope is still used in many projects here at VI, we want you to get an basic understanding of how it works.
+
 __Challenges__
 - Build a basic component with biotope
 
