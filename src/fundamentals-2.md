@@ -89,7 +89,7 @@ Now that everything is set up, you are ready to code once again! In the previous
 
 ### Hints and Guidelines
 
-- Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good biotope components later on
+- Adhere to the BEM naming structure closely as it is absolutely vital to learn it in order to write good Stencil components later on
 - Use the BEM way to make modifiers for the component (see reference)
 
 ### Resources
