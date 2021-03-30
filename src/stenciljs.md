@@ -22,7 +22,7 @@ Stencil components are written in TSX (TypeScript + JSX). If you do not know Typ
 
 - Each component lives in its own folder
 - Component names are written in dash case and need at least one dash
-- Styles are located in the `:host` in the `style.scss`
+- Styles are located in the `:host` in the `my-component.scss`
 - StencilJS components are written in TSX
 - Each CSS class starts with a unique component name
 - Each component only uses its own prefixed classes
