@@ -9,3 +9,4 @@
   6. [Testing](testing.md)
   7. [Biotope](biotope.md)
   8. [Automation Process](automation.md)
+- [__Code Challenge__](code-challenge.md)
