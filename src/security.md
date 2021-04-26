@@ -19,7 +19,7 @@ Although many security issues in this list refer to Backend it's very important 
 
 ### Resources
 
-- Latest Top Ten PDF: https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf
+- Latest Top Ten PDF: https://owasp.org/www-project-top-ten/
 
 ---
 
