@@ -36,6 +36,8 @@ Implement the following call to action Component. Sadly our Designers forgot abo
 - The content next to the image is always vertical centered 
 - The whole component has full page width
 - Click on the call to action button opens the Contact Box
+- Add a close button for the Contact Box where you think it would make sense
+- Click on the close button closes the Contact Box
 
 Good luck and have fun!
 
