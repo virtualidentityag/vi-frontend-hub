@@ -9,4 +9,5 @@
   6. [Testing](testing.md)
   7. [Biotope](biotope.md)
   8. [Automation Process](automation.md)
-- [__Code Challenge__](code-challenge.md)
+- __Applicant area (no onboarding)__
+  1. [Code Challenge](code-challenge.md)
