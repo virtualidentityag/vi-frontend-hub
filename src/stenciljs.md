@@ -102,6 +102,15 @@ const num2 = { ...num1, d: '4', e: '5'};
   <answer-component>REST is a methodology to build APIs. It has a clear url scheme to get, update and delete resources.</answer-component>
   <question-component>What are alternatives to REST?</question-component>
   <answer-component>GraphQL</answer-component>
+
+  <question-component>Why do we have a coding styleguide?</question-component>
+  <answer-component>A coding styleguide helps to keep all the code aligned clean and nicely. So it will be easy for a developer to switch projects or even move code from one project to another.</answer-component>
+  <question-component>What is babel?</question-component>
+  <answer-component>Babel is a JavaScript compiler, which takes your JS and transforms it depending on the configuration provided. It can help to transpile ES6/7/8 down to ES5. It can add new, unsupported browser functionality, by automatically add the required polyfills.</answer-component>
+  <question-component>What is immutable vs. mutable?</question-component>
+  <answer-component>An immutable value will never be changed. It is constant. Rather than changing the value we create a new value that represents the new state of the old one. A mutable value on the other hand can be change at will, which you will never know the current value of it.</answer-component>
+  <question-component>When should you use a mutable data structure?</question-component>
+  <answer-component>Never! Well, only if there I definitely no way to solve your problem in an immutable way</answer-component>
 </questions-component>
 
 
