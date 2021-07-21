@@ -115,18 +115,6 @@ __Challenges__
 
 <roadmap-component>
 
-### Biotope
-Since Biotope is still used in many projects here at VI, we want you to get an basic understanding of how it works.
-
-__Challenges__
-- Build a basic component with biotope
-
-*Goal: You gain a basic understanding of how Biotope works and how to create components with it.*
-
-</roadmap-component>
-
-<roadmap-component>
-
 ### Automation
 You will learn more about an automated workflow and GitHub Actions.
 
