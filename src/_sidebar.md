@@ -7,7 +7,6 @@
   4. [StencilJS](stenciljs.md)
   5. [Security](security.md)
   6. [Testing](testing.md)
-  7. [Biotope](biotope.md)
-  8. [Automation Process](automation.md)
-- __Applicant area (no onboarding)__
+  7. [Automation Process](automation.md)
+- __Applicant area__
   1. [Code Challenge](code-challenge.md)
