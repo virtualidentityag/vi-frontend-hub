@@ -58,7 +58,7 @@ It is the same as above, but with the environment decoupled from GitHub allowing
 ## Challenge
 #### Start your workflow file
 
-On your repository create a `.GitHub/workflows/main.yml` file and add the following code inside:
+On your repository create a `.github/workflows/main.yml` file and add the following code inside:
 
 ```yml
 name: My Simple Workflow
@@ -73,7 +73,7 @@ Feeling lost? Don't worry, I will tell you what you did!
 
 It doesn't seem much, right? So let's add some more jobs to this workflow! 💼
 
-Inside your `./GitHub/workflows/main.yml` append:
+Inside your `.github/workflows/main.yml` append:
 
 ```yml
 jobs:
