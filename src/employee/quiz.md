@@ -1,9 +1,5 @@
 # Quiz for new employees
-Level: *Wise Walrus*
-
-<img src="./assets/walrus_badge.svg" width="30%" height="auto" alt="wise_walrus">
-
-Welcome at VI! To get you going we want to check your know-how. So let's start with a quiz! If you want or need to go deeper into one topic you can always go to the respective internship challenge.
+Welcome at VI! To get you going we want to check your know-how. So let's start with a quiz! If you want or need to go deeper into one topic you can always go to the respective [internship](internship/) challenge.
 
 > Goal: We know where you stand and how to proceed with your work at VI.
 

@@ -1,4 +1,4 @@
-# Roadmap Internship
+# Internship
 
 This roadmap gives you an overview and orientation of all the topics and challenges that you are going to pass the next few weeks at VI for your internship.
 It should be kept aligned to the overall VI Vision and updated accordingly. 
