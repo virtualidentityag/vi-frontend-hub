@@ -1,4 +1,4 @@
+- [__Applicant__](applicant/)
+- [__Intern__](internship/)
 - [__Employee__](employee/)
   0. [Quiz](employee/quiz.md)
-- [__Intern__](internship/)
-- [__Applicant__](applicant/)
