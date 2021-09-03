@@ -132,12 +132,12 @@ Other page content like headings, images, texts will be created later and are no
 
 | Mobile 320px                                                                        | Desktop 1600px                                                                        |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| ![layout-320.png](./assets/fundamentals-1/screens/layout-320.png ':size=autox1000') | ![layout-1600.png](./assets/fundamentals-1/screens/layout-1600.png ':size=autox1000') |
+| <img src="./assets/fundamentals-1/screens/layout-320.png" width="auto" height="1000px" alt="layout-320"> | <img src="./assets/fundamentals-1/screens/layout-1600.png" width="auto" height="1000px" alt="layout-1600"> |
 
 
 | Header                                                    | Footer                                                    |
 |-----------------------------------------------------------|-----------------------------------------------------------|
-| ![header.png](./assets/fundamentals-1/screens/header.png) | ![footer.png](./assets/fundamentals-1/screens/footer.png) |
+| <img src="./assets/fundamentals-1/screens/header.png" alt="header"> | <img src="./assets/fundamentals-1/screens/footer.png" alt="footer"> |
 
 ---- footer.png -> target same tab / target new tab instead of same window / new window ----
 
@@ -198,12 +198,12 @@ Fix the reported validation errors in your HTML code.
 
 | All 320px                                                                                                     | Stage                                                          | Breadcrumb                                                               |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|
-| ![layout-320.png](./assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png ':size=autox600') | ![stage.png](./assets/fundamentals-1/screens/module-stage.png) | ![breadcrumb.png](./assets/fundamentals-1/screens/module-breadcrumb.png) |
+| <img src="./assets/fundamentals-1/screens/all-without-nav-and-documentlist-320.png" width="auto" height="600" alt="all-without-nav-and-documentlist-320"> | <img src="./assets/fundamentals-1/screens/module-stage.png" alt="stage"> | <img src="./assets/fundamentals-1/screens/module-breadcrumb.png" alt="module-breadcrumb"> |
 
 
 | Section                                                                             | Form                                                                          | Contact Teaser                                                                 | Teasers                                                                             |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| ![section.png](./assets/fundamentals-1/screens/module-section.png ':size=autox600') | ![form.png](./assets/fundamentals-1/screens/module-form.png ':size=autox600') | ![contact.png](./assets/fundamentals-1/screens/module-contact.png ':size=150') | ![teasers.png](./assets/fundamentals-1/screens/module-teasers.png ':size=autox600') |
+| <img src="./assets/fundamentals-1/screens/module-section.png" width="auto" height="600" alt="module-section"> | <img src="./assets/fundamentals-1/screens/module-form.png" width="auto" height="600" alt="module-form"> |  <img src="./assets/fundamentals-1/screens/module-contact.png" width="150" height="auto" alt="module-contact"> | <img src="./assets/fundamentals-1/screens/module-teasers.png" width="auto" height="600" alt="module-teasers"> |
 
 ### Questions
 <questions-component>
@@ -296,7 +296,7 @@ And if you want to really judge a frontend web developer: just take his or her i
 
 | Navigation Links                                    | Navigation Links, hover                                                |
 |-----------------------------------------------------|------------------------------------------------------------------------|
-| ![nav.png](./assets/fundamentals-1/screens/nav.png) | ![conav-hoverntact.png](./assets/fundamentals-1/screens/nav-hover.png) |
+| <img src="./assets/fundamentals-1/screens/nav.png" alt="nav"> | <img src="./assets/fundamentals-1/screens/nav-hover.png" alt="nav-hover"> |
 
 ### Questions
 <questions-component>
@@ -336,11 +336,11 @@ Set the viewport meta tag.
 
 | 320px                                                                         | 480px                                                                         | 600px                                                                         |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| ![all-320.png](./assets/fundamentals-1/screens/all-320.png ':size=autox1000') | ![all-480.png](./assets/fundamentals-1/screens/all-480.png ':size=autox1000') | ![all-600.png](./assets/fundamentals-1/screens/all-600.png ':size=autox1000') |
+| <img src="./assets/fundamentals-1/screens/all-320.png" width="auto" height="1000px" alt="all-320"> | <img src="./assets/fundamentals-1/screens/all-480.png" width="auto" height="1000px" alt="all-480"> | <img src="./assets/fundamentals-1/screens/all-600.png" width="auto" height="1000px" alt="all-600"> |
 
 | 768px                                                                         | 1024px                                                                          | 1600px                                                                          |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| ![all-768.png](./assets/fundamentals-1/screens/all-768.png ':size=autox1000') | ![all-1024.png](./assets/fundamentals-1/screens/all-1024.png ':size=autox1000') | ![all-1600.png](./assets/fundamentals-1/screens/all-1600.png ':size=autox1000') |
+| <img src="./assets/fundamentals-1/screens/all-768.png" width="auto" height="1000px" alt="all-768"> | <img src="./assets/fundamentals-1/screens/all-1024.png" width="auto" height="1000px" alt="all-1024"> | <img src="./assets/fundamentals-1/screens/all-1600.png" width="auto" height="1000px" alt="all-1600"> |
 
 
 ### Questions
@@ -376,7 +376,7 @@ In this task you will learn what SVG sprites are and how to use them.
 Create the document list component with SVG sprites. Based on the document type another SVG Icon is displayed.
 
 #### Screens
-![documentlist.png](./assets/fundamentals-1/screens/module-documentlist.png)
+<img src="./assets/fundamentals-1/screens/module-documentlist.png" alt="documentlist"> 
 
 ### Questions
 <questions-component>
