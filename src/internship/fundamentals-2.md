@@ -100,7 +100,7 @@ Now that everything is set up, you are ready to code once again! In the previous
 
 Build a so called 'call to action', consisting of an image, text and button. The component has 2 modifiers: red headline and secondary conversion, which has a completely different layout and look (see the screen below for reference).
 
-![cta.png](./assets/cta-standard.png)
+<img src="./assets/cta-standard.png" alt="cta">
 
 ### Questions
 <questions-component>
