@@ -17,15 +17,16 @@
     <div id="app"></div>
     <script>
       window.$docsify = {
-        name: 'VI Frontend Onboarding',
+        name: 'VI Frontend HUB',
         repo: 'https://github.com/virtualidentityag/dev-fe-onboarding',
         loadSidebar: true,
-        subMaxLevel: 2,
+        subMaxLevel: 1,
         auto2top: true,
         search: 'auto',
         vueComponents: {
           ...window?.$docsify?.vueComponents,
-        }
+        },
+        homepage: 'home.md'
       }
     </script>
     <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -36,6 +37,7 @@
     <script src="./helpers/Authors.js" type="module"></script>
     <script src="./helpers/Team.js" type="module"></script>
     <script src="./helpers/Roadmap.js" type="module"></script>
+    <script src="./helpers/Button.js" type="module"></script>
   </body>
 
 </html>

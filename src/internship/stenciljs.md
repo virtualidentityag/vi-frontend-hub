@@ -102,7 +102,6 @@ const num2 = { ...num1, d: '4', e: '5'};
   <answer-component>REST is a methodology to build APIs. It has a clear url scheme to get, update and delete resources.</answer-component>
   <question-component>What are alternatives to REST?</question-component>
   <answer-component>GraphQL</answer-component>
-
   <question-component>Why do we have a coding styleguide?</question-component>
   <answer-component>A coding styleguide helps to keep all the code aligned clean and nicely. So it will be easy for a developer to switch projects or even move code from one project to another.</answer-component>
   <question-component>What is babel?</question-component>

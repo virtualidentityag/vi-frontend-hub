@@ -1,18 +1,6 @@
-# Roadmap & Goals
+# Internship
 
-## Goal
-> Every new frontend developer is able to implement components in our StencilJS projects, in compliance with our VI standards!
-
-Which includes
-
-- knowing our common standards and
-- having mastered the technical basics
-
----
-
-## Roadmap
-
-This roadmap gives you an overview and orientation of all the topics and challenges that you are going to pass the next few weeks at VI.
+This roadmap gives you an overview and orientation of all the topics and challenges that you are going to pass the next few weeks at VI for your internship.
 It should be kept aligned to the overall VI Vision and updated accordingly. 
 Please keep in mind: It will always be a work in progress. We want this to be a living document!
 

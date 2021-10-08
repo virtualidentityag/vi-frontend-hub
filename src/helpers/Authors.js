@@ -56,7 +56,7 @@ window.$docsify.vueComponents = {
     },
     template: `
       <styled-authors>
-        <styled-headline>Got questions? <styled-span>Responsible for this section:</styled-span></styled-headline>
+        <styled-headline>Got questions? <styled-span>Responsible for the content of this site:</styled-span></styled-headline>
         <author-component v-for="(author, idx) in authors" v-bind:key="'author-' + idx" v-bind:username="author.username" v-bind:name="author.name" />
         <styled-button v-if="nonAuthors.length > 0" v-bind:viewAll="viewAll" v-on:click="viewAll = !viewAll">View contributors</styled-button>
         <author-component v-if="viewAll" v-for="(author, idx) in nonAuthors" v-bind:key="'non-author-' + idx" v-bind:username="author.username" v-bind:name="author.name" />
@@ -81,7 +81,7 @@ Vue.component('authors-component', {
   },
   template: `
     <styled-authors>
-      <styled-headline>Got questions? <styled-span>Responsible for this section:</styled-span></styled-headline>
+      <styled-headline>Got questions? <styled-span>Responsible for the content of this site:</styled-span></styled-headline>
       <author-component v-for="(author, idx) in authors" v-bind:key="'author-' + idx" v-bind:username="author.username" v-bind:name="author.name" />
       <styled-button v-if="nonAuthors.length > 0" v-bind:viewAll="viewAll" v-on:click="viewAll = !viewAll">View contributors</styled-button>
       <author-component v-if="viewAll" v-for="(author, idx) in nonAuthors" v-bind:key="'non-author-' + idx" v-bind:username="author.username" v-bind:name="author.name" />
