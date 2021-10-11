@@ -67,7 +67,7 @@ Commit and push it into the repository.
 
 #### Git clients
 Some people prefer to use graphical tools to use git, so If you do not have installed a git client already, find and install a [git client for your local operating system](https://git-scm.com/downloads/guis).
-There are a lot of options so feel free to use the one that you enjoy more! 
+There are a lot of options so feel free to use the one that you enjoy more!
 
 #### SSH
 On a final note, it's important that you know about the SSH protocol. It allows you to connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without using your username and password every time. You can get all the information about how to create and setup your SSH keys at the [GitHub support page](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
@@ -95,7 +95,7 @@ On a final note, it's important that you know about the SSH protocol. It allows 
   <question-component>What does <code>git push</code> do?</question-component>
   <answer-component>Git push will send all the commits on the current branch, which are not yet in the repository</answer-component>
   <question-component>What's the difference between Git and GitHub?</question-component>
-  <answer-component>Git is the tool, GitHub is the platform. On gitHub you can host repositories.</answer-component>
+  <answer-component>Git is the tool, GitHub is the platform. On GitHub you can host repositories.</answer-component>
   <question-component>What's the Git Flow?</question-component>
   <answer-component>Git Flow is an example process, how one can use git. It serves blueprints on how to name branches and how to handle them.</answer-component>
 </questions-component>
@@ -148,7 +148,7 @@ In this challenge you will learn how to structure content in html documents and 
 
 ### Hints and Guidelines
 - Use HTML5 semantic sectioning elements to structure the content
-- Correctly use HTML headlines h1 - h6 
+- Correctly use HTML headlines h1 - h6
 - Validate your HTML code!
 
 ### Resources
@@ -221,7 +221,7 @@ Fix the reported validation errors in your HTML code.
   <question-component>Why is the correct hierarchy of headlines important?</question-component>
   <answer-component>The correct semantic hierarchy of headlines is for human readers and automated search engines important to easily determine the information structure.</answer-component>
   <question-component>Should you use multiple h1 headlines in one HTML document?</question-component>
-  <answer-component>No! This will destroy the page structure and give you a penalty to search rankings,</answer-component>
+  <answer-component>On multi-page websites: No! On one-page websites it is valid to use multiple h1 headlines to structure the content. Keep in mind that each block represents a single page and therfore should be structured as a separate HTML document. SEO penalty with mulitple h1 headlines is an outdated fact.</answer-component>
   <question-component>What are pseudo elements? What is their purpose?</question-component>
   <answer-component>A CSS pseudo-element is used to style specified parts of an element. For example, it can be used to: Style the first letter, or line, of an element. Insert content before, or after, the content of an element.</answer-component>
   <question-component>How do you include webfonts?</question-component>
