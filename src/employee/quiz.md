@@ -4,33 +4,36 @@ Welcome at VI! To get you going we want to check your know-how. So let's start w
 > Goal: We know where you stand and how to proceed with your work at VI.
 
 ---
+## Development Basics
 ### Git
 
 <questions-component>
   <question-component>What's Git?</question-component>
-  <answer-component>Git is a versioning software which allows developers to manage different versions of their code. It is like a time machine, which allows you to go back in time and merge different timelines together.</answer-component>
-  <question-component>What is a repository?</question-component>
-  <answer-component>A repository is an instance of a git project, which is typically hosted on a git server somewhere in the web. In it, it keeps track of all versions of all files.</answer-component>
-  <question-component>What is a branch?</question-component>
-  <answer-component>A branch is a copy of the whole project. By changing the files in one branch, you do not change the files in another branch of the same project.</answer-component>
-  <question-component>What is a commit?</question-component>
-  <answer-component>A commit is a marker in time, to mark the current state of your files. Its basically like a checkpoint, you can go back to anytime.</answer-component>
-  <question-component>What is a remote?</question-component>
-  <answer-component>A remote is a pointer to a repository in your git project. The default remote is named origin. You can add extra remotes by calling <code>git remote add [name] [url]</code></answer-component>
-  <question-component>What does <code>git clone</code> do?</question-component>
-  <answer-component>This command copies the repository to your computer. It automatically sets the remote 'origin' to your source repository</answer-component>
-  <question-component>What does <code>git pull</code> do?</question-component>
-  <answer-component>Git pull will get the newest version of the current branch from the repository.</answer-component>
-  <question-component>What does <code>git add</code> do?</question-component>
-  <answer-component>This command adds files to a commit BEFORE committing. It basically tells git: These files are ready to commit.</answer-component>
-  <question-component>What does <code>git status</code> do?</question-component>
-  <answer-component>Git status will show the current status of your work. It will display changed files and show if these files are already added or not.</answer-component>
-  <question-component>What does <code>git push</code> do?</question-component>
-  <answer-component>Git push will send all the commits on the current branch, which are not yet in the repository</answer-component>
+  <answer-component>Git is a versioning software which allows users to manage different versions of their code. It is like a time machine, which allows you to go back in time and merge different timelines together.</answer-component>
   <question-component>What's the difference between Git and GitHub?</question-component>
-  <answer-component>Git is the tool, GitHub is the platform. On gitHub you can host repositories.</answer-component>
+  <answer-component>Git is the tool, GitHub is the platform. On GitHub you can host repositories.</answer-component>
   <question-component>What's the Git Flow?</question-component>
-  <answer-component>Git Flow is an example process, how one can use git. It serves blueprints on how to name branches and how to handle them.</answer-component>
+  <answer-component>Git Flow is a branching model. It serves blueprints on how to name branches and how to handle merging them together.</answer-component>
+  <question-component>What is a repository?</question-component>
+  <answer-component>A repository is an instance of a git project. It is represented by the .git/ folder in your project. In it, it keeps track of all versions of all files.</answer-component>
+  <question-component>What is a commit?</question-component>
+  <answer-component>A commit it a collection of changes done to the filesystem. The changes can be create, edit or deletion of files and their contents. From a collection of these commits, git can build your current version of the code.</answer-component>
+  <question-component>What is a branch?</question-component>
+  <answer-component>A branch is a pointer to a specific commit. You basically name this commit and the whole path to it as a "branch" in your project. When you commit on a branch, the commits will be added on top of the pointed to commit and in addition, the branch pointer will move along to the latest commit on this branch. This "top of the branch" is called HEAD</answer-component>
+  <question-component>What is a remote?</question-component>
+  <answer-component>A remote is a pointer to a copy of your repository in your git project. The default remote is named origin. You can add extra remotes by calling <code>git remote add [name] [url]</code>. A remote can be on the web, hosted on platforms like github or gitlab, but also on the same machine.</answer-component>
+  <question-component>What does <code>git clone</code> do?</question-component>
+  <answer-component>This command copies the repository you pass as option to your computer. It automatically sets the remote 'origin' to your source repository. [Reference](https://git-scm.com/docs/git-clone)</answer-component>
+  <question-component>What does <code>git pull</code> do?</question-component>
+  <answer-component>git pull will get the newest version of the current branch from the remote origin, if no other remote names are passed as options. [Reference](https://git-scm.com/docs/git-pull)</answer-component>
+  <question-component>What does <code>git add</code> do?</question-component>
+  <answer-component>This command adds files to stage. It basically tells git: These files are ready to commit. As soon as you commit, everything which is currently staged, will be commited. [Reference](https://git-scm.com/docs/git-add)</answer-component>
+  <question-component>What does <code>git status</code> do?</question-component>
+  <answer-component>git status will show the current status of your work. It will display changed files and show if these files are already staged or not. [Reference](https://git-scm.com/docs/git-status')</answer-component>
+  <question-component>What does <code>git push</code> do?</question-component>
+  <answer-component>git push will send all the commits on the current branch to the respective branch on the remote origin, if no other options are passed. [Reference](https://git-scm.com/docs/git-push)</answer-component>
+  <question-component>What does <code>git merge [target]</code> do?</question-component>
+  <answer-component>git merge will attempt to merge the target branch in your current branch. Git will give it's best to avoid any conflicts or resolve them by itself. Nevertheless conflicts might arise, as there might have been changes on the same line of code.</answer-component>
 </questions-component>
 
 ### Page Layout
