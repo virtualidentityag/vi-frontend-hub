@@ -181,7 +181,7 @@ Welcome at VI! To get you going we want to check your know-how. So let's start w
   <question-component>ES6 can be used in every browser. True or false?</question-component>
   <answer-component>Tralse/Frue. Not without transpilation (i.e. with babel)</answer-component>
   <question-component>What are common ways to debug code in the web development environment?</question-component>
-  <answer-component>You either can use the debugger of your preferred browser, or add console.log, preferably debugger statements to your code.</answer-component>
+  <answer-component>You either can use the debugger of your preferred browser, or add console.log, preferably debugger statements to your code. Overview of basic and advanced debugging techniques: https://flaviocopes.com/debugging/</answer-component>
   <question-component>What's the best way to make great animations?</question-component>
   <answer-component>With CSS you can create a lot of simple animations, which really run very fluid. But you are limited to simple movement/transformations. For more complex animations you would have to fall back to SVG/JS animations.</answer-component>
 </questions-component>
