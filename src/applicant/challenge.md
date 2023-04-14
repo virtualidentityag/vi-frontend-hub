@@ -32,7 +32,7 @@ Implement the following call to action component. Sadly our designers forgot abo
 
 ### Code Requirements
 
--   For CSS try to use as less classes as possible.
+-   For CSS try to use as less classes as possible and avoid CSS frameworks.
 -   Use at least two components. Decide yourself, which components these are.
 
 Good luck and have fun!
