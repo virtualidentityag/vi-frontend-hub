@@ -1,6 +1,6 @@
 # Applicant
 
-Hello fellow developer. So, you came to proof yourself. Don't look any further, we have the perfect challenge for you!  
+Hello fellow developer. So, you came to prove yourself. Don't look any further. We have the perfect challenge for you!  
 At Virtual Identity we are convinced about the web components standards. Therefore we use them in our daily work to build platform independent frontend ecosystems. We have a high quality standard for our work and therefore take SEO and Accessibility seriously. Your challenge will be to build a web component with Lit and Storybook.
 
 ## Timebox
