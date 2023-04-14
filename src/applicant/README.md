@@ -11,9 +11,10 @@ Please take a maximum of eight hours time for this challenge. We do not want you
 
 We're using Vite as a starting point for your project. So please do the following in preparation of the challenge:
 
+> ℹ️ Applicants for Senior roles: Change `--template` to e. g. `react-ts`, `vue-ts`, `preact-ts` or `svelte-ts`, if you want to use another framework. Preferably we receive the coding challenge with `lit-ts`.
+
 ```bash
-# 1. Create your vite-project
-# ℹ️ Seniors: Use any TypeScript-template you would like to use, preferably lit-ts
+# 1. Create your vite-project with the lit-ts template
 npm create vite@latest vi-coding-challenge -- --template lit-ts
 cd vi-coding-challenge
 
@@ -22,7 +23,7 @@ npx storybook@latest init
 echo "import '../src/index.css';\n$(cat .storybook/preview.ts)" > .storybook/preview.ts.tmp && mv .storybook/preview.ts.tmp .storybook/preview.ts
 
 # 3. Setup default lit-stories
-# ℹ️ Seniors: Only needed if you selected lit-ts
+# ℹ️ Seniors: Only needed if you selected `lit-ts` as template
 rm -rf ./src/stories
 curl -L https://raw.githubusercontent.com/virtualidentityag/dev-fe-onboarding/main/src/applicant/src/my-element.stories.ts -o ./src/my-element.stories.ts
 
