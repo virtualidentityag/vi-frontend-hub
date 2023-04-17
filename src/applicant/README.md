@@ -1,19 +1,44 @@
 # Applicant
-Hello fellow developer. So, you came to proof yourself. Don't look any further, we have the perfect challenge for you!  
-At Virtual Identity we are convinced about the web components standards. Therefore we use them in our daily work to build platform independent frontend ecosystems. We have a high quality standard for our work and therefore take SEO and Accessibility seriously. We also want to ensure that our code quality is maintaining a high level by using automated testing.
-Your challenge will be to build a component in our Component Library Template based on StencilJS. 
+
+Hello fellow developer. So, you came to prove yourself. Don't look any further. We have the perfect challenge for you!  
+At Virtual Identity we are convinced about the web components standards. Therefore we use them in our daily work to build platform independent frontend ecosystems. We have a high quality standard for our work and therefore take SEO and Accessibility seriously. Your challenge will be to build a web component with Lit and Storybook.
 
 ## Timebox
+
 Please take a maximum of eight hours time for this challenge. We do not want you to work overtime!
 
 ## Preparations
-We have a common template repository of which we start all or new projects. So please do the following in preparation of the challenge:
-- Clone our [Project Template](https://github.com/virtualidentityag/component-library-template)
-- Check the [stencil web page](https://stenciljs.com/) and get familiar with it
+
+We're using Vite as a starting point for your project. So please do the following in preparation of the challenge:
+
+> ℹ️ Applicants for Senior roles: Change `--template` to e. g. `react-ts`, `vue-ts`, `preact-ts` or `svelte-ts`, if you want to use another framework. Preferably we receive the coding challenge with `lit-ts`.
+
+```bash
+# 1. Create your vite-project with the lit-ts template
+npm create vite@latest vi-coding-challenge -- --template lit-ts
+cd vi-coding-challenge
+
+# 2. Setup storybook
+npx storybook@latest init
+echo "import '../src/index.css';\n$(cat .storybook/preview.ts)" > .storybook/preview.ts.tmp && mv .storybook/preview.ts.tmp .storybook/preview.ts
+
+# 3. Setup default lit-stories
+# ℹ️ Seniors: Only needed if you selected `lit-ts` as template
+rm -rf ./src/stories
+curl -L https://raw.githubusercontent.com/virtualidentityag/dev-fe-onboarding/main/src/applicant/src/my-element.stories.ts -o ./src/my-element.stories.ts
+
+# 4. Run Storybook
+npm run storybook
+
+# 5. Before proceeding init a git repository and commit your changes
+...
+```
 
 ### Hints
-- We use Storybook to display the components we build. Having a look at their [Page](https://storybook.js.org/ ) might help you to create a story for your component
-- In our Component Library Template you will find an example component. That could be a good starting point. 
+
+-   We recommend having a look into [lit.dev](https://lit.dev/docs/) before starting the challenge.
+-   We recommend using a syntax highlighter that works with Lit templates. [Check out this list](https://lit.dev/docs/tools/development/#ide-plugins) for IDE plugins.
+-   We use Storybook to display the components we build. Having a look at their [Page](https://storybook.js.org/) might help you to create a story for your component
 
 Now that you are ready:
 
