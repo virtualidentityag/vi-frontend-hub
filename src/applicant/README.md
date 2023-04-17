@@ -25,7 +25,7 @@ echo "import '../src/index.css';\n$(cat .storybook/preview.ts)" > .storybook/pre
 # 3. Setup default lit-stories
 # ℹ️ Seniors: Only needed if you selected `lit-ts` as template
 rm -rf ./src/stories
-curl -L https://raw.githubusercontent.com/virtualidentityag/dev-fe-onboarding/main/src/applicant/src/my-element.stories.ts -o ./src/my-element.stories.ts
+curl -L https://raw.githubusercontent.com/virtualidentityag/vi-frontend-hub/main/src/applicant/assets/main-element.stories.ts -o ./src/my-element.stories.ts
 
 # 4. Run Storybook
 npm run storybook
