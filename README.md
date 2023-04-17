@@ -1,4 +1,4 @@
-# Frontend DEV Onboarding
+# VI Frontend HUB
 To start application type `npm start`
 
 ---
