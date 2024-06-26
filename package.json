@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=20"
   },
   "scripts": {
     "start": "docsify serve src",
@@ -13,6 +13,5 @@
   },
   "devDependencies": {
     "docsify-cli": "^4.4.1"
-  },
-  "dependencies": {}
+  }
 }
