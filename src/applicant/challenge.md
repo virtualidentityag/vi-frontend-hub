@@ -1,38 +1,21 @@
 # Code Challenge
 
-Implement the following call to action component. Sadly our designers forgot about the mobile design. Get creative and implement a responsive solution that works on all viewport sizes.
+Important: Please read the whole document carefully and follow the guidelines within.
 
-![cta-open.png](../assets/cta-open.png)
+## Scenario
 
-### Design Requirements
+A new client approached us with the need for a product overview page. They also told us they already did a quick Mockup of how they imagine it. Our task in these situations is to ask all the important questions to finish the task, while still proofing our technical skills. Therefore you now have the task to build the component the client requested and later present it to the client (in the form of our next interview) to show what's possible with what they provided while asking all the important questions to finish the task.
 
--   Font Sizes:
+### Here is all the information we got from the client:
+1. The client sells small monsters fit for pocket size. They want to show all the monsters they have in a nice visual way.
+2. The monsters should be filterable by their type (e.g. fire, water, earth, air).
+3. The component should have an optional headline.
+4. They believe that the monsters are the most important part of the component and should be the first thing the user sees.
+5. Their internal IT department provides an API to get the monsters from. It is documented here: https://pokeapi.co/
+6. All the information about the monsters should be taken from the API.
+7. The monster detail pages will be implemented later, so there is no need to implement them now. But the monsters should be linkable.
 
-    -   Headline: 36px
-    -   Call to action title: 24px
-    -   Call to action description: 16px
-    -   Button text : 12px
-    -   Contact box title: 24px
-
--   Fonts (Google Fonts)
-
-    -   Serif: Playfair Display
-    -   Sans Serif: Roboto Condensed
-
--   There are no measurements for this Screen
-
-    -   Try to measure by eye. (It will not be evaluated if it is a pixel perfect match)
-
--   Use any asset or mock image as you like
--   The content next to the image is always vertical centered in the grey background
--   The whole component has full page width
--   A click on the call to action button opens the contact box
--   Add a close button for the contact box wherever you think it would make sense from a UX standpoint
--   A click on the close button closes the contact box
-
-### Code Requirements
-
--   For CSS try to use as less classes as possible and avoid CSS frameworks.
--   Use at least two components. Decide yourself, which components these are.
+### Here is the Mockup the client provided:
+![Mockup](./assets/mockup.jpg)
 
 Good luck and have fun!

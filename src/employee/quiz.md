@@ -259,13 +259,3 @@ const num2 = { ...num1, d: '4', e: '5'};
 ### Automation
 
 <question-component>What are the benefits of CD/CI?</question-component>
-
-<authors-component v-bind:authors="[
-    {
-      username: 'RunzelRosinchen',
-      name: 'Rebecca Emmanuel'
-    },
-    {
-      username: 'iam-robin',
-      name: 'Robin Spielmann'
-    }]"/>
