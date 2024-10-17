@@ -42,7 +42,7 @@ npm run storybook
 ```
 
 ## Further Process
-After you did this coding challenge, please share the link to your repository with us. We will review your code and setup a meeting with you to discuss your work. We will also ask you to present your work to us in this meeting. One of our developers will be present in this meeting to represent the client and ask you questions our clients typically ask us.
+After you did this coding challenge, please share the link to your repository with us. We will review your code and setup a meeting with you to discuss your work. We will also ask you to present your work to us in this meeting via Screenshare. <b>So please come prepared!</b>. One of our developers will be present in this meeting to represent the client and ask you questions our clients typically ask us. Remember: We are looking for a long term relationship with you. So please be yourself and show us your best work.
 
 ### Hints
 
